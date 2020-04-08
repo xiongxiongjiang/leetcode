@@ -33,7 +33,7 @@
 | 025. |  |                      |      |
 | 026. 删除排序数组中的重复项 | 简单 | [swift](leetcode-swift/leetcode-swift/026.删除排序数组中的重复项.swift) |      |
 | 027. 移除元素 | 简单 | [swift](leetcode-swift/leetcode-swift/027.移除元素.swift) |      |
-| 028. 实现 strStr() | 简单 | [swift](leetcode-swift/leetcode-swift/028.实现 strStr().swift) |      |
+| 028. 实现 strStr() | 简单 | [swift](leetcode-swift/leetcode-swift/028.实现strStr().swift) |      |
 | 029 |      |                      |      |
 | 030 |      |                      |      |
 | 031 |      |                      |      |
@@ -63,7 +63,8 @@
 | 055 |      |                      |      |
 | 056. 合并区间 | 中等 | [swift](leetcode-swift/leetcode-swift/056.合并区间.swift) |      |
 | 057 |      |                      |      |
-| 058. 最后一个单词的长度 | 简单 | [swift](leetcode-swift/leetcode-swift/058 最后一个单词的长度.swift) |      |
+| 058. 最后一个单词的长度 | 简单 | [swift](leetcode-swift/leetcode-swift/058.
+最后一个单词的长度.swift) |      |
 | 059 |      |                      |      |
 | 060 | | | |
 | 061. 旋转链表 | 中等 | [swift](leetcode-swift/leetcode-swift/061.旋转链表.swift) | |
@@ -74,7 +75,7 @@
 | 066. 加一 | 简单 | [swift](leetcode-swift/leetcode-swift/066.加一.swift) | |
 | 067. 二进制求和 | 简单 | [swift](leetcode-swift/leetcode-swift/067.二进制求和.swift) | |
 | 068 | | | |
-| 069. x 的平方根 | 简单 | [swift](leetcode-swift/leetcode-swift/069.x 的平方根.swift) | |
+| 069. x 的平方根 | 简单 | [swift](leetcode-swift/leetcode-swift/069.x的平方根.swift) | |
 | 070. 爬楼梯 | 简单 | [swift](leetcode-swift/leetcode-swift/070.爬楼梯.swift) | **动态规划** |
 | 071 | | | |
 | 072 | | | |
@@ -87,7 +88,7 @@
 | 079 | | | |
 | 080 | | | |
 | 081 | | | |
-| 082. 删除排序链表中的重复元素 II | 中等 | [swift](leetcode-swift/leetcode-swift/082.删除排序链表中的重复元素 II.swift) | **链表** |
+| 082. 删除排序链表中的重复元素 II | 中等 | [swift](leetcode-swift/leetcode-swift/082.删除排序链表中的重复元素II.swift) | **链表** |
 | 083. 删除排序链表中的重复元素 | 简单 | [swift](leetcode-swift/leetcode-swift/083.删除排序链表中的重复元素.swift) | **链表** |
 | 084 | | | |
 | 085 | | | |
@@ -147,7 +148,7 @@
 | 139 | | | |
 | 140 | | | |
 | 141. 环形链表 | 中等 | [swift](leetcode-swift/leetcode-swift/141.环形链表.swift) | **链表** |
-| 142. 环形链表 II | 简单 | [swift](leetcode-swift/leetcode-swift/142.环形链表 II.swift) | **链表** |
+| 142. 环形链表 II | 简单 | [swift](leetcode-swift/leetcode-swift/142.环形链表II.swift) | **链表** |
 | 143 | | | |
 | 144. 二叉树的前序遍历 | 中等 | [swift](leetcode-swift/leetcode-swift/144.二叉树的前序遍历.swift) | **二叉树** |
 | 145 | | | |
@@ -224,7 +225,7 @@
 | 216 | | | |
 | 217 | | | |
 | 218 | | | |
-| 219. 存在重复元素 II | 简单 | [swift](leetcode-swift/leetcode-swift/219.存在重复元素 II.swift) | |
+| 219. 存在重复元素 II | 简单 | [swift](leetcode-swift/leetcode-swift/219.存在重复元素II.swift) | |
 | 220 | | | |
 | 221 | | | |
 | 222 | | | |
