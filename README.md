@@ -63,7 +63,7 @@
 | 055 |      |                      |      |
 | 056. 合并区间 | 中等 | [swift](leetcode-swift/leetcode-swift/056.合并区间.swift) |      |
 | 057 |      |                      |      |
-| 058. 最后一个单词的长度 | 简单 | [swift](leetcode-swift/leetcode-swift/058 最后一个单词的长度.swift) |      |
+| 058. 最后一个单词的长度 | 简单 | [swift](leetcode-swift/leetcode-swift/058.最后一个单词的长度.swift) |      |
 | 059 |      |                      |      |
 | 060 | | | |
 | 061. 旋转链表 | 中等 | [swift](leetcode-swift/leetcode-swift/061.旋转链表.swift) | |
