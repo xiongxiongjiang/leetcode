@@ -12,3 +12,5 @@ class Solution {
     
 }
 
+let s = Solution()
+test032(s: s)
