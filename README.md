@@ -103,7 +103,7 @@
 | 095 | | | |
 | 096 | | | |
 | 097 | | | |
-| 098 | | | |
+| 098. 验证二叉搜索树 | 中等 | [swift](leetcode-swift/leetcode-swift/098.验证二叉搜索树.swift) | **二叉树** |
 | 099 | | | |
 | 100. 相同的树 | 简单 | [swift](leetcode-swift/leetcode-swift/100.相同的树.swift) | **二叉树** |
 | 101. 对称二叉树 | 简单 | [swift](leetcode-swift/leetcode-swift/101.对称二叉树.swift) | **二叉树** |
