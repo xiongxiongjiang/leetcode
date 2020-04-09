@@ -6,7 +6,7 @@
 
 | 序号 | 难度 | 题解 | 标签 |
 | :--- | :--: | :--: | :--: |
-| 001. 两数之和 | 简单 | [swift](./leetcode-swift/leetcode-swift/001.两数之和.swift) |      |
+| 001. 两数之和 | 简单 | [swift](./leetcode-swift/leetcode-swift/001.两数之和.swift)、[go](leetcode-go/Solution/001.两数之和.go) |      |
 | 002  |   |                      |      |
 | 003. 无重复字符的最长子串 | 中等 | [swift](leetcode-swift/leetcode-swift/003.无重复字符的最长子串.swift) |      |
 | 004  |   |                      |      |
