@@ -72,6 +72,7 @@
 		0AC4708C243EB72300FBA4D0 /* 098.验证二叉搜索树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4708B243EB72300FBA4D0 /* 098.验证二叉搜索树.swift */; };
 		0AC4708E243EF8C200FBA4D0 /* 121.买卖股票的最佳时机.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4708D243EF8C200FBA4D0 /* 121.买卖股票的最佳时机.swift */; };
 		0AC47090243F02A400FBA4D0 /* 322.零钱兑换.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4708F243F02A400FBA4D0 /* 322.零钱兑换.swift */; };
+		0AC47092243F0FE300FBA4D0 /* 033.搜索旋转排序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC47091243F0FE300FBA4D0 /* 033.搜索旋转排序数组.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -153,6 +154,7 @@
 		0AC4708B243EB72300FBA4D0 /* 098.验证二叉搜索树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "098.验证二叉搜索树.swift"; sourceTree = "<group>"; };
 		0AC4708D243EF8C200FBA4D0 /* 121.买卖股票的最佳时机.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "121.买卖股票的最佳时机.swift"; sourceTree = "<group>"; };
 		0AC4708F243F02A400FBA4D0 /* 322.零钱兑换.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "322.零钱兑换.swift"; sourceTree = "<group>"; };
+		0AC47091243F0FE300FBA4D0 /* 033.搜索旋转排序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "033.搜索旋转排序数组.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +205,7 @@
 				0A165BB3243DBA2C00E85723 /* 027.移除元素.swift */,
 				0A165BA1243DBA2A00E85723 /* 028.实现strStr().swift */,
 				0A165BA4243DBA2A00E85723 /* 032.最长有效括号.swift */,
+				0AC47091243F0FE300FBA4D0 /* 033.搜索旋转排序数组.swift */,
 				0A165B95243DBA2A00E85723 /* 035.搜索插入位置.swift */,
 				0A165BB7243DBA2C00E85723 /* 039.组合总和.swift */,
 				0A165BAE243DBA2B00E85723 /* 042.接雨水.swift */,
@@ -377,6 +380,7 @@
 				0A165BCB243DBA2D00E85723 /* 046.全排列.swift in Sources */,
 				0A165B90243DBA0600E85723 /* TreeNode.swift in Sources */,
 				0A165BCE243DBA2D00E85723 /* 102.二叉树的层次遍历.swift in Sources */,
+				0AC47092243F0FE300FBA4D0 /* 033.搜索旋转排序数组.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

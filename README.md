@@ -38,7 +38,7 @@
 | 030 |      |                      |      |
 | 031 |      |                      |      |
 | 032. 最长有效括号 |      | [swift](leetcode-swift/leetcode-swift/032.最长有效括号.swift) | **动态规划** |
-| 033 |      |                      |      |
+| 033. 搜索旋转排序数组 | 中等 | [swift](leetcode-swift/leetcode-swift/033.搜索旋转排序数组.swift) | **二分查找** |
 | 034 |      |                      |      |
 | 035. 搜索插入位置 | 简单 | [swift](leetcode-swift/leetcode-swift/035.搜索插入位置.swift) |      |
 | 036 |      |                      |      |
