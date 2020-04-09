@@ -71,6 +71,7 @@
 		0A165C04243DBA2E00E85723 /* 203.移除链表元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A165BCA243DBA2D00E85723 /* 203.移除链表元素.swift */; };
 		0AC4708C243EB72300FBA4D0 /* 098.验证二叉搜索树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4708B243EB72300FBA4D0 /* 098.验证二叉搜索树.swift */; };
 		0AC4708E243EF8C200FBA4D0 /* 121.买卖股票的最佳时机.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4708D243EF8C200FBA4D0 /* 121.买卖股票的最佳时机.swift */; };
+		0AC47090243F02A400FBA4D0 /* 322.零钱兑换.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4708F243F02A400FBA4D0 /* 322.零钱兑换.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -151,6 +152,7 @@
 		0A165BCA243DBA2D00E85723 /* 203.移除链表元素.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "203.移除链表元素.swift"; sourceTree = "<group>"; };
 		0AC4708B243EB72300FBA4D0 /* 098.验证二叉搜索树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "098.验证二叉搜索树.swift"; sourceTree = "<group>"; };
 		0AC4708D243EF8C200FBA4D0 /* 121.买卖股票的最佳时机.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "121.买卖股票的最佳时机.swift"; sourceTree = "<group>"; };
+		0AC4708F243F02A400FBA4D0 /* 322.零钱兑换.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "322.零钱兑换.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,6 +247,7 @@
 				0A165BB9243DBA2C00E85723 /* 219.存在重复元素II.swift */,
 				0A165B96243DBA2A00E85723 /* 225.用队列实现栈.swift */,
 				0A165BA8243DBA2B00E85723 /* 226.翻转二叉树.swift */,
+				0AC4708F243F02A400FBA4D0 /* 322.零钱兑换.swift */,
 				0A165BC9243DBA2D00E85723 /* 349.两个数组的交集.swift */,
 				0A165B97243DBA2A00E85723 /* 面试题40.最小的k个数.swift */,
 			);
@@ -370,6 +373,7 @@
 				0A165BF0243DBA2E00E85723 /* 144.二叉树的前序遍历.swift in Sources */,
 				0A165BDC243DBA2D00E85723 /* 101.对称二叉树.swift in Sources */,
 				0A165BE2243DBA2E00E85723 /* 226.翻转二叉树.swift in Sources */,
+				0AC47090243F02A400FBA4D0 /* 322.零钱兑换.swift in Sources */,
 				0A165BCB243DBA2D00E85723 /* 046.全排列.swift in Sources */,
 				0A165B90243DBA0600E85723 /* TreeNode.swift in Sources */,
 				0A165BCE243DBA2D00E85723 /* 102.二叉树的层次遍历.swift in Sources */,
