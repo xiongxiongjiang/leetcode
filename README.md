@@ -127,7 +127,7 @@
 | 119 | | | |
 | 120 | | | |
 | 121. 买卖股票的最佳时机 | 简单 | [swift](leetcode-swift/leetcode-swift/121.买卖股票的最佳时机.swift) | **动态规划** |
-| 122 | | | |
+| 122. 买卖股票的最佳时机II | 简单 | [swift](leetcode-swift/leetcode-swift/122.买卖股票的最佳时机II.swift) | **贪心** **动态规划** |
 | 123 | | | |
 | 124 | | | |
 | 125 | | | |
