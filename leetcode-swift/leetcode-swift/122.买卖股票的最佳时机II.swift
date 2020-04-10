@@ -37,6 +37,8 @@ import Foundation
  */
 
 extension Solution {
+    
+    //贪心算法
     func maxProfit2(_ prices: [Int]) -> Int {
         if prices.count <= 1 {
             return 0
@@ -48,9 +50,29 @@ extension Solution {
         }
         return profit
     }
+    
+    //动态规划
+    func maxProfit3(_ prices: [Int]) -> Int {
+        let count = prices.count
+        if count <= 1 {
+            return 0
+        }
+        //dp[i][j] i 表示第i天，j=1表示持有，j=0表示不持有
+        //对于第i天有两种情况：
+        // 1)持有 可能是i-1天持有，然后不变。或者第i-1天不持有，然后第i天买入
+        // 2)不持有 可能是第i-1天不持有，然后不变。或者第i-1天持有，然后第i天卖出
+        var dp = [[Int]](repeating: [Int](repeating: 0, count: 2), count: count)
+        dp[0][0] = 0
+        dp[0][1] = -prices[0]
+        for i in 1..<count {
+            dp[i][1] = max(dp[i-1][1], dp[i-1][0] - prices[i])
+            dp[i][0] = max(dp[i-1][0], dp[i-1][1] + prices[i])
+        }
+        return dp[count - 1][0]
+    }
 }
 
 func test122(s: Solution) {
     let prices = [7,1,5,3,6,4]
-    print(s.maxProfit2(prices))
+    print(s.maxProfit3(prices))
 }
