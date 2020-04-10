@@ -73,6 +73,7 @@
 		0AC4708E243EF8C200FBA4D0 /* 121.买卖股票的最佳时机.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4708D243EF8C200FBA4D0 /* 121.买卖股票的最佳时机.swift */; };
 		0AC47090243F02A400FBA4D0 /* 322.零钱兑换.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4708F243F02A400FBA4D0 /* 322.零钱兑换.swift */; };
 		0AC47092243F0FE300FBA4D0 /* 033.搜索旋转排序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC47091243F0FE300FBA4D0 /* 033.搜索旋转排序数组.swift */; };
+		0AC4709424400E2400FBA4D0 /* 023.合并K个排序链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4709324400E2400FBA4D0 /* 023.合并K个排序链表.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -155,6 +156,7 @@
 		0AC4708D243EF8C200FBA4D0 /* 121.买卖股票的最佳时机.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "121.买卖股票的最佳时机.swift"; sourceTree = "<group>"; };
 		0AC4708F243F02A400FBA4D0 /* 322.零钱兑换.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "322.零钱兑换.swift"; sourceTree = "<group>"; };
 		0AC47091243F0FE300FBA4D0 /* 033.搜索旋转排序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "033.搜索旋转排序数组.swift"; sourceTree = "<group>"; };
+		0AC4709324400E2400FBA4D0 /* 023.合并K个排序链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "023.合并K个排序链表.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +202,7 @@
 				0A165BB2243DBA2B00E85723 /* 019.删除链表的倒数第N个节点.swift */,
 				0A165B92243DBA2900E85723 /* 020.有效的括号.swift */,
 				0A165BB1243DBA2B00E85723 /* 021.合并两个有序链表.swift */,
+				0AC4709324400E2400FBA4D0 /* 023.合并K个排序链表.swift */,
 				0A165BAC243DBA2B00E85723 /* 024.两两交换链表中的节点.swift */,
 				0A165B9F243DBA2A00E85723 /* 026.删除排序数组中的重复项.swift */,
 				0A165BB3243DBA2C00E85723 /* 027.移除元素.swift */,
@@ -369,6 +372,7 @@
 				0A165BF6243DBA2E00E85723 /* 141.环形链表.swift in Sources */,
 				0A165BD7243DBA2D00E85723 /* 053.最大子序和.swift in Sources */,
 				0A165B85243DB93900E85723 /* main.swift in Sources */,
+				0AC4709424400E2400FBA4D0 /* 023.合并K个排序链表.swift in Sources */,
 				0A165BFC243DBA2E00E85723 /* 142.环形链表II.swift in Sources */,
 				0A165BE4243DBA2E00E85723 /* 204.计数质数.swift in Sources */,
 				0A165C01243DBA2E00E85723 /* 069.x的平方根.swift in Sources */,

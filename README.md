@@ -28,7 +28,7 @@
 | 020. 有效的括号 | 简单 | [swift](leetcode-swift/leetcode-swift/020.有效的括号.swift) |      |
 | 021. 合并两个有序链表 | 简单 | [swift](leetcode-swift/leetcode-swift/021.合并两个有序链表.swift) |      |
 | 022  |   |                      |      |
-| 023  |   |                      |      |
+| 023. 合并K个排序链表 | 中等 | [swift](leetcode-swift/leetcode-swift/023.合并K个排序链表.swift) |      |
 | 024. 两两交换链表中的节点 | 中等 | [swift](leetcode-swift/leetcode-swift/024.两两交换链表中的节点.swift) |      |
 | 025. |  |                      |      |
 | 026. 删除排序数组中的重复项 | 简单 | [swift](leetcode-swift/leetcode-swift/026.删除排序数组中的重复项.swift) |      |

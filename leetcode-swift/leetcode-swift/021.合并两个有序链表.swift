@@ -19,21 +19,20 @@ extension Solution {
     func mergeTwoLists(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         var list1 = l1
         var list2 = l2
-        var prev: ListNode?
-        let preHead = ListNode(-1)
-        prev = preHead
+        let prev: ListNode? = ListNode(0)
+        var p = prev
         while list1 != nil && list2 != nil {
             if (list1?.val ?? 0) <= (list2?.val ?? 0) {
-                prev?.next = list1
+                p?.next = list1
                 list1 = list1?.next
             } else {
-                prev?.next = list2
+                p?.next = list2
                 list2 = list2?.next
             }
-            prev = prev?.next
+            p = p?.next
         }
-        prev?.next = list1 ?? list2
-        return preHead.next
+        p?.next = list1 ?? list2
+        return prev!.next
     }
 }
 
