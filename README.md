@@ -2,7 +2,7 @@
 
 leetcode各语言题解
 
-swift：[README.md](leetcode-swift/leetcode-swift/README.md)
+swift：[README.md](leetcode-swift/README.md)
 
 golang：
 
