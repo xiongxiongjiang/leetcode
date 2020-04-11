@@ -40,7 +40,7 @@
 | 036 |      |                      |      |
 | 037 |      |                      |      |
 | 038 |      |                      |      |
-| 039. 组合总和 |      | [swift](leetcode-swift/039.组合总和.swift) | **回溯** |
+| 039. 组合总和 | 中等 | [swift](leetcode-swift/039.组合总和.swift) | **回溯** |
 | 040 |      |                      |      |
 | 041. 缺失的第一个正数 | 困难 | [swift](leetcode-swift/041.缺失的第一个正数.swift) | **哈希表** |
 | 042. 接雨水 | 困难 | [swift](leetcode-swift/042.接雨水.swift) |      |

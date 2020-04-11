@@ -38,25 +38,23 @@ extension Solution {
     
     func combinationSum(_ candidates: [Int], _ target: Int) -> [[Int]] {
         var result = [[Int]]()
-        combinationSum(candidates, target, 0, [Int](), &result)
+        var usededNums = [Int]()
+        combinationSumBackTrack(candidates, target, 0, &usededNums, &result)
         return result
     }
     
-    func combinationSum(_ candidates: [Int], _ target: Int, _ currentInex: Int, _ usededNums: [Int], _ result: inout [[Int]]) {
-        if target <= 0  {
-            if target == 0 {
-                result.append(usededNums)
-            }
+    func combinationSumBackTrack(_ candidates: [Int], _ target: Int, _ start: Int, _ usededNums: inout [Int], _ result: inout [[Int]]) {
+        if target < 0  {
             return
         }
-        for i in currentInex..<candidates.count {
-            let currentValue = candidates[i]
-            if currentValue > target {
-                continue
-            }
-            var usdedNumsCopy = usededNums
-            usdedNumsCopy.append(currentValue)
-            combinationSum(candidates, target - currentValue, i, usdedNumsCopy, &result)
+        if target == 0 {
+            result.append(usededNums)
+            return
+        }
+        for i in start..<candidates.count {
+            usededNums.append(candidates[i])
+            combinationSumBackTrack(candidates, target - candidates[i], i, &usededNums, &result)
+            usededNums.removeLast()
         }
     }
 }

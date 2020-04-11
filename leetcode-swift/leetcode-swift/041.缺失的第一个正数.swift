@@ -43,7 +43,7 @@ extension Solution {
                 return i
             }
         }
-        //正好是0到count都满了
+        //正好是1到count都满了
         return count + 1
     }
 }
