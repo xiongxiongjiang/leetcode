@@ -2,8 +2,8 @@
 
 | 序号 | 难度 | 题解 | 标签 |
 | :--- | :--: | :--: | :--: |
-| 001. 两数之和 | 简单 | [swift](001.两数之和.swift) |      |
-| 002  |   | [swift](leetcode-swift/002.两数相加.swift) |      |
+| 001. 两数之和 | 简单 | [swift](leetcode-swift/001.两数之和.swift) |      |
+| 002. 两数相加 | 中等 | [swift](leetcode-swift/002.两数相加.swift) | **链表** |
 | 003. 无重复字符的最长子串 | 中等 | [swift](leetcode-swift/003.无重复字符的最长子串.swift) |      |
 | 004  |   |                      |      |
 | 005. 最长回文子串 | 中等 | [swift](leetcode-swift/005.最长回文子串.swift) | **动态规划** |
@@ -33,7 +33,7 @@
 | 029 |      |                      |      |
 | 030 |      |                      |      |
 | 031 |      |                      |      |
-| 032. 最长有效括号 |      | [swift](leetcode-swift/032.最长有效括号.swift) | **动态规划** |
+| 032. 最长有效括号 | 困难 | [swift](leetcode-swift/032.最长有效括号.swift) | **动态规划** |
 | 033. 搜索旋转排序数组 | 中等 | [swift](leetcode-swift/033.搜索旋转排序数组.swift) | **二分查找** |
 | 034 |      |                      |      |
 | 035. 搜索插入位置 | 简单 | [swift](leetcode-swift/035.搜索插入位置.swift) |      |
