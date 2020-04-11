@@ -26,8 +26,8 @@ origin	git@github.com:$user/leetcode.git (push)
 
 ```json
 
-origin	git@github.com:hundredlee/leetcode.git (fetch)
-origin	git@github.com:hundredlee/leetcode.git (push)
+origin	git@github.com:$user/leetcode.git (fetch)
+origin	git@github.com:$user/leetcode.git (push)
 upsteam	git@github.com:MatrixCN/leetcode.git (fetch)
 upsteam	git@github.com:MatrixCN/leetcode.git (push)
 
