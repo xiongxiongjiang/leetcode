@@ -78,6 +78,7 @@
 		0AC4709A2440577100FBA4D0 /* 103.二叉树的锯齿形层次遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC470992440577100FBA4D0 /* 103.二叉树的锯齿形层次遍历.swift */; };
 		0AC4709C24417F4600FBA4D0 /* 002.两数相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4709B24417F4600FBA4D0 /* 002.两数相加.swift */; };
 		0AC4709E24418F9400FBA4D0 /* 041.缺失的第一个正数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4709D24418F9400FBA4D0 /* 041.缺失的第一个正数.swift */; };
+		0AC470A42441AF5E00FBA4D0 /* 057.插入区间.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC470A32441AF5E00FBA4D0 /* 057.插入区间.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -165,6 +166,7 @@
 		0AC470992440577100FBA4D0 /* 103.二叉树的锯齿形层次遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "103.二叉树的锯齿形层次遍历.swift"; sourceTree = "<group>"; };
 		0AC4709B24417F4600FBA4D0 /* 002.两数相加.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "002.两数相加.swift"; sourceTree = "<group>"; };
 		0AC4709D24418F9400FBA4D0 /* 041.缺失的第一个正数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "041.缺失的第一个正数.swift"; sourceTree = "<group>"; };
+		0AC470A32441AF5E00FBA4D0 /* 057.插入区间.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "057.插入区间.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +227,7 @@
 				0A165B91243DBA2900E85723 /* 046.全排列.swift */,
 				0A165B9D243DBA2A00E85723 /* 053.最大子序和.swift */,
 				0A165BA9243DBA2B00E85723 /* 056.合并区间.swift */,
+				0AC470A32441AF5E00FBA4D0 /* 057.插入区间.swift */,
 				0A165BBE243DBA2C00E85723 /* 058.最后一个单词的长度.swift */,
 				0A165BC1243DBA2D00E85723 /* 061.旋转链表.swift */,
 				0A165BBD243DBA2C00E85723 /* 066.加一.swift */,
@@ -386,6 +389,7 @@
 				0A165BD8243DBA2D00E85723 /* 182.查找重复的电子邮箱.swift in Sources */,
 				0A165BF1243DBA2E00E85723 /* 039.组合总和.swift in Sources */,
 				0A165BF6243DBA2E00E85723 /* 141.环形链表.swift in Sources */,
+				0AC470A42441AF5E00FBA4D0 /* 057.插入区间.swift in Sources */,
 				0A165BD7243DBA2D00E85723 /* 053.最大子序和.swift in Sources */,
 				0A165B85243DB93900E85723 /* main.swift in Sources */,
 				0AC4709424400E2400FBA4D0 /* 023.合并K个排序链表.swift in Sources */,
