@@ -77,6 +77,7 @@
 		0AC470982440234E00FBA4D0 /* 122.买卖股票的最佳时机II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC470972440234E00FBA4D0 /* 122.买卖股票的最佳时机II.swift */; };
 		0AC4709A2440577100FBA4D0 /* 103.二叉树的锯齿形层次遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC470992440577100FBA4D0 /* 103.二叉树的锯齿形层次遍历.swift */; };
 		0AC4709C24417F4600FBA4D0 /* 002.两数相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4709B24417F4600FBA4D0 /* 002.两数相加.swift */; };
+		0AC4709E24418F9400FBA4D0 /* 041.缺失的第一个正数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4709D24418F9400FBA4D0 /* 041.缺失的第一个正数.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -163,6 +164,7 @@
 		0AC470972440234E00FBA4D0 /* 122.买卖股票的最佳时机II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "122.买卖股票的最佳时机II.swift"; sourceTree = "<group>"; };
 		0AC470992440577100FBA4D0 /* 103.二叉树的锯齿形层次遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "103.二叉树的锯齿形层次遍历.swift"; sourceTree = "<group>"; };
 		0AC4709B24417F4600FBA4D0 /* 002.两数相加.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "002.两数相加.swift"; sourceTree = "<group>"; };
+		0AC4709D24418F9400FBA4D0 /* 041.缺失的第一个正数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "041.缺失的第一个正数.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +220,7 @@
 				0AC47091243F0FE300FBA4D0 /* 033.搜索旋转排序数组.swift */,
 				0A165B95243DBA2A00E85723 /* 035.搜索插入位置.swift */,
 				0A165BB7243DBA2C00E85723 /* 039.组合总和.swift */,
+				0AC4709D24418F9400FBA4D0 /* 041.缺失的第一个正数.swift */,
 				0A165BAE243DBA2B00E85723 /* 042.接雨水.swift */,
 				0A165B91243DBA2900E85723 /* 046.全排列.swift */,
 				0A165B9D243DBA2A00E85723 /* 053.最大子序和.swift */,
@@ -351,6 +354,7 @@
 				0A165BDB243DBA2D00E85723 /* 028.实现strStr().swift in Sources */,
 				0A165C00243DBA2E00E85723 /* 175.组合两个表.swift in Sources */,
 				0A165BDA243DBA2D00E85723 /* 094.二叉树的中序遍历.swift in Sources */,
+				0AC4709E24418F9400FBA4D0 /* 041.缺失的第一个正数.swift in Sources */,
 				0A165BFF243DBA2E00E85723 /* 005.最长回文子串.swift in Sources */,
 				0A165BD4243DBA2D00E85723 /* 104.二叉树的最大深度.swift in Sources */,
 				0A165BD0243DBA2D00E85723 /* 225.用队列实现栈.swift in Sources */,
