@@ -81,6 +81,7 @@
 		0AC470A42441AF5E00FBA4D0 /* 057.插入区间.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC470A32441AF5E00FBA4D0 /* 057.插入区间.swift */; };
 		0AC470A62442E94B00FBA4D0 /* 088.合并两个有序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC470A52442E94B00FBA4D0 /* 088.合并两个有序数组.swift */; };
 		0AC470A82442FFF200FBA4D0 /* 232.用栈实现队列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC470A72442FFF200FBA4D0 /* 232.用栈实现队列.swift */; };
+		0AC470AC2443072100FBA4D0 /* 048.旋转图像.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC470AB2443072100FBA4D0 /* 048.旋转图像.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -171,6 +172,7 @@
 		0AC470A32441AF5E00FBA4D0 /* 057.插入区间.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "057.插入区间.swift"; sourceTree = "<group>"; };
 		0AC470A52442E94B00FBA4D0 /* 088.合并两个有序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "088.合并两个有序数组.swift"; sourceTree = "<group>"; };
 		0AC470A72442FFF200FBA4D0 /* 232.用栈实现队列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "232.用栈实现队列.swift"; sourceTree = "<group>"; };
+		0AC470AB2443072100FBA4D0 /* 048.旋转图像.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "048.旋转图像.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +231,7 @@
 				0AC4709D24418F9400FBA4D0 /* 041.缺失的第一个正数.swift */,
 				0A165BAE243DBA2B00E85723 /* 042.接雨水.swift */,
 				0A165B91243DBA2900E85723 /* 046.全排列.swift */,
+				0AC470AB2443072100FBA4D0 /* 048.旋转图像.swift */,
 				0A165B9D243DBA2A00E85723 /* 053.最大子序和.swift */,
 				0A165BA9243DBA2B00E85723 /* 056.合并区间.swift */,
 				0AC470A32441AF5E00FBA4D0 /* 057.插入区间.swift */,
@@ -387,6 +390,7 @@
 				0A165BD1243DBA2D00E85723 /* 面试题40.最小的k个数.swift in Sources */,
 				0A165BE6243DBA2E00E85723 /* 024.两两交换链表中的节点.swift in Sources */,
 				0A165BF3243DBA2E00E85723 /* 219.存在重复元素II.swift in Sources */,
+				0AC470AC2443072100FBA4D0 /* 048.旋转图像.swift in Sources */,
 				0AC4709A2440577100FBA4D0 /* 103.二叉树的锯齿形层次遍历.swift in Sources */,
 				0A165BFA243DBA2E00E85723 /* 176.第二高的薪水.swift in Sources */,
 				0A165BF9243DBA2E00E85723 /* 007.整数反转.swift in Sources */,
