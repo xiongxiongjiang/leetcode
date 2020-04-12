@@ -79,6 +79,7 @@
 		0AC4709C24417F4600FBA4D0 /* 002.两数相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4709B24417F4600FBA4D0 /* 002.两数相加.swift */; };
 		0AC4709E24418F9400FBA4D0 /* 041.缺失的第一个正数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4709D24418F9400FBA4D0 /* 041.缺失的第一个正数.swift */; };
 		0AC470A42441AF5E00FBA4D0 /* 057.插入区间.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC470A32441AF5E00FBA4D0 /* 057.插入区间.swift */; };
+		0AC470A62442E94B00FBA4D0 /* 088.合并两个有序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC470A52442E94B00FBA4D0 /* 088.合并两个有序数组.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -167,6 +168,7 @@
 		0AC4709B24417F4600FBA4D0 /* 002.两数相加.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "002.两数相加.swift"; sourceTree = "<group>"; };
 		0AC4709D24418F9400FBA4D0 /* 041.缺失的第一个正数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "041.缺失的第一个正数.swift"; sourceTree = "<group>"; };
 		0AC470A32441AF5E00FBA4D0 /* 057.插入区间.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "057.插入区间.swift"; sourceTree = "<group>"; };
+		0AC470A52442E94B00FBA4D0 /* 088.合并两个有序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "088.合并两个有序数组.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +238,7 @@
 				0A165B9B243DBA2A00E85723 /* 070.爬楼梯.swift */,
 				0A165BB4243DBA2C00E85723 /* 082.删除排序链表中的重复元素II.swift */,
 				0A165BAD243DBA2B00E85723 /* 083.删除排序链表中的重复元素.swift */,
+				0AC470A52442E94B00FBA4D0 /* 088.合并两个有序数组.swift */,
 				0A165BA0243DBA2A00E85723 /* 094.二叉树的中序遍历.swift */,
 				0AC4708B243EB72300FBA4D0 /* 098.验证二叉搜索树.swift */,
 				0A165BB8243DBA2C00E85723 /* 100.相同的树.swift */,
@@ -353,6 +356,7 @@
 				0A165BE8243DBA2E00E85723 /* 042.接雨水.swift in Sources */,
 				0A165BD6243DBA2D00E85723 /* 146.LRU缓存机制.swift in Sources */,
 				0A165BE0243DBA2E00E85723 /* 015.三数之和.swift in Sources */,
+				0AC470A62442E94B00FBA4D0 /* 088.合并两个有序数组.swift in Sources */,
 				0A165BCC243DBA2D00E85723 /* 020.有效的括号.swift in Sources */,
 				0A165BDB243DBA2D00E85723 /* 028.实现strStr().swift in Sources */,
 				0A165C00243DBA2E00E85723 /* 175.组合两个表.swift in Sources */,
