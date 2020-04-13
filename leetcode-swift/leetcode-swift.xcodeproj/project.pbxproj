@@ -71,6 +71,7 @@
 		0A165C04243DBA2E00E85723 /* 203.移除链表元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A165BCA243DBA2D00E85723 /* 203.移除链表元素.swift */; };
 		0A9FB8192444041900359364 /* 062.不同路径.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FB8182444041900359364 /* 062.不同路径.swift */; };
 		0A9FB81B2444143C00359364 /* 064.最小路径和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FB81A2444143C00359364 /* 064.最小路径和.swift */; };
+		0A9FB822244468EA00359364 /* 051.N皇后.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FB821244468EA00359364 /* 051.N皇后.swift */; };
 		0AC4708C243EB72300FBA4D0 /* 098.验证二叉搜索树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4708B243EB72300FBA4D0 /* 098.验证二叉搜索树.swift */; };
 		0AC4708E243EF8C200FBA4D0 /* 121.买卖股票的最佳时机.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4708D243EF8C200FBA4D0 /* 121.买卖股票的最佳时机.swift */; };
 		0AC47090243F02A400FBA4D0 /* 322.零钱兑换.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4708F243F02A400FBA4D0 /* 322.零钱兑换.swift */; };
@@ -164,6 +165,7 @@
 		0A165BCA243DBA2D00E85723 /* 203.移除链表元素.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "203.移除链表元素.swift"; sourceTree = "<group>"; };
 		0A9FB8182444041900359364 /* 062.不同路径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "062.不同路径.swift"; sourceTree = "<group>"; };
 		0A9FB81A2444143C00359364 /* 064.最小路径和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "064.最小路径和.swift"; sourceTree = "<group>"; };
+		0A9FB821244468EA00359364 /* 051.N皇后.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "051.N皇后.swift"; sourceTree = "<group>"; };
 		0AC4708B243EB72300FBA4D0 /* 098.验证二叉搜索树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "098.验证二叉搜索树.swift"; sourceTree = "<group>"; };
 		0AC4708D243EF8C200FBA4D0 /* 121.买卖股票的最佳时机.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "121.买卖股票的最佳时机.swift"; sourceTree = "<group>"; };
 		0AC4708F243F02A400FBA4D0 /* 322.零钱兑换.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "322.零钱兑换.swift"; sourceTree = "<group>"; };
@@ -236,6 +238,7 @@
 				0A165BAE243DBA2B00E85723 /* 042.接雨水.swift */,
 				0A165B91243DBA2900E85723 /* 046.全排列.swift */,
 				0AC470AB2443072100FBA4D0 /* 048.旋转图像.swift */,
+				0A9FB821244468EA00359364 /* 051.N皇后.swift */,
 				0A165B9D243DBA2A00E85723 /* 053.最大子序和.swift */,
 				0A165BA9243DBA2B00E85723 /* 056.合并区间.swift */,
 				0AC470A32441AF5E00FBA4D0 /* 057.插入区间.swift */,
@@ -353,6 +356,7 @@
 				0A165BDF243DBA2E00E85723 /* 135.分发糖果.swift in Sources */,
 				0A165C03243DBA2E00E85723 /* 349.两个数组的交集.swift in Sources */,
 				0A165BF2243DBA2E00E85723 /* 100.相同的树.swift in Sources */,
+				0A9FB822244468EA00359364 /* 051.N皇后.swift in Sources */,
 				0A165BD2243DBA2D00E85723 /* 160.相交链表.swift in Sources */,
 				0A165C02243DBA2E00E85723 /* 067.二进制求和.swift in Sources */,
 				0A165BDE243DBA2E00E85723 /* 032.最长有效括号.swift in Sources */,
