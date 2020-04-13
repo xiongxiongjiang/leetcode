@@ -48,10 +48,10 @@ extension Solution {
         }
         for i in 0..<n {
             for j in 0..<m {
-                let a = i - 1 >= 0 ? dp[i - 1][j] : 0
-                let b = j - 1 >= 0 ? dp[i][j - 1] : 0
+                let left = i - 1 >= 0 ? dp[i - 1][j] : 0
+                let top = j - 1 >= 0 ? dp[i][j - 1] : 0
                 if dp[i][j] == 0 {
-                    dp[i][j] = a + b
+                    dp[i][j] = left + top
                 }
             }
         }
