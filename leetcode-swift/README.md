@@ -23,7 +23,7 @@
 | 019. 删除链表的倒数第N个节点 | 中等 | [swift](leetcode-swift/019.删除链表的倒数第N个节点.swift) |      |
 | 020. 有效的括号 | 简单 | [swift](leetcode-swift/020.有效的括号.swift) |      |
 | 021. 合并两个有序链表 | 简单 | [swift](leetcode-swift/021.合并两个有序链表.swift) |      |
-| 022  |   |                      |      |
+| 022. 括号生成 | 中等 | [swift](leetcode-swift/022.括号生成.swift) |      |
 | 023. 合并K个排序链表 | 中等 | [swift](leetcode-swift/023.合并K个排序链表.swift) |      |
 | 024. 两两交换链表中的节点 | 中等 | [swift](leetcode-swift/024.两两交换链表中的节点.swift) |      |
 | 025. |  |                      |      |
