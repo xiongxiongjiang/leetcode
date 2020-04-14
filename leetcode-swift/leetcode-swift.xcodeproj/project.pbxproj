@@ -77,6 +77,7 @@
 		0A9FB82824458F8D00359364 /* 022.括号生成.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FB82724458F8D00359364 /* 022.括号生成.swift */; };
 		0A9FB82A2445A23300359364 /* 093.复原IP地址.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FB8292445A23300359364 /* 093.复原IP地址.swift */; };
 		0A9FB82C2445C93C00359364 /* 118.杨辉三角.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FB82B2445C93C00359364 /* 118.杨辉三角.swift */; };
+		0A9FB82E2445E11C00359364 /* 442.数组中重复的数据.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FB82D2445E11C00359364 /* 442.数组中重复的数据.swift */; };
 		0AC4708C243EB72300FBA4D0 /* 098.验证二叉搜索树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4708B243EB72300FBA4D0 /* 098.验证二叉搜索树.swift */; };
 		0AC4708E243EF8C200FBA4D0 /* 121.买卖股票的最佳时机.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4708D243EF8C200FBA4D0 /* 121.买卖股票的最佳时机.swift */; };
 		0AC47090243F02A400FBA4D0 /* 322.零钱兑换.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC4708F243F02A400FBA4D0 /* 322.零钱兑换.swift */; };
@@ -176,6 +177,7 @@
 		0A9FB82724458F8D00359364 /* 022.括号生成.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "022.括号生成.swift"; sourceTree = "<group>"; };
 		0A9FB8292445A23300359364 /* 093.复原IP地址.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "093.复原IP地址.swift"; sourceTree = "<group>"; };
 		0A9FB82B2445C93C00359364 /* 118.杨辉三角.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "118.杨辉三角.swift"; sourceTree = "<group>"; };
+		0A9FB82D2445E11C00359364 /* 442.数组中重复的数据.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "442.数组中重复的数据.swift"; sourceTree = "<group>"; };
 		0AC4708B243EB72300FBA4D0 /* 098.验证二叉搜索树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "098.验证二叉搜索树.swift"; sourceTree = "<group>"; };
 		0AC4708D243EF8C200FBA4D0 /* 121.买卖股票的最佳时机.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "121.买卖股票的最佳时机.swift"; sourceTree = "<group>"; };
 		0AC4708F243F02A400FBA4D0 /* 322.零钱兑换.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "322.零钱兑换.swift"; sourceTree = "<group>"; };
@@ -303,6 +305,7 @@
 				0AC470A72442FFF200FBA4D0 /* 232.用栈实现队列.swift */,
 				0AC4708F243F02A400FBA4D0 /* 322.零钱兑换.swift */,
 				0A165BC9243DBA2D00E85723 /* 349.两个数组的交集.swift */,
+				0A9FB82D2445E11C00359364 /* 442.数组中重复的数据.swift */,
 				0A165B97243DBA2A00E85723 /* 面试题40.最小的k个数.swift */,
 			);
 			path = "leetcode-swift";
@@ -428,6 +431,7 @@
 				0A165BFB243DBA2E00E85723 /* 061.旋转链表.swift in Sources */,
 				0A165BE5243DBA2E00E85723 /* 009.回文数.swift in Sources */,
 				0A9FB8192444041900359364 /* 062.不同路径.swift in Sources */,
+				0A9FB82E2445E11C00359364 /* 442.数组中重复的数据.swift in Sources */,
 				0A165BE7243DBA2E00E85723 /* 083.删除排序链表中的重复元素.swift in Sources */,
 				0A165BD8243DBA2D00E85723 /* 182.查找重复的电子邮箱.swift in Sources */,
 				0A165BF1243DBA2E00E85723 /* 039.组合总和.swift in Sources */,
