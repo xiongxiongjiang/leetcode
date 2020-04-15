@@ -27,6 +27,9 @@ extension Solution {
         if s == "" {
             return 0
         }
+        if s.contains(")") == false {
+            return 0
+        }
         var res = 0
         //dp[i]指以i下标为结尾的合法序列的最长长度
         var dp = [Int](repeating: 0, count: s.count)
