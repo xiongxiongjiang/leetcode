@@ -73,7 +73,7 @@
 | 069. x 的平方根 | 简单 | [swift](leetcode-swift/069.x的平方根.swift) | |
 | 070. 爬楼梯 | 简单 | [swift](leetcode-swift/070.爬楼梯.swift) | **动态规划** |
 | 071. 简化路径 | 中等 | [swift](leetcode-swift/071.简化路径.swift) | **栈** |
-| 072 | | | |
+| 072. 编辑距离 | 困难 | [swift](leetcode-swift/072.编辑距离.swift) | **动态规划** |
 | 073 | | | |
 | 074 | | | |
 | 075 | | | |
