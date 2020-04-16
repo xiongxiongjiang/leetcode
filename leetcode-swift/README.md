@@ -242,6 +242,7 @@
 | 349. 两个数组的交集 | 简单 | [swift](leetcode-swift/349.两个数组的交集.swift) | |
 | 389. 找不同 | 简单 | [swift](leetcode-swift/389.找不同.swift) | **位运算** |
 | 442. 数组中重复的数据 | 中等 | [swift](leetcode-swift/442.数组中重复的数据.swift) | |
+| 1346. 检查整数及其两倍数是否存在 | 简单 | [swift](leetcode-swift/1346.检查整数及其两倍数是否存在.swift) | **哈希表** |
 | 面试题40. 最小的k个数 | 简单 | [swift](leetcode-swift/面试题40.最小的k个数.swift) | |
 
 
