@@ -13,4 +13,4 @@ class Solution {
 }
 
 let s = Solution()
-test1346(s: s)
+test148(s: s)

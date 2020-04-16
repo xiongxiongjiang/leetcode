@@ -41,7 +41,7 @@ extension Solution {
         return newList.first!
     }
     
-    func merge2List(_ list1: ListNode?, _ list2: ListNode?) -> ListNode? {
+    private func merge2List(_ list1: ListNode?, _ list2: ListNode?) -> ListNode? {
         var l1 = list1
         var l2 = list2
         let prev: ListNode? = ListNode(0)
