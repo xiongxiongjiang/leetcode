@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A023E1B24498D7000885193 /* 006.Z字形变换.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A023E1A24498D7000885193 /* 006.Z字形变换.swift */; };
 		0A165B85243DB93900E85723 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A165B84243DB93900E85723 /* main.swift */; };
 		0A165B8C243DB95A00E85723 /* 001.两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A165B8B243DB95A00E85723 /* 001.两数之和.swift */; };
 		0A165B8F243DBA0600E85723 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A165B8D243DBA0500E85723 /* ListNode.swift */; };
@@ -118,6 +119,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0A023E1A24498D7000885193 /* 006.Z字形变换.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "006.Z字形变换.swift"; sourceTree = "<group>"; };
 		0A165B81243DB93900E85723 /* leetcode-swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A165B84243DB93900E85723 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0A165B8B243DB95A00E85723 /* 001.两数之和.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "001.两数之和.swift"; sourceTree = "<group>"; };
@@ -254,6 +256,7 @@
 				0AC4709B24417F4600FBA4D0 /* 002.两数相加.swift */,
 				0A165BB5243DBA2C00E85723 /* 003.无重复字符的最长子串.swift */,
 				0A165BC5243DBA2D00E85723 /* 005.最长回文子串.swift */,
+				0A023E1A24498D7000885193 /* 006.Z字形变换.swift */,
 				0A165BBF243DBA2D00E85723 /* 007.整数反转.swift */,
 				0A165BAB243DBA2B00E85723 /* 009.回文数.swift */,
 				0A165BC4243DBA2D00E85723 /* 014.最长公共前缀.swift */,
@@ -498,6 +501,7 @@
 				0AC47090243F02A400FBA4D0 /* 322.零钱兑换.swift in Sources */,
 				0A165BCB243DBA2D00E85723 /* 046.全排列.swift in Sources */,
 				0A165B90243DBA0600E85723 /* TreeNode.swift in Sources */,
+				0A023E1B24498D7000885193 /* 006.Z字形变换.swift in Sources */,
 				0A165BCE243DBA2D00E85723 /* 102.二叉树的层次遍历.swift in Sources */,
 				0AC47092243F0FE300FBA4D0 /* 033.搜索旋转排序数组.swift in Sources */,
 				0A9FB83E24480FCB00359364 /* 148.排序链表.swift in Sources */,

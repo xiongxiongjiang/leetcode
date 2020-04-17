@@ -7,7 +7,7 @@
 | 003. 无重复字符的最长子串 | 中等 | [swift](leetcode-swift/003.无重复字符的最长子串.swift) |      |
 | 004  |   |                      |      |
 | 005. 最长回文子串 | 中等 | [swift](leetcode-swift/005.最长回文子串.swift) | **动态规划** |
-| 006 |  |              |      |
+| 006. Z字形变换 | 中等 | [swift](leetcode-swift/006.Z字形变换.swift) | **字符串** |
 | 007. 整数反转 | 简单 | [swift](leetcode-swift/007.整数反转.swift) |      |
 | 008  |   |                      |      |
 | 009. 回文数 | 简单 | [swift](leetcode-swift/009.回文数.swift) |      |
