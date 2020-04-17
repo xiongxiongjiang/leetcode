@@ -26,6 +26,14 @@ import Foundation
  */
 
 extension Solution {
+
+    /*
+     3种可能
+     1.最终会得到 1。
+     2.最终会进入循环。
+     3.值会越来越大，最后接近无穷大。
+     对于 3 位数的数字，它不可能大于 243。这意味着它要么被困在 243 以下的循环内，要么跌到 1。4 位或 4 位以上的数字在每一步都会丢失一位，直到降到 3 位为止。所以我们知道，最坏的情况下，算法可能会在 243 以下的所有数字上循环，然后回到它已经到过的一个循环或者回到 1。但它不会无限期地进行下去，所以我们排除第三种选择。
+     */
     func isHappy(_ n: Int) -> Bool {
         var happySet = Set<Int>()
         var num = n
@@ -50,5 +58,5 @@ extension Solution {
 }
 
 func test202(s: Solution) {
-    print(s.isHappy(19))
+    print(s.isHappy(999))
 }
