@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A023E1B24498D7000885193 /* 006.Z字形变换.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A023E1A24498D7000885193 /* 006.Z字形变换.swift */; };
+		0A023E1D2449979B00885193 /* 008.字符串转换整数(atoi).swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A023E1C2449979B00885193 /* 008.字符串转换整数(atoi).swift */; };
 		0A165B85243DB93900E85723 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A165B84243DB93900E85723 /* main.swift */; };
 		0A165B8C243DB95A00E85723 /* 001.两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A165B8B243DB95A00E85723 /* 001.两数之和.swift */; };
 		0A165B8F243DBA0600E85723 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A165B8D243DBA0500E85723 /* ListNode.swift */; };
@@ -120,6 +121,7 @@
 
 /* Begin PBXFileReference section */
 		0A023E1A24498D7000885193 /* 006.Z字形变换.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "006.Z字形变换.swift"; sourceTree = "<group>"; };
+		0A023E1C2449979B00885193 /* 008.字符串转换整数(atoi).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "008.字符串转换整数(atoi).swift"; sourceTree = "<group>"; };
 		0A165B81243DB93900E85723 /* leetcode-swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A165B84243DB93900E85723 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0A165B8B243DB95A00E85723 /* 001.两数之和.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "001.两数之和.swift"; sourceTree = "<group>"; };
@@ -258,6 +260,7 @@
 				0A165BC5243DBA2D00E85723 /* 005.最长回文子串.swift */,
 				0A023E1A24498D7000885193 /* 006.Z字形变换.swift */,
 				0A165BBF243DBA2D00E85723 /* 007.整数反转.swift */,
+				0A023E1C2449979B00885193 /* 008.字符串转换整数(atoi).swift */,
 				0A165BAB243DBA2B00E85723 /* 009.回文数.swift */,
 				0A165BC4243DBA2D00E85723 /* 014.最长公共前缀.swift */,
 				0A165BA6243DBA2B00E85723 /* 015.三数之和.swift */,
@@ -459,6 +462,7 @@
 				0A165BEA243DBA2E00E85723 /* 169.多数元素.swift in Sources */,
 				0A165BEC243DBA2E00E85723 /* 019.删除链表的倒数第N个节点.swift in Sources */,
 				0A165BF5243DBA2E00E85723 /* 136.只出现一次的数字.swift in Sources */,
+				0A023E1D2449979B00885193 /* 008.字符串转换整数(atoi).swift in Sources */,
 				0A165BF4243DBA2E00E85723 /* 196.删除重复的电子邮箱.swift in Sources */,
 				0A165BD9243DBA2D00E85723 /* 026.删除排序数组中的重复项.swift in Sources */,
 				0A165BE9243DBA2E00E85723 /* 112.路径总和.swift in Sources */,
