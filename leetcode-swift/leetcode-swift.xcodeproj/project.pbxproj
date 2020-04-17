@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0A023E1B24498D7000885193 /* 006.Z字形变换.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A023E1A24498D7000885193 /* 006.Z字形变换.swift */; };
 		0A023E1D2449979B00885193 /* 008.字符串转换整数(atoi).swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A023E1C2449979B00885193 /* 008.字符串转换整数(atoi).swift */; };
+		0A023E1F2449C56700885193 /* 034.在排序数组中查找元素的第一个和最后一个位置.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A023E1E2449C56700885193 /* 034.在排序数组中查找元素的第一个和最后一个位置.swift */; };
 		0A165B85243DB93900E85723 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A165B84243DB93900E85723 /* main.swift */; };
 		0A165B8C243DB95A00E85723 /* 001.两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A165B8B243DB95A00E85723 /* 001.两数之和.swift */; };
 		0A165B8F243DBA0600E85723 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A165B8D243DBA0500E85723 /* ListNode.swift */; };
@@ -122,6 +123,7 @@
 /* Begin PBXFileReference section */
 		0A023E1A24498D7000885193 /* 006.Z字形变换.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "006.Z字形变换.swift"; sourceTree = "<group>"; };
 		0A023E1C2449979B00885193 /* 008.字符串转换整数(atoi).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "008.字符串转换整数(atoi).swift"; sourceTree = "<group>"; };
+		0A023E1E2449C56700885193 /* 034.在排序数组中查找元素的第一个和最后一个位置.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "034.在排序数组中查找元素的第一个和最后一个位置.swift"; sourceTree = "<group>"; };
 		0A165B81243DB93900E85723 /* leetcode-swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A165B84243DB93900E85723 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0A165B8B243DB95A00E85723 /* 001.两数之和.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "001.两数之和.swift"; sourceTree = "<group>"; };
@@ -275,6 +277,7 @@
 				0A165BA1243DBA2A00E85723 /* 028.实现strStr().swift */,
 				0A165BA4243DBA2A00E85723 /* 032.最长有效括号.swift */,
 				0AC47091243F0FE300FBA4D0 /* 033.搜索旋转排序数组.swift */,
+				0A023E1E2449C56700885193 /* 034.在排序数组中查找元素的第一个和最后一个位置.swift */,
 				0A165B95243DBA2A00E85723 /* 035.搜索插入位置.swift */,
 				0A165BB7243DBA2C00E85723 /* 039.组合总和.swift */,
 				0AC4709D24418F9400FBA4D0 /* 041.缺失的第一个正数.swift */,
@@ -435,6 +438,7 @@
 				0A165BEF243DBA2E00E85723 /* 003.无重复字符的最长子串.swift in Sources */,
 				0A9FB82C2445C93C00359364 /* 118.杨辉三角.swift in Sources */,
 				0AC470982440234E00FBA4D0 /* 122.买卖股票的最佳时机II.swift in Sources */,
+				0A023E1F2449C56700885193 /* 034.在排序数组中查找元素的第一个和最后一个位置.swift in Sources */,
 				0A165BE8243DBA2E00E85723 /* 042.接雨水.swift in Sources */,
 				0A165BD6243DBA2D00E85723 /* 146.LRU缓存机制.swift in Sources */,
 				0A165BE0243DBA2E00E85723 /* 015.三数之和.swift in Sources */,

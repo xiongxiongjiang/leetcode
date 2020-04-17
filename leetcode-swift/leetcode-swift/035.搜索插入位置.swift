@@ -39,8 +39,7 @@ extension Solution {
         while left <= right {
             let mid = left + (right - left) / 2
             if nums[mid] == target {
-//                return mid
-                right = mid - 1
+                return mid
             } else if nums[mid] > target {
                 //在左边
                 right = mid - 1
