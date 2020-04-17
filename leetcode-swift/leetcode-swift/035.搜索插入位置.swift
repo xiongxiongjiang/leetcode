@@ -31,28 +31,30 @@ import Foundation
 
 extension Solution {
     func searchInsert(_ nums: [Int], _ target: Int) -> Int {
-        let contains = nums.contains(target)
-        if contains == false {
-            var newNums = nums
-            newNums.append(target)
-            newNums = newNums.sorted(by: <)
-            for (index, value) in newNums.enumerated() {
-                if target == value {
-                    return index
-                }
+        guard nums.count > 0 else {
+            return 0
+        }
+        var left = 0
+        var right = nums.count - 1
+        while left <= right {
+            let mid = left + (right - left) / 2
+            if nums[mid] == target {
+//                return mid
+                right = mid - 1
+            } else if nums[mid] > target {
+                //在左边
+                right = mid - 1
+            } else if nums[mid] < target {
+                //在右边
+                left = mid + 1
             }
         }
-        for (index, value) in nums.enumerated() {
-            if target == value {
-                return index
-            }
-        }
-        return 0
+        return left
     }
     
 }
 
 func test035(s: Solution) {
     let nums = [1,3,5,6]
-    print(s.searchInsert(nums, 2))
+    print(s.searchInsert(nums, 7))
 }
