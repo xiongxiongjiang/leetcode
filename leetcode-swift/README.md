@@ -2,9 +2,9 @@
 
 | 序号 | 难度 | 题解 | 标签 |
 | :--- | :--: | :--: | :--: |
-| 001. 两数之和 | 简单 | [swift](leetcode-swift/001.两数之和.swift) |      |
+| 001. 两数之和 | 简单 | [swift](leetcode-swift/001.两数之和.swift) | **哈希表** |
 | 002. 两数相加 | 中等 | [swift](leetcode-swift/002.两数相加.swift) | **链表** |
-| 003. 无重复字符的最长子串 | 中等 | [swift](leetcode-swift/003.无重复字符的最长子串.swift) |      |
+| 003. 无重复字符的最长子串 | 中等 | [swift](leetcode-swift/003.无重复字符的最长子串.swift) | **滑动窗口** |
 | 004  |   |                      |      |
 | 005. 最长回文子串 | 中等 | [swift](leetcode-swift/005.最长回文子串.swift) | **动态规划** |
 | 006. Z字形变换 | 中等 | [swift](leetcode-swift/006.Z字形变换.swift) | **字符串** |
@@ -12,7 +12,7 @@
 | 008. 字符串转换整数(atoi) | 中等 | [swift](leetcode-swift/008.字符串转换整数(atoi).swift) |      |
 | 009. 回文数 | 简单 | [swift](leetcode-swift/009.回文数.swift) |      |
 | 010  |   |                      |      |
-| 011  |   |                      |      |
+| 011. 盛最多水的容器 | 中等 | [swift](leetcode-swift/011.盛最多水的容器.swift) | **双指针** |
 | 012  |   |                      |      |
 | 013  |   |                      |      |
 | 014. 最长公共前缀 | 简单 | [swift](leetcode-swift/014.最长公共前缀.swift) |      |
