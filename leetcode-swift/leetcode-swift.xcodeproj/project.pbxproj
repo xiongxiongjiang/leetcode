@@ -74,6 +74,8 @@
 		0A165C03243DBA2E00E85723 /* 349.两个数组的交集.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A165BC9243DBA2D00E85723 /* 349.两个数组的交集.swift */; };
 		0A165C04243DBA2E00E85723 /* 203.移除链表元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A165BCA243DBA2D00E85723 /* 203.移除链表元素.swift */; };
 		0A5710E9244AE2D00029BB2C /* 016.最接近的三数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5710E8244AE2D00029BB2C /* 016.最接近的三数之和.swift */; };
+		0A5710EB244AFA1F0029BB2C /* 037.解数独.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5710EA244AFA1F0029BB2C /* 037.解数独.swift */; };
+		0A5710ED244C27BD0029BB2C /* 113.路径总和II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5710EC244C27BD0029BB2C /* 113.路径总和II.swift */; };
 		0A6FBCC62448B2F500B29C7E /* 543.二叉树的直径.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6FBCC52448B2F500B29C7E /* 543.二叉树的直径.swift */; };
 		0A9FB8192444041900359364 /* 062.不同路径.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FB8182444041900359364 /* 062.不同路径.swift */; };
 		0A9FB81B2444143C00359364 /* 064.最小路径和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FB81A2444143C00359364 /* 064.最小路径和.swift */; };
@@ -191,6 +193,8 @@
 		0A165BC9243DBA2D00E85723 /* 349.两个数组的交集.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "349.两个数组的交集.swift"; sourceTree = "<group>"; };
 		0A165BCA243DBA2D00E85723 /* 203.移除链表元素.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "203.移除链表元素.swift"; sourceTree = "<group>"; };
 		0A5710E8244AE2D00029BB2C /* 016.最接近的三数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "016.最接近的三数之和.swift"; sourceTree = "<group>"; };
+		0A5710EA244AFA1F0029BB2C /* 037.解数独.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "037.解数独.swift"; sourceTree = "<group>"; };
+		0A5710EC244C27BD0029BB2C /* 113.路径总和II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "113.路径总和II.swift"; sourceTree = "<group>"; };
 		0A6FBCC52448B2F500B29C7E /* 543.二叉树的直径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "543.二叉树的直径.swift"; sourceTree = "<group>"; };
 		0A9FB8182444041900359364 /* 062.不同路径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "062.不同路径.swift"; sourceTree = "<group>"; };
 		0A9FB81A2444143C00359364 /* 064.最小路径和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "064.最小路径和.swift"; sourceTree = "<group>"; };
@@ -285,6 +289,7 @@
 				0AC47091243F0FE300FBA4D0 /* 033.搜索旋转排序数组.swift */,
 				0A023E1E2449C56700885193 /* 034.在排序数组中查找元素的第一个和最后一个位置.swift */,
 				0A165B95243DBA2A00E85723 /* 035.搜索插入位置.swift */,
+				0A5710EA244AFA1F0029BB2C /* 037.解数独.swift */,
 				0A165BB7243DBA2C00E85723 /* 039.组合总和.swift */,
 				0AC4709D24418F9400FBA4D0 /* 041.缺失的第一个正数.swift */,
 				0A165BAE243DBA2B00E85723 /* 042.接雨水.swift */,
@@ -321,6 +326,7 @@
 				0A165B9A243DBA2A00E85723 /* 104.二叉树的最大深度.swift */,
 				0A165BA3243DBA2A00E85723 /* 110.平衡二叉树.swift */,
 				0A165BAF243DBA2B00E85723 /* 112.路径总和.swift */,
+				0A5710EC244C27BD0029BB2C /* 113.路径总和II.swift */,
 				0A9FB82B2445C93C00359364 /* 118.杨辉三角.swift */,
 				0AC4708D243EF8C200FBA4D0 /* 121.买卖股票的最佳时机.swift */,
 				0AC470972440234E00FBA4D0 /* 122.买卖股票的最佳时机II.swift */,
@@ -435,6 +441,7 @@
 				0A165BEB243DBA2E00E85723 /* 021.合并两个有序链表.swift in Sources */,
 				0A165BE1243DBA2E00E85723 /* 199.二叉树的右视图.swift in Sources */,
 				0A165BDD243DBA2D00E85723 /* 110.平衡二叉树.swift in Sources */,
+				0A5710ED244C27BD0029BB2C /* 113.路径总和II.swift in Sources */,
 				0A9FB824244552E700359364 /* 077.组合.swift in Sources */,
 				0A165BED243DBA2E00E85723 /* 027.移除元素.swift in Sources */,
 				0A165BCF243DBA2D00E85723 /* 035.搜索插入位置.swift in Sources */,
@@ -465,6 +472,7 @@
 				0A165BD4243DBA2D00E85723 /* 104.二叉树的最大深度.swift in Sources */,
 				0A165BD0243DBA2D00E85723 /* 225.用队列实现栈.swift in Sources */,
 				0A5710E9244AE2D00029BB2C /* 016.最接近的三数之和.swift in Sources */,
+				0A5710EB244AFA1F0029BB2C /* 037.解数独.swift in Sources */,
 				0A165BFD243DBA2E00E85723 /* 206.反转链表.swift in Sources */,
 				0AC470A82442FFF200FBA4D0 /* 232.用栈实现队列.swift in Sources */,
 				0A9FB8422448688600359364 /* 072.编辑距离.swift in Sources */,
