@@ -32,7 +32,7 @@
 | 028. 实现 strStr() | 简单 | [swift](leetcode-swift/028.实现strStr().swift) |      |
 | 029 |      |                      |      |
 | 030 |      |                      |      |
-| 031 |      |                      |      |
+| 031. 下一个排列 | 中等 | [swift](leetcode-swift/031.下一个排列.swift) |      |
 | 032. 最长有效括号 | 困难 | [swift](leetcode-swift/032.最长有效括号.swift) | **动态规划** |
 | 033. 搜索旋转排序数组 | 中等 | [swift](leetcode-swift/033.搜索旋转排序数组.swift) | **二分查找** |
 | 034. 在排序数组中查找元素的第一个和最后一个位置 | 中等 | [swift](leetcode-swift/034.在排序数组中查找元素的第一个和最后一个位置.swift) | **二分查找** |
