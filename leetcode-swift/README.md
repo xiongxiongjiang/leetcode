@@ -41,7 +41,7 @@
 | 037 |      |                      |      |
 | 038 |      |                      |      |
 | 039. 组合总和 | 中等 | [swift](leetcode-swift/039.组合总和.swift) | **回溯** |
-| 040 |      |                      |      |
+| 040. 组合总和II | 中等 | [swift](leetcode-swift/040.组合总和II.swift) | **回溯** |
 | 041. 缺失的第一个正数 | 困难 | [swift](leetcode-swift/041.缺失的第一个正数.swift) | **哈希表** |
 | 042. 接雨水 | 困难 | [swift](leetcode-swift/042.接雨水.swift) |      |
 | 043. 字符串相乘 | 中等 | [swift](leetcode-swift/043.字符串相乘.swift) | **字符串** |

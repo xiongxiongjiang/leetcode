@@ -44,6 +44,7 @@ extension Solution {
     }
     
     func combinationSumBackTrack(_ candidates: [Int], _ target: Int, _ start: Int, _ usededNums: inout [Int], _ result: inout [[Int]]) {
+        //剪枝
         if target < 0  {
             return
         }

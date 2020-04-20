@@ -34,7 +34,7 @@ extension Solution {
     }
 }
 
-func test040(s: Solution) {
+func testOffer040(s: Solution) {
     let arr = [14, 5, 1, 6, 2, 7, 13, 8]
     let k = 3
     print(s.getLeastNumbers(arr, k))
