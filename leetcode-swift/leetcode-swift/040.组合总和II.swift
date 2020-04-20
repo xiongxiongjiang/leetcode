@@ -53,6 +53,7 @@ extension Solution {
             return
         }
         for i in start..<candidates.count {
+            //配合一开始的排序达到去重
             if i > start && candidates[i - 1] == candidates[i] {
                 continue
             }
