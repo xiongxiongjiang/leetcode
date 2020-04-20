@@ -64,7 +64,7 @@
 | 060. 第k个排列 | 中等 | [swift](leetcode-swift/060.第k个排列.swift) | **回溯** |
 | 061. 旋转链表 | 中等 | [swift](leetcode-swift/061.旋转链表.swift) | |
 | 062. 不同路径 | 中等 | [swift](leetcode-swift/062.不同路径.swift) | **动态规划** |
-| 063 | | | |
+| 063. 不同路径II | 中等 | [swift](leetcode-swift/063.不同路径II.swift) | **动态规划** |
 | 064.最小路径和 | 中等 | [swift](leetcode-swift/064.最小路径和.swift) | **动态规划** |
 | 065 | | | |
 | 066. 加一 | 简单 | [swift](leetcode-swift/066.加一.swift) | |
