@@ -82,6 +82,10 @@
 		0A5710F5244D87530029BB2C /* 054.螺旋矩阵.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5710F4244D87530029BB2C /* 054.螺旋矩阵.swift */; };
 		0A5710F7244D978C0029BB2C /* 040.组合总和II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5710F6244D978C0029BB2C /* 040.组合总和II.swift */; };
 		0A5710F9244DA77D0029BB2C /* 059.螺旋矩阵II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5710F8244DA77D0029BB2C /* 059.螺旋矩阵II.swift */; };
+		0A5710FD244DCF880029BB2C /* insertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5710FC244DCF880029BB2C /* insertion.swift */; };
+		0A5710FF244DD2490029BB2C /* bubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5710FE244DD2490029BB2C /* bubble.swift */; };
+		0A571105244DD5CA0029BB2C /* selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A571104244DD5CA0029BB2C /* selection.swift */; };
+		0A571107244DDADD0029BB2C /* quick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A571106244DDADD0029BB2C /* quick.swift */; };
 		0A6FBCC62448B2F500B29C7E /* 543.二叉树的直径.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6FBCC52448B2F500B29C7E /* 543.二叉树的直径.swift */; };
 		0A9FB8192444041900359364 /* 062.不同路径.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FB8182444041900359364 /* 062.不同路径.swift */; };
 		0A9FB81B2444143C00359364 /* 064.最小路径和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FB81A2444143C00359364 /* 064.最小路径和.swift */; };
@@ -207,6 +211,10 @@
 		0A5710F4244D87530029BB2C /* 054.螺旋矩阵.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "054.螺旋矩阵.swift"; sourceTree = "<group>"; };
 		0A5710F6244D978C0029BB2C /* 040.组合总和II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "040.组合总和II.swift"; sourceTree = "<group>"; };
 		0A5710F8244DA77D0029BB2C /* 059.螺旋矩阵II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "059.螺旋矩阵II.swift"; sourceTree = "<group>"; };
+		0A5710FC244DCF880029BB2C /* insertion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = insertion.swift; sourceTree = "<group>"; };
+		0A5710FE244DD2490029BB2C /* bubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bubble.swift; sourceTree = "<group>"; };
+		0A571104244DD5CA0029BB2C /* selection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selection.swift; sourceTree = "<group>"; };
+		0A571106244DDADD0029BB2C /* quick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quick.swift; sourceTree = "<group>"; };
 		0A6FBCC52448B2F500B29C7E /* 543.二叉树的直径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "543.二叉树的直径.swift"; sourceTree = "<group>"; };
 		0A9FB8182444041900359364 /* 062.不同路径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "062.不同路径.swift"; sourceTree = "<group>"; };
 		0A9FB81A2444143C00359364 /* 064.最小路径和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "064.最小路径和.swift"; sourceTree = "<group>"; };
@@ -273,6 +281,7 @@
 		0A165B83243DB93900E85723 /* leetcode-swift */ = {
 			isa = PBXGroup;
 			children = (
+				0A5710FA244DCF290029BB2C /* extera */,
 				0A165B84243DB93900E85723 /* main.swift */,
 				0A165B8D243DBA0500E85723 /* ListNode.swift */,
 				0A165B8E243DBA0600E85723 /* TreeNode.swift */,
@@ -386,6 +395,25 @@
 			path = "leetcode-swift";
 			sourceTree = "<group>";
 		};
+		0A5710FA244DCF290029BB2C /* extera */ = {
+			isa = PBXGroup;
+			children = (
+				0A5710FB244DCF580029BB2C /* sort */,
+			);
+			path = extera;
+			sourceTree = "<group>";
+		};
+		0A5710FB244DCF580029BB2C /* sort */ = {
+			isa = PBXGroup;
+			children = (
+				0A5710FC244DCF880029BB2C /* insertion.swift */,
+				0A571104244DD5CA0029BB2C /* selection.swift */,
+				0A5710FE244DD2490029BB2C /* bubble.swift */,
+				0A571106244DDADD0029BB2C /* quick.swift */,
+			);
+			path = sort;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -481,6 +509,7 @@
 				0A9FB826244567B400359364 /* 078.子集.swift in Sources */,
 				0A9FB82A2445A23300359364 /* 093.复原IP地址.swift in Sources */,
 				0A5710F1244D772A0029BB2C /* 200.岛屿数量.swift in Sources */,
+				0A571107244DDADD0029BB2C /* quick.swift in Sources */,
 				0A165BDA243DBA2D00E85723 /* 094.二叉树的中序遍历.swift in Sources */,
 				0A9FB8362446B9B100359364 /* 217.存在重复元素.swift in Sources */,
 				0AC4709E24418F9400FBA4D0 /* 041.缺失的第一个正数.swift in Sources */,
@@ -508,6 +537,7 @@
 				0A165BD9243DBA2D00E85723 /* 026.删除排序数组中的重复项.swift in Sources */,
 				0A165BE9243DBA2E00E85723 /* 112.路径总和.swift in Sources */,
 				0A165BE3243DBA2E00E85723 /* 056.合并区间.swift in Sources */,
+				0A571105244DD5CA0029BB2C /* selection.swift in Sources */,
 				0AC4708C243EB72300FBA4D0 /* 098.验证二叉搜索树.swift in Sources */,
 				0A165BEE243DBA2E00E85723 /* 082.删除排序链表中的重复元素II.swift in Sources */,
 				0A5710F3244D7E300029BB2C /* 063.不同路径II.swift in Sources */,
@@ -519,6 +549,7 @@
 				0A165BF3243DBA2E00E85723 /* 219.存在重复元素II.swift in Sources */,
 				0AC470AC2443072100FBA4D0 /* 048.旋转图像.swift in Sources */,
 				0AC4709A2440577100FBA4D0 /* 103.二叉树的锯齿形层次遍历.swift in Sources */,
+				0A5710FD244DCF880029BB2C /* insertion.swift in Sources */,
 				0A165BFA243DBA2E00E85723 /* 176.第二高的薪水.swift in Sources */,
 				0A165BF9243DBA2E00E85723 /* 007.整数反转.swift in Sources */,
 				0A165BF7243DBA2E00E85723 /* 066.加一.swift in Sources */,
@@ -544,6 +575,7 @@
 				0A9FB8342446B3A000359364 /* 222.完全二叉树的节点个数.swift in Sources */,
 				0A5710F9244DA77D0029BB2C /* 059.螺旋矩阵II.swift in Sources */,
 				0A165BF0243DBA2E00E85723 /* 144.二叉树的前序遍历.swift in Sources */,
+				0A5710FF244DD2490029BB2C /* bubble.swift in Sources */,
 				0A165BDC243DBA2D00E85723 /* 101.对称二叉树.swift in Sources */,
 				0A165BE2243DBA2E00E85723 /* 226.翻转二叉树.swift in Sources */,
 				0AC47090243F02A400FBA4D0 /* 322.零钱兑换.swift in Sources */,
