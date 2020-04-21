@@ -12,10 +12,10 @@ class Solution {
     
 }
 
-//let s = Solution()
-//test059(s: s)
+let s = Solution()
+test073(s: s)
 
-let list = [ 10, -1, 3, 9, 2, 27, 8, 5, 1, 3, 0, 26 ]
+//let list = [ 10, -1, 3, 9, 2, 27, 8, 5, 1, 3, 0, 26 ]
 //print(insertionSort(list))
 //print(selectionSort(list))
-print(bubbleSort(list))
+//print(bubbleSort(list))
