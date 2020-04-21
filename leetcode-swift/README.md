@@ -37,8 +37,8 @@
 | 033. 搜索旋转排序数组 | 中等 | [swift](leetcode-swift/033.搜索旋转排序数组.swift) | **二分查找** |
 | 034. 在排序数组中查找元素的第一个和最后一个位置 | 中等 | [swift](leetcode-swift/034.在排序数组中查找元素的第一个和最后一个位置.swift) | **二分查找** |
 | 035. 搜索插入位置 | 简单 | [swift](leetcode-swift/035.搜索插入位置.swift) |      |
-| 036 |      |                      |      |
-| 037 |      |                      |      |
+| 036. 有效的数独 | 中等 | [swift](leetcode-swift/036.有效的数独.swift) |      |
+| 037. 解数独 | 困难 | [swift](leetcode-swift/037.解数独.swift) | **回溯** |
 | 038 |      |                      |      |
 | 039. 组合总和 | 中等 | [swift](leetcode-swift/039.组合总和.swift) | **回溯** |
 | 040. 组合总和II | 中等 | [swift](leetcode-swift/040.组合总和II.swift) | **回溯** |
