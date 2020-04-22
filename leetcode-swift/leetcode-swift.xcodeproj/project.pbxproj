@@ -91,6 +91,7 @@
 		0A57110D244EF4E10029BB2C /* 036.有效的数独.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A57110C244EF4E10029BB2C /* 036.有效的数独.swift */; };
 		0A57110F244FE0830029BB2C /* 167.两数之和II-输入有序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A57110E244FE0830029BB2C /* 167.两数之和II-输入有序数组.swift */; };
 		0A571111244FEA580029BB2C /* 107.二叉树的层次遍历II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A571110244FEA580029BB2C /* 107.二叉树的层次遍历II.swift */; };
+		0A571115245022BD0029BB2C /* 092.反转链表II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A571114245022BD0029BB2C /* 092.反转链表II.swift */; };
 		0A6FBCC62448B2F500B29C7E /* 543.二叉树的直径.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6FBCC52448B2F500B29C7E /* 543.二叉树的直径.swift */; };
 		0A9FB8192444041900359364 /* 062.不同路径.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FB8182444041900359364 /* 062.不同路径.swift */; };
 		0A9FB81B2444143C00359364 /* 064.最小路径和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FB81A2444143C00359364 /* 064.最小路径和.swift */; };
@@ -225,6 +226,7 @@
 		0A57110C244EF4E10029BB2C /* 036.有效的数独.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "036.有效的数独.swift"; sourceTree = "<group>"; };
 		0A57110E244FE0830029BB2C /* 167.两数之和II-输入有序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "167.两数之和II-输入有序数组.swift"; sourceTree = "<group>"; };
 		0A571110244FEA580029BB2C /* 107.二叉树的层次遍历II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "107.二叉树的层次遍历II.swift"; sourceTree = "<group>"; };
+		0A571114245022BD0029BB2C /* 092.反转链表II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "092.反转链表II.swift"; sourceTree = "<group>"; };
 		0A6FBCC52448B2F500B29C7E /* 543.二叉树的直径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "543.二叉树的直径.swift"; sourceTree = "<group>"; };
 		0A9FB8182444041900359364 /* 062.不同路径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "062.不同路径.swift"; sourceTree = "<group>"; };
 		0A9FB81A2444143C00359364 /* 064.最小路径和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "064.最小路径和.swift"; sourceTree = "<group>"; };
@@ -354,6 +356,7 @@
 				0A165BB4243DBA2C00E85723 /* 082.删除排序链表中的重复元素II.swift */,
 				0A165BAD243DBA2B00E85723 /* 083.删除排序链表中的重复元素.swift */,
 				0AC470A52442E94B00FBA4D0 /* 088.合并两个有序数组.swift */,
+				0A571114245022BD0029BB2C /* 092.反转链表II.swift */,
 				0A9FB8292445A23300359364 /* 093.复原IP地址.swift */,
 				0A165BA0243DBA2A00E85723 /* 094.二叉树的中序遍历.swift */,
 				0AC4708B243EB72300FBA4D0 /* 098.验证二叉搜索树.swift */,
@@ -588,6 +591,7 @@
 				0AC4709424400E2400FBA4D0 /* 023.合并K个排序链表.swift in Sources */,
 				0A165BFC243DBA2E00E85723 /* 142.环形链表II.swift in Sources */,
 				0A165BE4243DBA2E00E85723 /* 204.计数质数.swift in Sources */,
+				0A571115245022BD0029BB2C /* 092.反转链表II.swift in Sources */,
 				0A165C01243DBA2E00E85723 /* 069.x的平方根.swift in Sources */,
 				0A9FB844244950ED00359364 /* 202.快乐数.swift in Sources */,
 				0A165B8F243DBA0600E85723 /* ListNode.swift in Sources */,

@@ -22,19 +22,22 @@ extension Solution {
         if head == nil || head?.next == nil {
             return head
         }
-        var newNode: ListNode?
-        var curr = head
-        while curr != nil {
-            //先把当前节点的后半部分保存
-            let next = curr?.next
-            //然后把之前处理好的prev拼在curr后面
-            curr?.next = newNode
-            //curr成为了新的处理好的节点
-            newNode = curr
-            //curr跳到next
-            curr = next
+        let dummy: ListNode? = ListNode(-1)
+        dummy?.next = head
+        let prev: ListNode? = dummy
+        let curr = head
+        var next = curr?.next
+        while next != nil {
+            //移除next
+            curr?.next = next?.next
+            //移除后的部分拼在end后面
+            next?.next = prev?.next
+            //重新把next拼在prev后面
+            prev?.next = next
+            //跳到下一个
+            next = curr?.next
         }
-        return newNode
+        return dummy?.next
     }
 }
 

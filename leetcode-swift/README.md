@@ -93,7 +93,7 @@
 | 089 | | | |
 | 090 | | | |
 | 091 | | | |
-| 092 | | | |
+| 092. 反转链表II | 中等 | [swift](leetcode-swift/092.反转链表II.swift) | **链表** |
 | 093. 复原IP地址 | 中等 | [swift](leetcode-swift/093.复原IP地址.swift) | **回溯** |
 | 094. 二叉树的中序遍历 | 中等 | [swift](leetcode-swift/094.二叉树的中序遍历.swift) | **二叉树** |
 | 095 | | | |

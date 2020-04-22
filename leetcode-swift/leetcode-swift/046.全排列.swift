@@ -51,6 +51,28 @@ extension Solution {
             nums.swapAt(first, i)
         }
     }
+    
+//    func permute(_ nums: [Int]) -> [[Int]] {
+//        var res = [[Int]]()
+//        var track : [Int] = []
+//        backTrackPermute(nums: nums, pos: 0, track: &track, res: &res)
+//        return res
+//    }
+//
+//    func backTrackPermute(nums: [Int], pos: Int, track: inout [Int], res: inout [[Int]]) {
+//        if pos == nums.count {
+//            res.append(track)
+//            return
+//        }
+//        for i in 0..<nums.count {
+//            if track.contains(nums[i]) {
+//                continue
+//            }
+//            track.append(nums[i])
+//            backTrackPermute(nums: nums, pos: pos + 1, track: &track, res: &res)
+//            track.removeLast()
+//        }
+//    }
 }
 
 func test046(s: Solution) {
