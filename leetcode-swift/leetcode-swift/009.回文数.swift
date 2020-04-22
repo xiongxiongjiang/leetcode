@@ -33,12 +33,31 @@ import Foundation
 
 extension Solution {
     func isPalindrome(_ x: Int) -> Bool {
-        let str = "\(x)"
-        let reStr = String(str.reversed())
-        return str == reStr
+        if x < 0 {
+            return false
+        }
+        if x >= 0 && x <= 9 {
+            return true
+        }
+        var nums = [Int]()
+        var num = x
+        while num >= 10 {
+            let y = num % 10
+            num = num / 10
+            nums.append(y)
+        }
+        nums.append(num)
+        if nums.first == 0 {
+            return false
+        }
+        var z = 0
+        for i in 0..<nums.count {
+            z = z * 10 + nums[i]
+        }
+        return z == x
     }
 }
 
 func test009(s: Solution) {
-    print(s.isPalindrome(-121))
+    print(s.isPalindrome(1001))
 }
