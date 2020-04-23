@@ -32,30 +32,55 @@ import Foundation
  */
 
 extension Solution {
+//    func rotate(_ nums: inout [Int], _ k: Int) {
+        
+        //方法1 56ms
+//        if nums.count <= 1 || k % nums.count == 0 {
+//            return
+//        }
+//        let last = Array(nums[nums.count-k%nums.count...nums.count-1])
+//        let begin = Array(nums[0..<nums.count-k%nums.count])
+//        nums = last + begin
+        
+        //方法2 180ms
+//        for _ in 0..<k {
+//            if let last = nums.last {
+//                nums.removeLast()
+//                nums = [last] + nums
+//            }
+//        }
+//    }
+    
+    //方法3 40ms
     func rotate(_ nums: inout [Int], _ k: Int) {
-        if nums.count <= 1 || k % nums.count == 0 {
+        let terns = k % nums.count
+        if nums.isEmpty || terns == 0 {
             return
         }
-        let last = Array(nums[nums.count-k%nums.count...nums.count-1])
-        let begin = Array(nums[0..<nums.count-k%nums.count])
-        nums = last + begin
+        let middle = nums.count - terns
+        
+        reverse(&nums, s: 0, e: middle - 1)
+        reverse(&nums, s: middle, e: nums.count - 1)
+        reverse(&nums, s: 0, e: nums.count - 1)
     }
     
-    private func rotateNums(nums: inout [Int]) {
-        if nums.count <= 1 {
-            return
+    func reverse(_ nums: inout [Int], s: Int, e: Int) {
+        var s = s
+        var e = e
+        while s < e {
+            let temp = nums[s]
+            nums[s] = nums[e]
+            nums[e] = temp
+            s += 1
+            e -= 1
         }
-        let tmp = nums.last!
-        for i in stride(from: nums.count - 1, to: 0, by: -1) {
-            nums[i] = nums[i-1]
-        }
-        nums[0] = tmp
     }
+    
 }
 
 func test189(s: Solution) {
-//    var nums = [1,2,3,4,5,6,7]
-    var nums = [1,2]
+    var nums = [1,2,3,4,5,6,7]
+//    var nums = [1,2]
     let k = 2
     s.rotate(&nums, k)
     print(nums)
