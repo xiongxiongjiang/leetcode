@@ -238,6 +238,7 @@
 | 234 | | | |
 | 235 | | | |
 | 236 | | | |
+| 252. 会议室 | 简单 | [swift](leetcode-swift/252.会议室.swift) | |
 | 322. 零钱兑换 | 简单 | [swift](leetcode-swift/322.零钱兑换.swift) | **动态规划** |
 | 349. 两个数组的交集 | 简单 | [swift](leetcode-swift/349.两个数组的交集.swift) | |
 | 389. 找不同 | 简单 | [swift](leetcode-swift/389.找不同.swift) | **位运算** |
