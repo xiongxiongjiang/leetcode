@@ -13,7 +13,7 @@ class Solution {
 }
 
 let s = Solution()
-test079(s: s)
+test012(s: s)
 
 //let list = [ 10, -1, 3, 9, 2, 27, 8, 5, 1, 3, 0, 26 ]
 //print(insertionSort(list))

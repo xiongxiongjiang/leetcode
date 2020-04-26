@@ -136,6 +136,7 @@
 		0AEC10132453F59B006BFBF4 /* 075.颜色分类.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEC10122453F59B006BFBF4 /* 075.颜色分类.swift */; };
 		0AEC101524542AD5006BFBF4 /* 125.验证回文串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEC101424542AD5006BFBF4 /* 125.验证回文串.swift */; };
 		0AFCABB824551B1D00345F40 /* 079.单词搜索.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABB724551B1D00345F40 /* 079.单词搜索.swift */; };
+		0AFCABBA24555FBD00345F40 /* 012.整数转罗马数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABB924555FBD00345F40 /* 012.整数转罗马数字.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -281,6 +282,7 @@
 		0AEC10122453F59B006BFBF4 /* 075.颜色分类.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "075.颜色分类.swift"; sourceTree = "<group>"; };
 		0AEC101424542AD5006BFBF4 /* 125.验证回文串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "125.验证回文串.swift"; sourceTree = "<group>"; };
 		0AFCABB724551B1D00345F40 /* 079.单词搜索.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "079.单词搜索.swift"; sourceTree = "<group>"; };
+		0AFCABB924555FBD00345F40 /* 012.整数转罗马数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "012.整数转罗马数字.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -326,6 +328,7 @@
 				0A023E1C2449979B00885193 /* 008.字符串转换整数(atoi).swift */,
 				0A165BAB243DBA2B00E85723 /* 009.回文数.swift */,
 				0A023E20244AD6F500885193 /* 011.盛最多水的容器.swift */,
+				0AFCABB924555FBD00345F40 /* 012.整数转罗马数字.swift */,
 				0A165BC4243DBA2D00E85723 /* 014.最长公共前缀.swift */,
 				0A165BA6243DBA2B00E85723 /* 015.三数之和.swift */,
 				0A5710E8244AE2D00029BB2C /* 016.最接近的三数之和.swift */,
@@ -613,6 +616,7 @@
 				0AC4709A2440577100FBA4D0 /* 103.二叉树的锯齿形层次遍历.swift in Sources */,
 				0A5710FD244DCF880029BB2C /* insertion.swift in Sources */,
 				0A165BFA243DBA2E00E85723 /* 176.第二高的薪水.swift in Sources */,
+				0AFCABBA24555FBD00345F40 /* 012.整数转罗马数字.swift in Sources */,
 				0A165BF9243DBA2E00E85723 /* 007.整数反转.swift in Sources */,
 				0A165BF7243DBA2E00E85723 /* 066.加一.swift in Sources */,
 				0A5710EF244C39150029BB2C /* 031.下一个排列.swift in Sources */,
