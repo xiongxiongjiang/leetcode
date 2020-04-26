@@ -39,7 +39,7 @@
 | 035. 搜索插入位置 | 简单 | [swift](leetcode-swift/035.搜索插入位置.swift) |      |
 | 036. 有效的数独 | 中等 | [swift](leetcode-swift/036.有效的数独.swift) |      |
 | 037. 解数独 | 困难 | [swift](leetcode-swift/037.解数独.swift) | **回溯** |
-| 038 |      |                      |      |
+| 038. 外观数列 | 简单 | [swift](leetcode-swift/038.外观数列.swift) |      |
 | 039. 组合总和 | 中等 | [swift](leetcode-swift/039.组合总和.swift) | **回溯** |
 | 040. 组合总和II | 中等 | [swift](leetcode-swift/040.组合总和II.swift) | **回溯** |
 | 041. 缺失的第一个正数 | 困难 | [swift](leetcode-swift/041.缺失的第一个正数.swift) | **哈希表** |

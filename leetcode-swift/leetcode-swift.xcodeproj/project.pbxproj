@@ -137,6 +137,7 @@
 		0AEC101524542AD5006BFBF4 /* 125.验证回文串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEC101424542AD5006BFBF4 /* 125.验证回文串.swift */; };
 		0AFCABB824551B1D00345F40 /* 079.单词搜索.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABB724551B1D00345F40 /* 079.单词搜索.swift */; };
 		0AFCABBA24555FBD00345F40 /* 012.整数转罗马数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABB924555FBD00345F40 /* 012.整数转罗马数字.swift */; };
+		0AFCABBC245576BB00345F40 /* 038.外观数列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABBB245576BB00345F40 /* 038.外观数列.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -283,6 +284,7 @@
 		0AEC101424542AD5006BFBF4 /* 125.验证回文串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "125.验证回文串.swift"; sourceTree = "<group>"; };
 		0AFCABB724551B1D00345F40 /* 079.单词搜索.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "079.单词搜索.swift"; sourceTree = "<group>"; };
 		0AFCABB924555FBD00345F40 /* 012.整数转罗马数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "012.整数转罗马数字.swift"; sourceTree = "<group>"; };
+		0AFCABBB245576BB00345F40 /* 038.外观数列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "038.外观数列.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -348,6 +350,7 @@
 				0A165B95243DBA2A00E85723 /* 035.搜索插入位置.swift */,
 				0A57110C244EF4E10029BB2C /* 036.有效的数独.swift */,
 				0A5710EA244AFA1F0029BB2C /* 037.解数独.swift */,
+				0AFCABBB245576BB00345F40 /* 038.外观数列.swift */,
 				0A165BB7243DBA2C00E85723 /* 039.组合总和.swift */,
 				0A5710F6244D978C0029BB2C /* 040.组合总和II.swift */,
 				0AC4709D24418F9400FBA4D0 /* 041.缺失的第一个正数.swift */,
@@ -584,6 +587,7 @@
 				0A165BD0243DBA2D00E85723 /* 225.用队列实现栈.swift in Sources */,
 				0A5710E9244AE2D00029BB2C /* 016.最接近的三数之和.swift in Sources */,
 				0A5710EB244AFA1F0029BB2C /* 037.解数独.swift in Sources */,
+				0AFCABBC245576BB00345F40 /* 038.外观数列.swift in Sources */,
 				0A165BFD243DBA2E00E85723 /* 206.反转链表.swift in Sources */,
 				0AC470A82442FFF200FBA4D0 /* 232.用栈实现队列.swift in Sources */,
 				0A9FB8422448688600359364 /* 072.编辑距离.swift in Sources */,
