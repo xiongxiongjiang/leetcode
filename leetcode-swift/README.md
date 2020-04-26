@@ -80,7 +80,7 @@
 | 076 | | | |
 | 077. 组合 | 中等 | [swift](leetcode-swift/077.组合.swift) | **回溯** |
 | 078. 子集 | 中等 | [swift](leetcode-swift/078.子集.swift) | **回溯** |
-| 079 | | | |
+| 079. 单词搜索 | 中等 | [swift](leetcode-swift/079.单词搜索.swift) | **回溯** |
 | 080 | | | |
 | 081 | | | |
 | 082. 删除排序链表中的重复元素 II | 中等 | [swift](leetcode-swift/082.删除排序链表中的重复元素II.swift) | **链表** |
