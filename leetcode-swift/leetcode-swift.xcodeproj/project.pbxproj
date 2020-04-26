@@ -132,6 +132,9 @@
 		0AC470A62442E94B00FBA4D0 /* 088.合并两个有序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC470A52442E94B00FBA4D0 /* 088.合并两个有序数组.swift */; };
 		0AC470A82442FFF200FBA4D0 /* 232.用栈实现队列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC470A72442FFF200FBA4D0 /* 232.用栈实现队列.swift */; };
 		0AC470AC2443072100FBA4D0 /* 048.旋转图像.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC470AB2443072100FBA4D0 /* 048.旋转图像.swift */; };
+		0AEC10112453DB20006BFBF4 /* 134.加油站.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEC10102453DB20006BFBF4 /* 134.加油站.swift */; };
+		0AEC10132453F59B006BFBF4 /* 075.颜色分类.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEC10122453F59B006BFBF4 /* 075.颜色分类.swift */; };
+		0AEC101524542AD5006BFBF4 /* 125.验证回文串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEC101424542AD5006BFBF4 /* 125.验证回文串.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -273,6 +276,9 @@
 		0AC470A52442E94B00FBA4D0 /* 088.合并两个有序数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "088.合并两个有序数组.swift"; sourceTree = "<group>"; };
 		0AC470A72442FFF200FBA4D0 /* 232.用栈实现队列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "232.用栈实现队列.swift"; sourceTree = "<group>"; };
 		0AC470AB2443072100FBA4D0 /* 048.旋转图像.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "048.旋转图像.swift"; sourceTree = "<group>"; };
+		0AEC10102453DB20006BFBF4 /* 134.加油站.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "134.加油站.swift"; sourceTree = "<group>"; };
+		0AEC10122453F59B006BFBF4 /* 075.颜色分类.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "075.颜色分类.swift"; sourceTree = "<group>"; };
+		0AEC101424542AD5006BFBF4 /* 125.验证回文串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "125.验证回文串.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -363,6 +369,7 @@
 				0A9FB83F2448541400359364 /* 071.简化路径.swift */,
 				0A9FB8412448688600359364 /* 072.编辑距离.swift */,
 				0A571108244E91AA0029BB2C /* 073.矩阵置零.swift */,
+				0AEC10122453F59B006BFBF4 /* 075.颜色分类.swift */,
 				0A9FB823244552E700359364 /* 077.组合.swift */,
 				0A9FB825244567B300359364 /* 078.子集.swift */,
 				0A165BB4243DBA2C00E85723 /* 082.删除排序链表中的重复元素II.swift */,
@@ -386,7 +393,9 @@
 				0A9FB82B2445C93C00359364 /* 118.杨辉三角.swift */,
 				0AC4708D243EF8C200FBA4D0 /* 121.买卖股票的最佳时机.swift */,
 				0AC470972440234E00FBA4D0 /* 122.买卖股票的最佳时机II.swift */,
+				0AEC101424542AD5006BFBF4 /* 125.验证回文串.swift */,
 				0A9FB8312446A9A000359364 /* 129.求根到叶子节点数字之和.swift */,
+				0AEC10102453DB20006BFBF4 /* 134.加油站.swift */,
 				0A165BA5243DBA2A00E85723 /* 135.分发糖果.swift */,
 				0A165BBB243DBA2C00E85723 /* 136.只出现一次的数字.swift */,
 				0A165BBC243DBA2C00E85723 /* 141.环形链表.swift */,
@@ -518,6 +527,7 @@
 				0A165BF2243DBA2E00E85723 /* 100.相同的树.swift in Sources */,
 				0A9FB822244468EA00359364 /* 051.N皇后.swift in Sources */,
 				0A165BD2243DBA2D00E85723 /* 160.相交链表.swift in Sources */,
+				0AEC10132453F59B006BFBF4 /* 075.颜色分类.swift in Sources */,
 				0A165C02243DBA2E00E85723 /* 067.二进制求和.swift in Sources */,
 				0A9FB82824458F8D00359364 /* 022.括号生成.swift in Sources */,
 				0A165BDE243DBA2E00E85723 /* 032.最长有效括号.swift in Sources */,
@@ -527,6 +537,7 @@
 				0A165BEB243DBA2E00E85723 /* 021.合并两个有序链表.swift in Sources */,
 				0A165BE1243DBA2E00E85723 /* 199.二叉树的右视图.swift in Sources */,
 				0A165BDD243DBA2D00E85723 /* 110.平衡二叉树.swift in Sources */,
+				0AEC101524542AD5006BFBF4 /* 125.验证回文串.swift in Sources */,
 				0A5710ED244C27BD0029BB2C /* 113.路径总和II.swift in Sources */,
 				0A9FB824244552E700359364 /* 077.组合.swift in Sources */,
 				0A165BED243DBA2E00E85723 /* 027.移除元素.swift in Sources */,
@@ -554,6 +565,7 @@
 				0A5710F1244D772A0029BB2C /* 200.岛屿数量.swift in Sources */,
 				0A571107244DDADD0029BB2C /* quick.swift in Sources */,
 				0A165BDA243DBA2D00E85723 /* 094.二叉树的中序遍历.swift in Sources */,
+				0AEC10112453DB20006BFBF4 /* 134.加油站.swift in Sources */,
 				0A9FB8362446B9B100359364 /* 217.存在重复元素.swift in Sources */,
 				0AC4709E24418F9400FBA4D0 /* 041.缺失的第一个正数.swift in Sources */,
 				0A57111B24512E890029BB2C /* 189.旋转数组.swift in Sources */,

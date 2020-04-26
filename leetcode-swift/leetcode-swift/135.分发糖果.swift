@@ -40,8 +40,7 @@ extension Solution {
                 result[i] = result[i - 1] + 1
             }
         }
-        for i in 1..<count {
-            let j = count - i
+        for j in stride(from: count - 1, to: 0, by: -1) {
             if ratings[j - 1] > ratings[j] && result[j - 1] <= result[j] {
                 result[j - 1] = result[j] + 1
             }

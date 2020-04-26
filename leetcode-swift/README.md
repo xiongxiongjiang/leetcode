@@ -76,7 +76,7 @@
 | 072. 编辑距离 | 困难 | [swift](leetcode-swift/072.编辑距离.swift) | **动态规划** |
 | 073. 矩阵置零 | 中等 | [swift](leetcode-swift/073.矩阵置零.swift) | |
 | 074 | | | |
-| 075 | | | |
+| 075. 颜色分类 | 中等 | [swift](leetcode-swift/075.颜色分类.swift) | **双指针** |
 | 076 | | | |
 | 077. 组合 | 中等 | [swift](leetcode-swift/077.组合.swift) | **回溯** |
 | 078. 子集 | 中等 | [swift](leetcode-swift/078.子集.swift) | **回溯** |
@@ -126,7 +126,7 @@
 | 122. 买卖股票的最佳时机II | 简单 | [swift](leetcode-swift/122.买卖股票的最佳时机II.swift) | **贪心** **动态规划** |
 | 123 | | | |
 | 124 | | | |
-| 125 | | | |
+| 125. 验证回文串 | 简单 | [swift](leetcode-swift/125.验证回文串.swift) | **双指针** |
 | 126 | | | |
 | 127 | | | |
 | 128 | | | |
@@ -135,7 +135,7 @@
 | 131 | | | |
 | 132 | | | |
 | 133 | | | |
-| 134 | | | |
+| 134. 加油站 | 中等 | [swift](leetcode-swift/134.加油站.swift) | **贪心** |
 | 135. 分发糖果 | 困难 | [swift](leetcode-swift/135.分发糖果.swift) | |
 | 136. 只出现一次的数字 | 简单 | [swift](leetcode-swift/136.只出现一次的数字.swift) | |
 | 137 | | | |
