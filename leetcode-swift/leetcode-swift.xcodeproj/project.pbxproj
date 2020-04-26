@@ -135,6 +135,7 @@
 		0AEC10112453DB20006BFBF4 /* 134.加油站.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEC10102453DB20006BFBF4 /* 134.加油站.swift */; };
 		0AEC10132453F59B006BFBF4 /* 075.颜色分类.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEC10122453F59B006BFBF4 /* 075.颜色分类.swift */; };
 		0AEC101524542AD5006BFBF4 /* 125.验证回文串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEC101424542AD5006BFBF4 /* 125.验证回文串.swift */; };
+		0AFCABB824551B1D00345F40 /* 079.单词搜索.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABB724551B1D00345F40 /* 079.单词搜索.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -279,6 +280,7 @@
 		0AEC10102453DB20006BFBF4 /* 134.加油站.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "134.加油站.swift"; sourceTree = "<group>"; };
 		0AEC10122453F59B006BFBF4 /* 075.颜色分类.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "075.颜色分类.swift"; sourceTree = "<group>"; };
 		0AEC101424542AD5006BFBF4 /* 125.验证回文串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "125.验证回文串.swift"; sourceTree = "<group>"; };
+		0AFCABB724551B1D00345F40 /* 079.单词搜索.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "079.单词搜索.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -372,6 +374,7 @@
 				0AEC10122453F59B006BFBF4 /* 075.颜色分类.swift */,
 				0A9FB823244552E700359364 /* 077.组合.swift */,
 				0A9FB825244567B300359364 /* 078.子集.swift */,
+				0AFCABB724551B1D00345F40 /* 079.单词搜索.swift */,
 				0A165BB4243DBA2C00E85723 /* 082.删除排序链表中的重复元素II.swift */,
 				0A165BAD243DBA2B00E85723 /* 083.删除排序链表中的重复元素.swift */,
 				0AC470A52442E94B00FBA4D0 /* 088.合并两个有序数组.swift */,
@@ -539,6 +542,7 @@
 				0A165BDD243DBA2D00E85723 /* 110.平衡二叉树.swift in Sources */,
 				0AEC101524542AD5006BFBF4 /* 125.验证回文串.swift in Sources */,
 				0A5710ED244C27BD0029BB2C /* 113.路径总和II.swift in Sources */,
+				0AFCABB824551B1D00345F40 /* 079.单词搜索.swift in Sources */,
 				0A9FB824244552E700359364 /* 077.组合.swift in Sources */,
 				0A165BED243DBA2E00E85723 /* 027.移除元素.swift in Sources */,
 				0A94C89A2452D17900A59E17 /* 1089.复写零.swift in Sources */,
