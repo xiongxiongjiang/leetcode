@@ -139,6 +139,7 @@
 		0AFCABBA24555FBD00345F40 /* 012.整数转罗马数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABB924555FBD00345F40 /* 012.整数转罗马数字.swift */; };
 		0AFCABBC245576BB00345F40 /* 038.外观数列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABBB245576BB00345F40 /* 038.外观数列.swift */; };
 		0AFCABBE245682F300345F40 /* 084.柱状图中最大的矩形.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABBD245682F300345F40 /* 084.柱状图中最大的矩形.swift */; };
+		0AFCABC02456B79300345F40 /* 172.阶乘后的零.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABBF2456B79300345F40 /* 172.阶乘后的零.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -287,6 +288,7 @@
 		0AFCABB924555FBD00345F40 /* 012.整数转罗马数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "012.整数转罗马数字.swift"; sourceTree = "<group>"; };
 		0AFCABBB245576BB00345F40 /* 038.外观数列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "038.外观数列.swift"; sourceTree = "<group>"; };
 		0AFCABBD245682F300345F40 /* 084.柱状图中最大的矩形.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "084.柱状图中最大的矩形.swift"; sourceTree = "<group>"; };
+		0AFCABBF2456B79300345F40 /* 172.阶乘后的零.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "172.阶乘后的零.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -419,6 +421,7 @@
 				0A165B98243DBA2A00E85723 /* 160.相交链表.swift */,
 				0A57110E244FE0830029BB2C /* 167.两数之和II-输入有序数组.swift */,
 				0A165BB0243DBA2B00E85723 /* 169.多数元素.swift */,
+				0AFCABBF2456B79300345F40 /* 172.阶乘后的零.swift */,
 				0A165BC6243DBA2D00E85723 /* 175.组合两个表.swift */,
 				0A165BC0243DBA2D00E85723 /* 176.第二高的薪水.swift */,
 				0A165B99243DBA2A00E85723 /* 177.第N高的薪水.swift */,
@@ -604,6 +607,7 @@
 				0A165BF5243DBA2E00E85723 /* 136.只出现一次的数字.swift in Sources */,
 				0A5710F7244D978C0029BB2C /* 040.组合总和II.swift in Sources */,
 				0A023E1D2449979B00885193 /* 008.字符串转换整数(atoi).swift in Sources */,
+				0AFCABC02456B79300345F40 /* 172.阶乘后的零.swift in Sources */,
 				0A165BF4243DBA2E00E85723 /* 196.删除重复的电子邮箱.swift in Sources */,
 				0A165BD9243DBA2D00E85723 /* 026.删除排序数组中的重复项.swift in Sources */,
 				0A165BE9243DBA2E00E85723 /* 112.路径总和.swift in Sources */,
