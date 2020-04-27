@@ -138,6 +138,7 @@
 		0AFCABB824551B1D00345F40 /* 079.单词搜索.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABB724551B1D00345F40 /* 079.单词搜索.swift */; };
 		0AFCABBA24555FBD00345F40 /* 012.整数转罗马数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABB924555FBD00345F40 /* 012.整数转罗马数字.swift */; };
 		0AFCABBC245576BB00345F40 /* 038.外观数列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABBB245576BB00345F40 /* 038.外观数列.swift */; };
+		0AFCABBE245682F300345F40 /* 084.柱状图中最大的矩形.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABBD245682F300345F40 /* 084.柱状图中最大的矩形.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -285,6 +286,7 @@
 		0AFCABB724551B1D00345F40 /* 079.单词搜索.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "079.单词搜索.swift"; sourceTree = "<group>"; };
 		0AFCABB924555FBD00345F40 /* 012.整数转罗马数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "012.整数转罗马数字.swift"; sourceTree = "<group>"; };
 		0AFCABBB245576BB00345F40 /* 038.外观数列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "038.外观数列.swift"; sourceTree = "<group>"; };
+		0AFCABBD245682F300345F40 /* 084.柱状图中最大的矩形.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "084.柱状图中最大的矩形.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -383,6 +385,7 @@
 				0AFCABB724551B1D00345F40 /* 079.单词搜索.swift */,
 				0A165BB4243DBA2C00E85723 /* 082.删除排序链表中的重复元素II.swift */,
 				0A165BAD243DBA2B00E85723 /* 083.删除排序链表中的重复元素.swift */,
+				0AFCABBD245682F300345F40 /* 084.柱状图中最大的矩形.swift */,
 				0AC470A52442E94B00FBA4D0 /* 088.合并两个有序数组.swift */,
 				0A571114245022BD0029BB2C /* 092.反转链表II.swift */,
 				0A9FB8292445A23300359364 /* 093.复原IP地址.swift */,
@@ -558,6 +561,7 @@
 				0A9FB8402448541400359364 /* 071.简化路径.swift in Sources */,
 				0A165BD3243DBA2D00E85723 /* 177.第N高的薪水.swift in Sources */,
 				0A165BEF243DBA2E00E85723 /* 003.无重复字符的最长子串.swift in Sources */,
+				0AFCABBE245682F300345F40 /* 084.柱状图中最大的矩形.swift in Sources */,
 				0A9FB82C2445C93C00359364 /* 118.杨辉三角.swift in Sources */,
 				0AC470982440234E00FBA4D0 /* 122.买卖股票的最佳时机II.swift in Sources */,
 				0A571119245038F40029BB2C /* 114.二叉树展开为链表.swift in Sources */,

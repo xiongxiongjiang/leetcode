@@ -19,25 +19,15 @@ import Foundation
 
 extension Solution {
     func reverseList(_ head: ListNode?) -> ListNode? {
-        if head == nil || head?.next == nil {
-            return head
+        var prev: ListNode?
+        var curr = head
+        while curr != nil {
+            let tmp = curr?.next
+            curr?.next = prev
+            prev = curr
+            curr = tmp
         }
-        let dummy: ListNode? = ListNode(-1)
-        dummy?.next = head
-        let prev: ListNode? = dummy
-        let curr = head
-        var next = curr?.next
-        while next != nil {
-            //移除next
-            curr?.next = next?.next
-            //移除后的部分拼在end后面
-            next?.next = prev?.next
-            //重新把next拼在prev后面
-            prev?.next = next
-            //跳到下一个
-            next = curr?.next
-        }
-        return dummy?.next
+        return prev
     }
 }
 
