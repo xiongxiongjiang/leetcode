@@ -243,6 +243,7 @@
 | 349. 两个数组的交集 | 简单 | [swift](leetcode-swift/349.两个数组的交集.swift) | |
 | 389. 找不同 | 简单 | [swift](leetcode-swift/389.找不同.swift) | **位运算** |
 | 442. 数组中重复的数据 | 中等 | [swift](leetcode-swift/442.数组中重复的数据.swift) | |
+| 485. 最大连续1的个数 | 简单 | [swift](leetcode-swift/485.最大连续1的个数.swift) | |
 | 543. 二叉树的直径 | 中等 | [swift](leetcode-swift/543.二叉树的直径.swift) | **深度优先搜索** **二叉树** |
 | 1089. 复写零 | 简单 | [swift](leetcode-swift/1089.复写零.swift) |  |
 | 1346. 检查整数及其两倍数是否存在 | 简单 | [swift](leetcode-swift/1346.检查整数及其两倍数是否存在.swift) | **哈希表** |

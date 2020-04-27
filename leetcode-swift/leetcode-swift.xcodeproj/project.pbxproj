@@ -140,6 +140,7 @@
 		0AFCABBC245576BB00345F40 /* 038.外观数列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABBB245576BB00345F40 /* 038.外观数列.swift */; };
 		0AFCABBE245682F300345F40 /* 084.柱状图中最大的矩形.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABBD245682F300345F40 /* 084.柱状图中最大的矩形.swift */; };
 		0AFCABC02456B79300345F40 /* 172.阶乘后的零.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABBF2456B79300345F40 /* 172.阶乘后的零.swift */; };
+		0AFCABC22456BEB400345F40 /* 485.最大连续1的个数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABC12456BEB400345F40 /* 485.最大连续1的个数.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -289,6 +290,7 @@
 		0AFCABBB245576BB00345F40 /* 038.外观数列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "038.外观数列.swift"; sourceTree = "<group>"; };
 		0AFCABBD245682F300345F40 /* 084.柱状图中最大的矩形.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "084.柱状图中最大的矩形.swift"; sourceTree = "<group>"; };
 		0AFCABBF2456B79300345F40 /* 172.阶乘后的零.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "172.阶乘后的零.swift"; sourceTree = "<group>"; };
+		0AFCABC12456BEB400345F40 /* 485.最大连续1的个数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "485.最大连续1的个数.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -447,6 +449,7 @@
 				0A165BC9243DBA2D00E85723 /* 349.两个数组的交集.swift */,
 				0A9FB82F2445F4A900359364 /* 389.找不同.swift */,
 				0A9FB82D2445E11C00359364 /* 442.数组中重复的数据.swift */,
+				0AFCABC12456BEB400345F40 /* 485.最大连续1的个数.swift */,
 				0A6FBCC52448B2F500B29C7E /* 543.二叉树的直径.swift */,
 				0A94C8992452D17900A59E17 /* 1089.复写零.swift */,
 				0A9FB83B2448038200359364 /* 1346.检查整数及其两倍数是否存在.swift */,
@@ -537,6 +540,7 @@
 				0A571109244E91AA0029BB2C /* 073.矩阵置零.swift in Sources */,
 				0A165BFE243DBA2E00E85723 /* 014.最长公共前缀.swift in Sources */,
 				0A165B8C243DB95A00E85723 /* 001.两数之和.swift in Sources */,
+				0AFCABC22456BEB400345F40 /* 485.最大连续1的个数.swift in Sources */,
 				0A165BDF243DBA2E00E85723 /* 135.分发糖果.swift in Sources */,
 				0A165C03243DBA2E00E85723 /* 349.两个数组的交集.swift in Sources */,
 				0A165BF2243DBA2E00E85723 /* 100.相同的树.swift in Sources */,
