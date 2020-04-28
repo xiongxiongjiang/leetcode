@@ -80,6 +80,6 @@ func test234(s: Solution) {
     node2.next = node3
     node3.next = node4
     node4.next = node5
-//    node5.next = node6
+    node5.next = node6
     print(s.isPalindrome(node1))
 }
