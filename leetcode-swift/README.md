@@ -248,6 +248,7 @@
 | 1004. 最大连续1的个数III | 中等 | [swift](leetcode-swift/1004.最大连续1的个数III.swift) | **滑动窗口** |
 | 1089. 复写零 | 简单 | [swift](leetcode-swift/1089.复写零.swift) |  |
 | 1346. 检查整数及其两倍数是否存在 | 简单 | [swift](leetcode-swift/1346.检查整数及其两倍数是否存在.swift) | **哈希表** |
+| 面试题03. 数组中重复的数字 | 简单 | [swift](leetcode-swift/面试题03.数组中重复的数字.swift) | **哈希表** |
 | 面试题40. 最小的k个数 | 简单 | [swift](leetcode-swift/面试题40.最小的k个数.swift) | |
 
 

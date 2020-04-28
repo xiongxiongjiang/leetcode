@@ -135,6 +135,7 @@
 		0AEC10112453DB20006BFBF4 /* 134.加油站.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEC10102453DB20006BFBF4 /* 134.加油站.swift */; };
 		0AEC10132453F59B006BFBF4 /* 075.颜色分类.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEC10122453F59B006BFBF4 /* 075.颜色分类.swift */; };
 		0AEC101524542AD5006BFBF4 /* 125.验证回文串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEC101424542AD5006BFBF4 /* 125.验证回文串.swift */; };
+		0AEC1017245860A2006BFBF4 /* 面试题03.数组中重复的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEC1016245860A2006BFBF4 /* 面试题03.数组中重复的数字.swift */; };
 		0AFCABB824551B1D00345F40 /* 079.单词搜索.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABB724551B1D00345F40 /* 079.单词搜索.swift */; };
 		0AFCABBA24555FBD00345F40 /* 012.整数转罗马数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABB924555FBD00345F40 /* 012.整数转罗马数字.swift */; };
 		0AFCABBC245576BB00345F40 /* 038.外观数列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABBB245576BB00345F40 /* 038.外观数列.swift */; };
@@ -291,6 +292,7 @@
 		0AEC10102453DB20006BFBF4 /* 134.加油站.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "134.加油站.swift"; sourceTree = "<group>"; };
 		0AEC10122453F59B006BFBF4 /* 075.颜色分类.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "075.颜色分类.swift"; sourceTree = "<group>"; };
 		0AEC101424542AD5006BFBF4 /* 125.验证回文串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "125.验证回文串.swift"; sourceTree = "<group>"; };
+		0AEC1016245860A2006BFBF4 /* 面试题03.数组中重复的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题03.数组中重复的数字.swift"; sourceTree = "<group>"; };
 		0AFCABB724551B1D00345F40 /* 079.单词搜索.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "079.单词搜索.swift"; sourceTree = "<group>"; };
 		0AFCABB924555FBD00345F40 /* 012.整数转罗马数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "012.整数转罗马数字.swift"; sourceTree = "<group>"; };
 		0AFCABBB245576BB00345F40 /* 038.外观数列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "038.外观数列.swift"; sourceTree = "<group>"; };
@@ -471,6 +473,7 @@
 				0AFCABC32456DD7000345F40 /* 1004.最大连续1的个数III.swift */,
 				0A94C8992452D17900A59E17 /* 1089.复写零.swift */,
 				0A9FB83B2448038200359364 /* 1346.检查整数及其两倍数是否存在.swift */,
+				0AEC1016245860A2006BFBF4 /* 面试题03.数组中重复的数字.swift */,
 				0A165B97243DBA2A00E85723 /* 面试题40.最小的k个数.swift */,
 			);
 			path = "leetcode-swift";
@@ -683,6 +686,7 @@
 				0A5710F9244DA77D0029BB2C /* 059.螺旋矩阵II.swift in Sources */,
 				0A165BF0243DBA2E00E85723 /* 144.二叉树的前序遍历.swift in Sources */,
 				0A5710FF244DD2490029BB2C /* bubble.swift in Sources */,
+				0AEC1017245860A2006BFBF4 /* 面试题03.数组中重复的数字.swift in Sources */,
 				0A165BDC243DBA2D00E85723 /* 101.对称二叉树.swift in Sources */,
 				0A165BE2243DBA2E00E85723 /* 226.翻转二叉树.swift in Sources */,
 				0AC47090243F02A400FBA4D0 /* 322.零钱兑换.swift in Sources */,
