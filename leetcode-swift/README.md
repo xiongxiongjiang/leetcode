@@ -140,7 +140,7 @@
 | 136. 只出现一次的数字 | 简单 | [swift](leetcode-swift/136.只出现一次的数字.swift) | |
 | 137 | | | |
 | 138 | | | |
-| 139 | | | |
+| 139. 单词拆分 | 中等 | [swift](leetcode-swift/139.单词拆分.swift) | **动态规划** |
 | 140 | | | |
 | 141. 环形链表 | 中等 | [swift](leetcode-swift/141.环形链表.swift) | **链表** |
 | 142. 环形链表 II | 简单 | [swift](leetcode-swift/142.环形链表II.swift) | **链表** |

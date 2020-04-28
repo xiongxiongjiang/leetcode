@@ -146,6 +146,7 @@
 		0AFCABC82457C89C00345F40 /* 234.回文链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABC72457C89C00345F40 /* 234.回文链表.swift */; };
 		0AFCABCA2458197900345F40 /* 096.不同的二叉搜索树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABC92458197900345F40 /* 096.不同的二叉搜索树.swift */; };
 		0AFCABCC2458279500345F40 /* 153.寻找旋转排序数组中的最小值.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABCB2458279500345F40 /* 153.寻找旋转排序数组中的最小值.swift */; };
+		0AFCABCE2458314500345F40 /* 139.单词拆分.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABCD2458314500345F40 /* 139.单词拆分.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -301,6 +302,7 @@
 		0AFCABC72457C89C00345F40 /* 234.回文链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "234.回文链表.swift"; sourceTree = "<group>"; };
 		0AFCABC92458197900345F40 /* 096.不同的二叉搜索树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "096.不同的二叉搜索树.swift"; sourceTree = "<group>"; };
 		0AFCABCB2458279500345F40 /* 153.寻找旋转排序数组中的最小值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "153.寻找旋转排序数组中的最小值.swift"; sourceTree = "<group>"; };
+		0AFCABCD2458314500345F40 /* 139.单词拆分.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "139.单词拆分.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -426,6 +428,7 @@
 				0AEC10102453DB20006BFBF4 /* 134.加油站.swift */,
 				0A165BA5243DBA2A00E85723 /* 135.分发糖果.swift */,
 				0A165BBB243DBA2C00E85723 /* 136.只出现一次的数字.swift */,
+				0AFCABCD2458314500345F40 /* 139.单词拆分.swift */,
 				0A165BBC243DBA2C00E85723 /* 141.环形链表.swift */,
 				0A165BC2243DBA2D00E85723 /* 142.环形链表II.swift */,
 				0A165BB6243DBA2C00E85723 /* 144.二叉树的前序遍历.swift */,
@@ -636,6 +639,7 @@
 				0A165BE9243DBA2E00E85723 /* 112.路径总和.swift in Sources */,
 				0A165BE3243DBA2E00E85723 /* 056.合并区间.swift in Sources */,
 				0A571105244DD5CA0029BB2C /* selection.swift in Sources */,
+				0AFCABCE2458314500345F40 /* 139.单词拆分.swift in Sources */,
 				0AC4708C243EB72300FBA4D0 /* 098.验证二叉搜索树.swift in Sources */,
 				0A165BEE243DBA2E00E85723 /* 082.删除排序链表中的重复元素II.swift in Sources */,
 				0A5710F3244D7E300029BB2C /* 063.不同路径II.swift in Sources */,
