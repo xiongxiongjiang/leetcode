@@ -143,6 +143,7 @@
 		0AFCABC22456BEB400345F40 /* 485.最大连续1的个数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABC12456BEB400345F40 /* 485.最大连续1的个数.swift */; };
 		0AFCABC42456DD7000345F40 /* 1004.最大连续1的个数III.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABC32456DD7000345F40 /* 1004.最大连续1的个数III.swift */; };
 		0AFCABC62456E53C00345F40 /* 017.电话号码的字母组合.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABC52456E53C00345F40 /* 017.电话号码的字母组合.swift */; };
+		0AFCABC82457C89C00345F40 /* 234.回文链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABC72457C89C00345F40 /* 234.回文链表.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -295,6 +296,7 @@
 		0AFCABC12456BEB400345F40 /* 485.最大连续1的个数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "485.最大连续1的个数.swift"; sourceTree = "<group>"; };
 		0AFCABC32456DD7000345F40 /* 1004.最大连续1的个数III.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1004.最大连续1的个数III.swift"; sourceTree = "<group>"; };
 		0AFCABC52456E53C00345F40 /* 017.电话号码的字母组合.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "017.电话号码的字母组合.swift"; sourceTree = "<group>"; };
+		0AFCABC72457C89C00345F40 /* 234.回文链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "234.回文链表.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -449,6 +451,7 @@
 				0A165B96243DBA2A00E85723 /* 225.用队列实现栈.swift */,
 				0A165BA8243DBA2B00E85723 /* 226.翻转二叉树.swift */,
 				0AC470A72442FFF200FBA4D0 /* 232.用栈实现队列.swift */,
+				0AFCABC72457C89C00345F40 /* 234.回文链表.swift */,
 				0A94C8972452C78300A59E17 /* 252.会议室.swift */,
 				0AC4708F243F02A400FBA4D0 /* 322.零钱兑换.swift */,
 				0A165BC9243DBA2D00E85723 /* 349.两个数组的交集.swift */,
@@ -629,6 +632,7 @@
 				0A165BEE243DBA2E00E85723 /* 082.删除排序链表中的重复元素II.swift in Sources */,
 				0A5710F3244D7E300029BB2C /* 063.不同路径II.swift in Sources */,
 				0AC4708E243EF8C200FBA4D0 /* 121.买卖股票的最佳时机.swift in Sources */,
+				0AFCABC82457C89C00345F40 /* 234.回文链表.swift in Sources */,
 				0A165BD5243DBA2D00E85723 /* 070.爬楼梯.swift in Sources */,
 				0A165BD1243DBA2D00E85723 /* 面试题40.最小的k个数.swift in Sources */,
 				0A165BE6243DBA2E00E85723 /* 024.两两交换链表中的节点.swift in Sources */,
