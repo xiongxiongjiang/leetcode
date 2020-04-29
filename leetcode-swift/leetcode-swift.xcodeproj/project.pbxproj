@@ -151,6 +151,7 @@
 		0AFCABCC2458279500345F40 /* 153.寻找旋转排序数组中的最小值.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABCB2458279500345F40 /* 153.寻找旋转排序数组中的最小值.swift */; };
 		0AFCABCE2458314500345F40 /* 139.单词拆分.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABCD2458314500345F40 /* 139.单词拆分.swift */; };
 		0AFF2952245911F700E0103D /* 面试题05.替换空格.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFF2951245911F700E0103D /* 面试题05.替换空格.swift */; };
+		0AFF2954245917B500E0103D /* 面试题06.从尾到头打印链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFF2953245917B500E0103D /* 面试题06.从尾到头打印链表.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -311,6 +312,7 @@
 		0AFCABCB2458279500345F40 /* 153.寻找旋转排序数组中的最小值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "153.寻找旋转排序数组中的最小值.swift"; sourceTree = "<group>"; };
 		0AFCABCD2458314500345F40 /* 139.单词拆分.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "139.单词拆分.swift"; sourceTree = "<group>"; };
 		0AFF2951245911F700E0103D /* 面试题05.替换空格.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题05.替换空格.swift"; sourceTree = "<group>"; };
+		0AFF2953245917B500E0103D /* 面试题06.从尾到头打印链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题06.从尾到头打印链表.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -483,6 +485,7 @@
 				0AEC1016245860A2006BFBF4 /* 面试题03.数组中重复的数字.swift */,
 				0ABDE622245888D2008BDEE1 /* 面试题04.二维数组中的查找.swift */,
 				0AFF2951245911F700E0103D /* 面试题05.替换空格.swift */,
+				0AFF2953245917B500E0103D /* 面试题06.从尾到头打印链表.swift */,
 				0A165B97243DBA2A00E85723 /* 面试题40.最小的k个数.swift */,
 			);
 			path = "leetcode-swift";
@@ -607,6 +610,7 @@
 				0A571119245038F40029BB2C /* 114.二叉树展开为链表.swift in Sources */,
 				0A023E1F2449C56700885193 /* 034.在排序数组中查找元素的第一个和最后一个位置.swift in Sources */,
 				0A165BE8243DBA2E00E85723 /* 042.接雨水.swift in Sources */,
+				0AFF2954245917B500E0103D /* 面试题06.从尾到头打印链表.swift in Sources */,
 				0A165BD6243DBA2D00E85723 /* 146.LRU缓存机制.swift in Sources */,
 				0A165BE0243DBA2E00E85723 /* 015.三数之和.swift in Sources */,
 				0A8CB3BF245881CD00A53C14 /* 240.搜索二维矩阵II.swift in Sources */,
