@@ -33,9 +33,10 @@ extension Solution {
         }
         var maxLen = 1
         var start = 0
+        let strArr = Array(s)
         for j in 1..<count {
             for i in 0..<j {
-                if Array(s)[i] == Array(s)[j] {
+                if strArr[i] == strArr[j] {
                     if j - i < 3 {
                         dp[i][j] = true
                     } else {
