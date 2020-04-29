@@ -251,6 +251,7 @@
 | 1346. 检查整数及其两倍数是否存在 | 简单 | [swift](leetcode-swift/1346.检查整数及其两倍数是否存在.swift) | **哈希表** |
 | 面试题03. 数组中重复的数字 | 简单 | [swift](leetcode-swift/面试题03.数组中重复的数字.swift) | **哈希表** |
 | 面试题04. 二维数组中的查找 | 简单 | [swift](leetcode-swift/面试题04.二维数组中的查找.swift) |  |
+| 面试题05. 替换空格 | 简单 | [swift](leetcode-swift/面试题05.替换空格.swift) | |
 | 面试题40. 最小的k个数 | 简单 | [swift](leetcode-swift/面试题40.最小的k个数.swift) | |
 
 

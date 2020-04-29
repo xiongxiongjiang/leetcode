@@ -21,7 +21,15 @@ import Foundation
 
 extension Solution {
     func replaceSpace(_ s: String) -> String {
-        return ""
+        var res = ""
+        for sub in s {
+            if sub == " " {
+                res.append("%20")
+            } else {
+                res.append(sub)
+            }
+        }
+        return res
     }
 }
 
