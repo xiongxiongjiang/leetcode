@@ -152,6 +152,8 @@
 		0AFCABCE2458314500345F40 /* 139.单词拆分.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABCD2458314500345F40 /* 139.单词拆分.swift */; };
 		0AFF2952245911F700E0103D /* 面试题05.替换空格.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFF2951245911F700E0103D /* 面试题05.替换空格.swift */; };
 		0AFF2954245917B500E0103D /* 面试题06.从尾到头打印链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFF2953245917B500E0103D /* 面试题06.从尾到头打印链表.swift */; };
+		0AFF29562459208C00E0103D /* 面试题07.重建二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFF29552459208C00E0103D /* 面试题07.重建二叉树.swift */; };
+		0AFF295824592DB900E0103D /* 105.从前序与中序遍历序列构造二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFF295724592DB900E0103D /* 105.从前序与中序遍历序列构造二叉树.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -313,6 +315,8 @@
 		0AFCABCD2458314500345F40 /* 139.单词拆分.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "139.单词拆分.swift"; sourceTree = "<group>"; };
 		0AFF2951245911F700E0103D /* 面试题05.替换空格.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题05.替换空格.swift"; sourceTree = "<group>"; };
 		0AFF2953245917B500E0103D /* 面试题06.从尾到头打印链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题06.从尾到头打印链表.swift"; sourceTree = "<group>"; };
+		0AFF29552459208C00E0103D /* 面试题07.重建二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题07.重建二叉树.swift"; sourceTree = "<group>"; };
+		0AFF295724592DB900E0103D /* 105.从前序与中序遍历序列构造二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "105.从前序与中序遍历序列构造二叉树.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -424,6 +428,7 @@
 				0A165B94243DBA2900E85723 /* 102.二叉树的层次遍历.swift */,
 				0AC470992440577100FBA4D0 /* 103.二叉树的锯齿形层次遍历.swift */,
 				0A165B9A243DBA2A00E85723 /* 104.二叉树的最大深度.swift */,
+				0AFF295724592DB900E0103D /* 105.从前序与中序遍历序列构造二叉树.swift */,
 				0A571110244FEA580029BB2C /* 107.二叉树的层次遍历II.swift */,
 				0A165BA3243DBA2A00E85723 /* 110.平衡二叉树.swift */,
 				0A94C89B2452E6E100A59E17 /* 111.二叉树的最小深度.swift */,
@@ -486,6 +491,7 @@
 				0ABDE622245888D2008BDEE1 /* 面试题04.二维数组中的查找.swift */,
 				0AFF2951245911F700E0103D /* 面试题05.替换空格.swift */,
 				0AFF2953245917B500E0103D /* 面试题06.从尾到头打印链表.swift */,
+				0AFF29552459208C00E0103D /* 面试题07.重建二叉树.swift */,
 				0A165B97243DBA2A00E85723 /* 面试题40.最小的k个数.swift */,
 			);
 			path = "leetcode-swift";
@@ -639,6 +645,7 @@
 				0A5710EB244AFA1F0029BB2C /* 037.解数独.swift in Sources */,
 				0AFCABBC245576BB00345F40 /* 038.外观数列.swift in Sources */,
 				0A165BFD243DBA2E00E85723 /* 206.反转链表.swift in Sources */,
+				0AFF295824592DB900E0103D /* 105.从前序与中序遍历序列构造二叉树.swift in Sources */,
 				0AC470A82442FFF200FBA4D0 /* 232.用栈实现队列.swift in Sources */,
 				0A9FB8422448688600359364 /* 072.编辑距离.swift in Sources */,
 				0A165BCD243DBA2D00E85723 /* 215.数组中的第K个最大元素.swift in Sources */,
@@ -675,6 +682,7 @@
 				0A5710FD244DCF880029BB2C /* insertion.swift in Sources */,
 				0A165BFA243DBA2E00E85723 /* 176.第二高的薪水.swift in Sources */,
 				0AFCABBA24555FBD00345F40 /* 012.整数转罗马数字.swift in Sources */,
+				0AFF29562459208C00E0103D /* 面试题07.重建二叉树.swift in Sources */,
 				0A165BF9243DBA2E00E85723 /* 007.整数反转.swift in Sources */,
 				0A165BF7243DBA2E00E85723 /* 066.加一.swift in Sources */,
 				0A5710EF244C39150029BB2C /* 031.下一个排列.swift in Sources */,

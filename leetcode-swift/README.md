@@ -106,7 +106,7 @@
 | 102. 二叉树的层次遍历 | 中等 | [swift](leetcode-swift/102.二叉树的层次遍历.swift) | **二叉树** |
 | 103. 二叉树的锯齿形层次遍历 | 中等 | [swift](leetcode-swift/103.二叉树的锯齿形层次遍历.swift) | **二叉树** |
 | 104. 二叉树的最大深度 | 简单 | [swift](leetcode-swift/104.二叉树的最大深度.swift) | **二叉树** |
-| 105 | | | |
+| 105. 从前序与中序遍历序列构造二叉树 | 中等 | [swift](leetcode-swift/105.从前序与中序遍历序列构造二叉树.swift) | **二叉树** |
 | 106 | | | |
 | 107. 二叉树的层次遍历II | 简单 | [swift](leetcode-swift/107.二叉树的层次遍历II.swift) | **二叉树** |
 | 108 | | | |
@@ -253,6 +253,7 @@
 | 面试题04. 二维数组中的查找 | 简单 | [swift](leetcode-swift/面试题04.二维数组中的查找.swift) |  |
 | 面试题05. 替换空格 | 简单 | [swift](leetcode-swift/面试题05.替换空格.swift) | |
 | 面试题06. 从尾到头打印链表 | 简单 | [swift](leetcode-swift/面试题06.从尾到头打印链表.swift) | **链表** |
+| 面试题07. 重建二叉树 | 中等 | [swift](leetcode-swift/面试题07.重建二叉树.swift) | **二叉树** |
 | 面试题40. 最小的k个数 | 简单 | [swift](leetcode-swift/面试题40.最小的k个数.swift) | |
 
 
