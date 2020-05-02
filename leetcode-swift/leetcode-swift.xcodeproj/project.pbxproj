@@ -95,6 +95,7 @@
 		0A571115245022BD0029BB2C /* 092.反转链表II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A571114245022BD0029BB2C /* 092.反转链表II.swift */; };
 		0A571119245038F40029BB2C /* 114.二叉树展开为链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A571118245038F40029BB2C /* 114.二叉树展开为链表.swift */; };
 		0A57111B24512E890029BB2C /* 189.旋转数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A57111A24512E890029BB2C /* 189.旋转数组.swift */; };
+		0A6900C0245C6E4A0088C05F /* 290.单词规律.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6900BF245C6E4A0088C05F /* 290.单词规律.swift */; };
 		0A6FBCC62448B2F500B29C7E /* 543.二叉树的直径.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6FBCC52448B2F500B29C7E /* 543.二叉树的直径.swift */; };
 		0A8CB3BF245881CD00A53C14 /* 240.搜索二维矩阵II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8CB3BE245881CD00A53C14 /* 240.搜索二维矩阵II.swift */; };
 		0A94C8982452C78300A59E17 /* 252.会议室.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A94C8972452C78300A59E17 /* 252.会议室.swift */; };
@@ -258,6 +259,7 @@
 		0A571114245022BD0029BB2C /* 092.反转链表II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "092.反转链表II.swift"; sourceTree = "<group>"; };
 		0A571118245038F40029BB2C /* 114.二叉树展开为链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "114.二叉树展开为链表.swift"; sourceTree = "<group>"; };
 		0A57111A24512E890029BB2C /* 189.旋转数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "189.旋转数组.swift"; sourceTree = "<group>"; };
+		0A6900BF245C6E4A0088C05F /* 290.单词规律.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "290.单词规律.swift"; sourceTree = "<group>"; };
 		0A6FBCC52448B2F500B29C7E /* 543.二叉树的直径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "543.二叉树的直径.swift"; sourceTree = "<group>"; };
 		0A8CB3BE245881CD00A53C14 /* 240.搜索二维矩阵II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "240.搜索二维矩阵II.swift"; sourceTree = "<group>"; };
 		0A94C8972452C78300A59E17 /* 252.会议室.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "252.会议室.swift"; sourceTree = "<group>"; };
@@ -478,6 +480,7 @@
 				0AFCABC72457C89C00345F40 /* 234.回文链表.swift */,
 				0A8CB3BE245881CD00A53C14 /* 240.搜索二维矩阵II.swift */,
 				0A94C8972452C78300A59E17 /* 252.会议室.swift */,
+				0A6900BF245C6E4A0088C05F /* 290.单词规律.swift */,
 				0AC4708F243F02A400FBA4D0 /* 322.零钱兑换.swift */,
 				0A165BC9243DBA2D00E85723 /* 349.两个数组的交集.swift */,
 				0A9FB82F2445F4A900359364 /* 389.找不同.swift */,
@@ -605,6 +608,7 @@
 				0A165BCF243DBA2D00E85723 /* 035.搜索插入位置.swift in Sources */,
 				0A023E21244AD6F500885193 /* 011.盛最多水的容器.swift in Sources */,
 				0AC4709C24417F4600FBA4D0 /* 002.两数相加.swift in Sources */,
+				0A6900C0245C6E4A0088C05F /* 290.单词规律.swift in Sources */,
 				0A9FB8402448541400359364 /* 071.简化路径.swift in Sources */,
 				0A165BD3243DBA2D00E85723 /* 177.第N高的薪水.swift in Sources */,
 				0A165BEF243DBA2E00E85723 /* 003.无重复字符的最长子串.swift in Sources */,
