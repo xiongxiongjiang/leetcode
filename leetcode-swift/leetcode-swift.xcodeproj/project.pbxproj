@@ -154,6 +154,8 @@
 		0AFF2954245917B500E0103D /* 面试题06.从尾到头打印链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFF2953245917B500E0103D /* 面试题06.从尾到头打印链表.swift */; };
 		0AFF29562459208C00E0103D /* 面试题07.重建二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFF29552459208C00E0103D /* 面试题07.重建二叉树.swift */; };
 		0AFF295824592DB900E0103D /* 105.从前序与中序遍历序列构造二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFF295724592DB900E0103D /* 105.从前序与中序遍历序列构造二叉树.swift */; };
+		0AFF295A2459662300E0103D /* 面试题10-I.斐波那契数列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFF29592459662300E0103D /* 面试题10-I.斐波那契数列.swift */; };
+		0AFF295C245981C100E0103D /* 面试题24.反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFF295B245981C100E0103D /* 面试题24.反转链表.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -317,6 +319,8 @@
 		0AFF2953245917B500E0103D /* 面试题06.从尾到头打印链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题06.从尾到头打印链表.swift"; sourceTree = "<group>"; };
 		0AFF29552459208C00E0103D /* 面试题07.重建二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题07.重建二叉树.swift"; sourceTree = "<group>"; };
 		0AFF295724592DB900E0103D /* 105.从前序与中序遍历序列构造二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "105.从前序与中序遍历序列构造二叉树.swift"; sourceTree = "<group>"; };
+		0AFF29592459662300E0103D /* 面试题10-I.斐波那契数列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题10-I.斐波那契数列.swift"; sourceTree = "<group>"; };
+		0AFF295B245981C100E0103D /* 面试题24.反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题24.反转链表.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -492,6 +496,8 @@
 				0AFF2951245911F700E0103D /* 面试题05.替换空格.swift */,
 				0AFF2953245917B500E0103D /* 面试题06.从尾到头打印链表.swift */,
 				0AFF29552459208C00E0103D /* 面试题07.重建二叉树.swift */,
+				0AFF29592459662300E0103D /* 面试题10-I.斐波那契数列.swift */,
+				0AFF295B245981C100E0103D /* 面试题24.反转链表.swift */,
 				0A165B97243DBA2A00E85723 /* 面试题40.最小的k个数.swift */,
 			);
 			path = "leetcode-swift";
@@ -585,6 +591,7 @@
 				0A165BF2243DBA2E00E85723 /* 100.相同的树.swift in Sources */,
 				0A9FB822244468EA00359364 /* 051.N皇后.swift in Sources */,
 				0A165BD2243DBA2D00E85723 /* 160.相交链表.swift in Sources */,
+				0AFF295C245981C100E0103D /* 面试题24.反转链表.swift in Sources */,
 				0AEC10132453F59B006BFBF4 /* 075.颜色分类.swift in Sources */,
 				0A165C02243DBA2E00E85723 /* 067.二进制求和.swift in Sources */,
 				0A9FB82824458F8D00359364 /* 022.括号生成.swift in Sources */,
@@ -670,6 +677,7 @@
 				0A5710F3244D7E300029BB2C /* 063.不同路径II.swift in Sources */,
 				0AC4708E243EF8C200FBA4D0 /* 121.买卖股票的最佳时机.swift in Sources */,
 				0AFCABC82457C89C00345F40 /* 234.回文链表.swift in Sources */,
+				0AFF295A2459662300E0103D /* 面试题10-I.斐波那契数列.swift in Sources */,
 				0A165BD5243DBA2D00E85723 /* 070.爬楼梯.swift in Sources */,
 				0A165BD1243DBA2D00E85723 /* 面试题40.最小的k个数.swift in Sources */,
 				0A165BE6243DBA2E00E85723 /* 024.两两交换链表中的节点.swift in Sources */,
