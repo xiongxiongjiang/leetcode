@@ -3,6 +3,6 @@ package main
 import "./Solution"
 
 func main() {
-	Solution.Test001()
+	Solution.Test007()
 }
 
