@@ -152,7 +152,7 @@
 | 148. 排序链表 | 中等 | [swift](leetcode-swift/148.排序链表.swift) | **并归** **双指针** **链表** |
 | 149 | | | |
 | 150 | | | |
-| 151 | | | |
+| 151. 翻转字符串里的单词 | 中等 | [swift](leetcode-swift/151.翻转字符串里的单词.swift) | |
 | 152 | | | |
 | 153. 寻找旋转排序数组中的最小值 | 中等 | [swift](leetcode-swift/153.寻找旋转排序数组中的最小值.swift) | **二分查找** |
 | 154 | | | |
@@ -240,6 +240,7 @@
 | 236 | | | |
 | 240. 搜索二维矩阵II | 中等 | [swift](leetcode-swift/240.搜索二维矩阵II.swift) | |
 | 252. 会议室 | 简单 | [swift](leetcode-swift/252.会议室.swift) | |
+| 290. 单词规律 | 简单 | [swift](leetcode-swift/290.单词规律.swift) | |
 | 322. 零钱兑换 | 简单 | [swift](leetcode-swift/322.零钱兑换.swift) | **动态规划** |
 | 349. 两个数组的交集 | 简单 | [swift](leetcode-swift/349.两个数组的交集.swift) | |
 | 389. 找不同 | 简单 | [swift](leetcode-swift/389.找不同.swift) | **位运算** |
