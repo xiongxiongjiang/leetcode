@@ -2,13 +2,13 @@
 
 | 序号 | 难度 | 题解 | 标签 |
 | :--- | :--: | :--: | :--: |
-| 001. 两数之和 | 简单 | [swift](leetcode-swift/001.两数之和.swift) | **哈希表** |
-| 002. 两数相加 | 中等 | [swift](leetcode-swift/002.两数相加.swift) | **链表** |
-| 003. 无重复字符的最长子串 | 中等 | [swift](leetcode-swift/003.无重复字符的最长子串.swift) | **滑动窗口** |
+| 001. 两数之和 | 简单 | [swift](leetcode-swift/001.两数之和.swift) [go](leetcode-go/Solution/001.两数之和.go) | **哈希表** |
+| 002. 两数相加 | 中等 | [swift](leetcode-swift/002.两数相加.swift) [go](leetcode-go/Solution/002.两数相加.go) | **链表** |
+| 003. 无重复字符的最长子串 | 中等 | [swift](leetcode-swift/003.无重复字符的最长子串.swift) [go](leetcode-go/Solution/003.无重复字符的最长子串.go) | **滑动窗口** |
 | 004  |   |                      |      |
-| 005. 最长回文子串 | 中等 | [swift](leetcode-swift/005.最长回文子串.swift) | **动态规划** |
-| 006. Z字形变换 | 中等 | [swift](leetcode-swift/006.Z字形变换.swift) | **字符串** |
-| 007. 整数反转 | 简单 | [swift](leetcode-swift/007.整数反转.swift) |      |
+| 005. 最长回文子串 | 中等 | [swift](leetcode-swift/005.最长回文子串.swift) [go](leetcode-go/Solution/005.最长回文子串.go) | **动态规划** |
+| 006. Z字形变换 | 中等 | [swift](leetcode-swift/006.Z字形变换.swift) [go](leetcode-go/Solution/006.Z字形变换.go) | **字符串** |
+| 007. 整数反转 | 简单 | [swift](leetcode-swift/007.整数反转.swift) [go](leetcode-go/Solution/007.整数反转.go) |      |
 | 008. 字符串转换整数(atoi) | 中等 | [swift](leetcode-swift/008.字符串转换整数(atoi).swift) |      |
 | 009. 回文数 | 简单 | [swift](leetcode-swift/009.回文数.swift) |      |
 | 010  |   |                      |      |
