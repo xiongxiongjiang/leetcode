@@ -66,3 +66,7 @@ func romanToInt(s string) int {
 	}
 	return res
 }
+
+func Test013()  {
+	print(romanToInt("MCMXCIV"))
+}

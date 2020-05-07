@@ -52,3 +52,7 @@ func intToRoman(num int) string {
 	m := []string{"", "M", "MM", "MMM"}
 	return fmt.Sprintf("%v%v%v%v", m[num/1000], c[num%1000/100], x[num%100/10], i[num%10])
 }
+
+func Test012()  {
+	print(intToRoman(1994))
+}

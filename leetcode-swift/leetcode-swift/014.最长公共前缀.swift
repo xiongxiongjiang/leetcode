@@ -33,14 +33,12 @@ extension Solution {
             return ""
         }
         var first = strs.first!
-        var complete = false
-        while complete == false {
-            complete = true
-            for str in strs {
-                if str.hasPrefix(first) == false {
-                    first.removeLast()
-                    complete = false
-                    break
+        for i in 0..<strs.count {
+            let str = strs[i]
+            while str.hasPrefix(first) == false {
+                first.removeLast()
+                if first == "" {
+                    return ""
                 }
             }
         }
