@@ -132,7 +132,7 @@
 | 128 | | | |
 | 129. 求根到叶子节点数字之和 | 中等 | [swift](leetcode-swift/leetcode-swift/129.求根到叶子节点数字之和.swift) | **二叉树** **深度优先搜索** |
 | 130 | | | |
-| 131 | | | |
+| 131. 分割回文串 | 中等 | [swift](leetcode-swift/leetcode-swift/131.分割回文串.swift) | **回溯** |
 | 132 | | | |
 | 133 | | | |
 | 134. 加油站 | 中等 | [swift](leetcode-swift/leetcode-swift/134.加油站.swift) | **贪心** |

@@ -137,6 +137,7 @@
 		0AC470A82442FFF200FBA4D0 /* 232.用栈实现队列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC470A72442FFF200FBA4D0 /* 232.用栈实现队列.swift */; };
 		0AC470AC2443072100FBA4D0 /* 048.旋转图像.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC470AB2443072100FBA4D0 /* 048.旋转图像.swift */; };
 		0AC5A93D2463AE2700DA6D5E /* 013.罗马数字转整数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC5A93C2463AE2700DA6D5E /* 013.罗马数字转整数.swift */; };
+		0AC5A93F2463F33700DA6D5E /* 131.分割回文串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC5A93E2463F33700DA6D5E /* 131.分割回文串.swift */; };
 		0AEC10112453DB20006BFBF4 /* 134.加油站.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEC10102453DB20006BFBF4 /* 134.加油站.swift */; };
 		0AEC10132453F59B006BFBF4 /* 075.颜色分类.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEC10122453F59B006BFBF4 /* 075.颜色分类.swift */; };
 		0AEC101524542AD5006BFBF4 /* 125.验证回文串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEC101424542AD5006BFBF4 /* 125.验证回文串.swift */; };
@@ -305,6 +306,7 @@
 		0AC470A72442FFF200FBA4D0 /* 232.用栈实现队列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "232.用栈实现队列.swift"; sourceTree = "<group>"; };
 		0AC470AB2443072100FBA4D0 /* 048.旋转图像.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "048.旋转图像.swift"; sourceTree = "<group>"; };
 		0AC5A93C2463AE2700DA6D5E /* 013.罗马数字转整数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "013.罗马数字转整数.swift"; sourceTree = "<group>"; };
+		0AC5A93E2463F33700DA6D5E /* 131.分割回文串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "131.分割回文串.swift"; sourceTree = "<group>"; };
 		0AEC10102453DB20006BFBF4 /* 134.加油站.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "134.加油站.swift"; sourceTree = "<group>"; };
 		0AEC10122453F59B006BFBF4 /* 075.颜色分类.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "075.颜色分类.swift"; sourceTree = "<group>"; };
 		0AEC101424542AD5006BFBF4 /* 125.验证回文串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "125.验证回文串.swift"; sourceTree = "<group>"; };
@@ -451,6 +453,7 @@
 				0AC470972440234E00FBA4D0 /* 122.买卖股票的最佳时机II.swift */,
 				0AEC101424542AD5006BFBF4 /* 125.验证回文串.swift */,
 				0A9FB8312446A9A000359364 /* 129.求根到叶子节点数字之和.swift */,
+				0AC5A93E2463F33700DA6D5E /* 131.分割回文串.swift */,
 				0AEC10102453DB20006BFBF4 /* 134.加油站.swift */,
 				0A165BA5243DBA2A00E85723 /* 135.分发糖果.swift */,
 				0A165BBB243DBA2C00E85723 /* 136.只出现一次的数字.swift */,
@@ -609,6 +612,7 @@
 				0AFCABC42456DD7000345F40 /* 1004.最大连续1的个数III.swift in Sources */,
 				0A1CA0FC2451435D002D92E2 /* 198.打家劫舍.swift in Sources */,
 				0A94C89C2452E6E100A59E17 /* 111.二叉树的最小深度.swift in Sources */,
+				0AC5A93F2463F33700DA6D5E /* 131.分割回文串.swift in Sources */,
 				0A165BEB243DBA2E00E85723 /* 021.合并两个有序链表.swift in Sources */,
 				0A165BE1243DBA2E00E85723 /* 199.二叉树的右视图.swift in Sources */,
 				0A165BDD243DBA2D00E85723 /* 110.平衡二叉树.swift in Sources */,
