@@ -32,5 +32,5 @@ func reverse(x int) int {
 }
 
 func Test007()  {
-	reverse(-897)
+	print(reverse(-897))
 }
