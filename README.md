@@ -240,6 +240,7 @@
 | 236 | | | |
 | 240. 搜索二维矩阵II | 中等 | [swift](leetcode-swift/leetcode-swift/240.搜索二维矩阵II.swift) | |
 | 252. 会议室 | 简单 | [swift](leetcode-swift/leetcode-swift/252.会议室.swift) | |
+| 256. 粉刷房子 | 简单 | [swift](leetcode-swift/leetcode-swift/256.粉刷房子.swift) | **动态规划** |
 | 290. 单词规律 | 简单 | [swift](leetcode-swift/leetcode-swift/290.单词规律.swift) | |
 | 322. 零钱兑换 | 简单 | [swift](leetcode-swift/leetcode-swift/322.零钱兑换.swift) | **动态规划** |
 | 349. 两个数组的交集 | 简单 | [swift](leetcode-swift/leetcode-swift/349.两个数组的交集.swift) | |
