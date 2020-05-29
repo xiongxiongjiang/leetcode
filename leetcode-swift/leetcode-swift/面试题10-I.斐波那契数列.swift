@@ -37,8 +37,15 @@ extension Solution {
         return second
     }
     
+    func fib3(_ n: Int) -> Int {
+        if n == 0 || n == 1 {
+            return n
+        }
+        return fib3(n - 1) + fib3(n - 2)
+    }
+    
 }
 
 func testOffer10I(s: Solution) {
-    print(s.fib1(39))
+    print(s.fib3(39))
 }

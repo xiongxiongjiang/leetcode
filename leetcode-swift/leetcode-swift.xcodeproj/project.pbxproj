@@ -99,6 +99,7 @@
 		0A6900C0245C6E4A0088C05F /* 290.单词规律.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6900BF245C6E4A0088C05F /* 290.单词规律.swift */; };
 		0A6900C2245DCCA00088C05F /* 151.翻转字符串里的单词.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6900C1245DCCA00088C05F /* 151.翻转字符串里的单词.swift */; };
 		0A6FBCC62448B2F500B29C7E /* 543.二叉树的直径.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6FBCC52448B2F500B29C7E /* 543.二叉树的直径.swift */; };
+		0A84142D247F932500ABBE45 /* bucket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A84142C247F932500ABBE45 /* bucket.swift */; };
 		0A8CB3BF245881CD00A53C14 /* 240.搜索二维矩阵II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8CB3BE245881CD00A53C14 /* 240.搜索二维矩阵II.swift */; };
 		0A94C8982452C78300A59E17 /* 252.会议室.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A94C8972452C78300A59E17 /* 252.会议室.swift */; };
 		0A94C89A2452D17900A59E17 /* 1089.复写零.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A94C8992452D17900A59E17 /* 1089.复写零.swift */; };
@@ -269,6 +270,7 @@
 		0A6900BF245C6E4A0088C05F /* 290.单词规律.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "290.单词规律.swift"; sourceTree = "<group>"; };
 		0A6900C1245DCCA00088C05F /* 151.翻转字符串里的单词.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "151.翻转字符串里的单词.swift"; sourceTree = "<group>"; };
 		0A6FBCC52448B2F500B29C7E /* 543.二叉树的直径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "543.二叉树的直径.swift"; sourceTree = "<group>"; };
+		0A84142C247F932500ABBE45 /* bucket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bucket.swift; sourceTree = "<group>"; };
 		0A8CB3BE245881CD00A53C14 /* 240.搜索二维矩阵II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "240.搜索二维矩阵II.swift"; sourceTree = "<group>"; };
 		0A94C8972452C78300A59E17 /* 252.会议室.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "252.会议室.swift"; sourceTree = "<group>"; };
 		0A94C8992452D17900A59E17 /* 1089.复写零.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1089.复写零.swift"; sourceTree = "<group>"; };
@@ -533,6 +535,7 @@
 				0A571104244DD5CA0029BB2C /* selection.swift */,
 				0A5710FE244DD2490029BB2C /* bubble.swift */,
 				0A571106244DDADD0029BB2C /* quick.swift */,
+				0A84142C247F932500ABBE45 /* bucket.swift */,
 			);
 			path = sort;
 			sourceTree = "<group>";
@@ -564,7 +567,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = xurong;
 				TargetAttributes = {
 					0A165B80243DB93900E85723 = {
@@ -619,6 +622,7 @@
 				0A165BEB243DBA2E00E85723 /* 021.合并两个有序链表.swift in Sources */,
 				0A165BE1243DBA2E00E85723 /* 199.二叉树的右视图.swift in Sources */,
 				0A165BDD243DBA2D00E85723 /* 110.平衡二叉树.swift in Sources */,
+				0A84142D247F932500ABBE45 /* bucket.swift in Sources */,
 				0AEC101524542AD5006BFBF4 /* 125.验证回文串.swift in Sources */,
 				0A5710ED244C27BD0029BB2C /* 113.路径总和II.swift in Sources */,
 				0AFCABB824551B1D00345F40 /* 079.单词搜索.swift in Sources */,
@@ -871,6 +875,7 @@
 		0A165B89243DB93900E85723 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DYE6ZRB6MM;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -882,6 +887,7 @@
 		0A165B8A243DB93900E85723 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DYE6ZRB6MM;
 				ENABLE_HARDENED_RUNTIME = YES;

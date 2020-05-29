@@ -36,14 +36,16 @@ import Foundation
 extension Solution {
     func flatten(_ root: TreeNode?) {
         var nodes = [TreeNode]()
+        //本质为前序遍历
         flattenDfs(root: root, nodes: &nodes)
-        for i in 0..<nodes.count {
-            print(nodes[i].val)
-            if i + 1 < nodes.count {
-                nodes[i].left = nil
-                nodes[i].right = nodes[i+1]
-            }
+        guard nodes.count > 0 else {
+            return
         }
+        for i in 0..<nodes.count - 1 {
+            nodes[i].left = nil
+            nodes[i].right = nodes[i+1]
+        }
+        nodes.last!.left = nil
     }
     
     func flattenDfs(root: TreeNode?, nodes: inout [TreeNode]) {
