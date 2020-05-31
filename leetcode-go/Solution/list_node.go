@@ -19,7 +19,7 @@ func CreatListNode(arr []int) *ListNode {
 
 func PrintListNode(head *ListNode)  {
 	p := head
-	arr := []int{}
+	var arr []int
 	for p != nil {
 		arr = append(arr, p.Val)
 		p = p.Next

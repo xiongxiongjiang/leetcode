@@ -33,6 +33,18 @@ extension Solution {
         }
         fatalError("No valid output!")
     }
+    
+    func twoSum1(_ nums: [Int], _ target: Int) -> [Int] {
+        var dict = [Int: Int]()
+        for (index, num) in nums.enumerated() {
+            if let lastIndex = dict[target - num] {
+                return [lastIndex, index]
+            } else {
+                dict[num] = index
+            }
+        }
+        return []
+    }
 }
 
 func test001(s: Solution) {

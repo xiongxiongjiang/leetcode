@@ -41,6 +41,11 @@ extension Solution {
         }
         return prev?.next
     }
+    
+    func addTwoNumbers1(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
+        var carry = 0
+        return nil
+    }
 }
 
 
