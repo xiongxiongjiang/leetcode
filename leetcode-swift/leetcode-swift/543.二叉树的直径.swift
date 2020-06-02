@@ -31,16 +31,12 @@ extension Solution {
     func diameterOfBinaryTree(_ root: TreeNode?) -> Int {
         guard let root = root else { return 0 }
         //当前传进来经过root的直径
-        let current = maxDepth1(root.left) + maxDepth1(root.right)
+        let current = maxDepth(root.left) + maxDepth(root.right)
         //递归计算出左右儿子的直径
         let sub = max(diameterOfBinaryTree(root.left), diameterOfBinaryTree(root.right))
         return max(current, sub)
     }
     
-    private func maxDepth1(_ node: TreeNode?) -> Int {
-        guard let node = node else { return 0 }
-        return max(maxDepth(node.left), maxDepth(node.right)) + 1
-    }
 }
 
 func test543(s: Solution) {
