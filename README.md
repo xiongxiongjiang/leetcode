@@ -257,6 +257,7 @@
 | 面试题06. 从尾到头打印链表 | 简单 | [swift](leetcode-swift/leetcode-swift/面试题06.从尾到头打印链表.swift) | **链表** |
 | 面试题07. 重建二叉树 | 中等 | [swift](leetcode-swift/leetcode-swift/面试题07.重建二叉树.swift) | **二叉树** |
 | 面试题40. 最小的k个数 | 简单 | [swift](leetcode-swift/leetcode-swift/面试题40.最小的k个数.swift) | |
+| 面试题64.求1+2+…+n | 简单 | [swift](leetcode-swift/leetcode-swift/面试题64.求1+2+…+n.swift) | **三目运算** |
 
 
 

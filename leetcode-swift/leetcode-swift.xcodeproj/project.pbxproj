@@ -75,6 +75,7 @@
 		0A165C04243DBA2E00E85723 /* 203.移除链表元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A165BCA243DBA2D00E85723 /* 203.移除链表元素.swift */; };
 		0A1C6028246E912300D2B8B7 /* 256.粉刷房子.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1C6027246E912300D2B8B7 /* 256.粉刷房子.swift */; };
 		0A1CA0FC2451435D002D92E2 /* 198.打家劫舍.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1CA0FB2451435D002D92E2 /* 198.打家劫舍.swift */; };
+		0A29D5CD2485F5390027B5AF /* 面试题64.求1+2+…+n.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A29D5CC2485F5390027B5AF /* 面试题64.求1+2+…+n.swift */; };
 		0A5710E9244AE2D00029BB2C /* 016.最接近的三数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5710E8244AE2D00029BB2C /* 016.最接近的三数之和.swift */; };
 		0A5710EB244AFA1F0029BB2C /* 037.解数独.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5710EA244AFA1F0029BB2C /* 037.解数独.swift */; };
 		0A5710ED244C27BD0029BB2C /* 113.路径总和II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5710EC244C27BD0029BB2C /* 113.路径总和II.swift */; };
@@ -246,6 +247,7 @@
 		0A165BCA243DBA2D00E85723 /* 203.移除链表元素.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "203.移除链表元素.swift"; sourceTree = "<group>"; };
 		0A1C6027246E912300D2B8B7 /* 256.粉刷房子.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "256.粉刷房子.swift"; sourceTree = "<group>"; };
 		0A1CA0FB2451435D002D92E2 /* 198.打家劫舍.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "198.打家劫舍.swift"; sourceTree = "<group>"; };
+		0A29D5CC2485F5390027B5AF /* 面试题64.求1+2+…+n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题64.求1+2+…+n.swift"; sourceTree = "<group>"; };
 		0A5710E8244AE2D00029BB2C /* 016.最接近的三数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "016.最接近的三数之和.swift"; sourceTree = "<group>"; };
 		0A5710EA244AFA1F0029BB2C /* 037.解数独.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "037.解数独.swift"; sourceTree = "<group>"; };
 		0A5710EC244C27BD0029BB2C /* 113.路径总和II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "113.路径总和II.swift"; sourceTree = "<group>"; };
@@ -516,6 +518,7 @@
 				0AFF29592459662300E0103D /* 面试题10-I.斐波那契数列.swift */,
 				0AFF295B245981C100E0103D /* 面试题24.反转链表.swift */,
 				0A165B97243DBA2A00E85723 /* 面试题40.最小的k个数.swift */,
+				0A29D5CC2485F5390027B5AF /* 面试题64.求1+2+…+n.swift */,
 			);
 			path = "leetcode-swift";
 			sourceTree = "<group>";
@@ -706,6 +709,7 @@
 				0A165BE6243DBA2E00E85723 /* 024.两两交换链表中的节点.swift in Sources */,
 				0A9FB8302445F4A900359364 /* 389.找不同.swift in Sources */,
 				0A165BF3243DBA2E00E85723 /* 219.存在重复元素II.swift in Sources */,
+				0A29D5CD2485F5390027B5AF /* 面试题64.求1+2+…+n.swift in Sources */,
 				0AC470AC2443072100FBA4D0 /* 048.旋转图像.swift in Sources */,
 				0A57110D244EF4E10029BB2C /* 036.有效的数独.swift in Sources */,
 				0A571111244FEA580029BB2C /* 107.二叉树的层次遍历II.swift in Sources */,
