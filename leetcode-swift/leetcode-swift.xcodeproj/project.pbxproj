@@ -78,6 +78,7 @@
 		0A29D5CD2485F5390027B5AF /* 面试题64.求1+2+…+n.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A29D5CC2485F5390027B5AF /* 面试题64.求1+2+…+n.swift */; };
 		0A29D5CF2485F9D70027B5AF /* 面试题55-I.二叉树的深度.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A29D5CE2485F9D70027B5AF /* 面试题55-I.二叉树的深度.swift */; };
 		0A29D5D1248651AB0027B5AF /* 面试题49.丑数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A29D5D0248651AB0027B5AF /* 面试题49.丑数.swift */; };
+		0A29D5D3248682380027B5AF /* 面试题62.圆圈中最后剩下的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A29D5D2248682380027B5AF /* 面试题62.圆圈中最后剩下的数字.swift */; };
 		0A5710E9244AE2D00029BB2C /* 016.最接近的三数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5710E8244AE2D00029BB2C /* 016.最接近的三数之和.swift */; };
 		0A5710EB244AFA1F0029BB2C /* 037.解数独.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5710EA244AFA1F0029BB2C /* 037.解数独.swift */; };
 		0A5710ED244C27BD0029BB2C /* 113.路径总和II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5710EC244C27BD0029BB2C /* 113.路径总和II.swift */; };
@@ -252,6 +253,7 @@
 		0A29D5CC2485F5390027B5AF /* 面试题64.求1+2+…+n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题64.求1+2+…+n.swift"; sourceTree = "<group>"; };
 		0A29D5CE2485F9D70027B5AF /* 面试题55-I.二叉树的深度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题55-I.二叉树的深度.swift"; sourceTree = "<group>"; };
 		0A29D5D0248651AB0027B5AF /* 面试题49.丑数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题49.丑数.swift"; sourceTree = "<group>"; };
+		0A29D5D2248682380027B5AF /* 面试题62.圆圈中最后剩下的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "面试题62.圆圈中最后剩下的数字.swift"; sourceTree = "<group>"; };
 		0A5710E8244AE2D00029BB2C /* 016.最接近的三数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "016.最接近的三数之和.swift"; sourceTree = "<group>"; };
 		0A5710EA244AFA1F0029BB2C /* 037.解数独.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "037.解数独.swift"; sourceTree = "<group>"; };
 		0A5710EC244C27BD0029BB2C /* 113.路径总和II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "113.路径总和II.swift"; sourceTree = "<group>"; };
@@ -524,6 +526,7 @@
 				0A165B97243DBA2A00E85723 /* 面试题40.最小的k个数.swift */,
 				0A29D5D0248651AB0027B5AF /* 面试题49.丑数.swift */,
 				0A29D5CE2485F9D70027B5AF /* 面试题55-I.二叉树的深度.swift */,
+				0A29D5D2248682380027B5AF /* 面试题62.圆圈中最后剩下的数字.swift */,
 				0A29D5CC2485F5390027B5AF /* 面试题64.求1+2+…+n.swift */,
 			);
 			path = "leetcode-swift";
@@ -658,6 +661,7 @@
 				0A165BD6243DBA2D00E85723 /* 146.LRU缓存机制.swift in Sources */,
 				0A165BE0243DBA2E00E85723 /* 015.三数之和.swift in Sources */,
 				0A29D5CF2485F9D70027B5AF /* 面试题55-I.二叉树的深度.swift in Sources */,
+				0A29D5D3248682380027B5AF /* 面试题62.圆圈中最后剩下的数字.swift in Sources */,
 				0A8CB3BF245881CD00A53C14 /* 240.搜索二维矩阵II.swift in Sources */,
 				0A94C8982452C78300A59E17 /* 252.会议室.swift in Sources */,
 				0AC470A62442E94B00FBA4D0 /* 088.合并两个有序数组.swift in Sources */,

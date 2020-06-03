@@ -258,6 +258,7 @@
 | 面试题07. 重建二叉树 | 中等 | [swift](leetcode-swift/leetcode-swift/面试题07.重建二叉树.swift) | **二叉树** |
 | 面试题40. 最小的k个数 | 简单 | [swift](leetcode-swift/leetcode-swift/面试题40.最小的k个数.swift) | |
 | 面试题49. 丑数 | 中等 | [swift](leetcode-swift/leetcode-swift/面试题49.丑数.swift) | **动态规划** |
+| 面试题62. 圆圈中最后剩下的数字 | 简单 | [swift](leetcode-swift/leetcode-swift/面试题62.圆圈中最后剩下的数字.swift) | **数学** |
 | 面试题64. 求1+2+…+n | 简单 | [swift](leetcode-swift/leetcode-swift/面试题64.求1+2+…+n.swift) | **三目运算** |
 
 
