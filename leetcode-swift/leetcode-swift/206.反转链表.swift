@@ -22,9 +22,13 @@ extension Solution {
         var prev: ListNode?
         var curr = head
         while curr != nil {
+            //保存curr后半部分
             let tmp = curr?.next
+            //把curr拼在新链表前面
             curr?.next = prev
+            //把当前头节点赋值给新链表
             prev = curr
+            //指针后移
             curr = tmp
         }
         return prev
