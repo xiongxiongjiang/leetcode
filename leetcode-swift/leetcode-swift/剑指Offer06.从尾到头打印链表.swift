@@ -1,5 +1,5 @@
 //
-//  面试题06.从尾到头打印链表.swift
+//  剑指Offer06.从尾到头打印链表.swift
 //  leetcode-swift
 //
 //  Created by 徐荣 on 2020/4/29.

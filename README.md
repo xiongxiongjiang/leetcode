@@ -180,7 +180,7 @@
 | 176. 第二高的薪水 | 简单 | [swift](leetcode-swift/leetcode-swift/176.第二高的薪水.swift) | **数据库** |
 | 177. 第N高的薪水 | 中等 | [swift](leetcode-swift/leetcode-swift/177.第N高的薪水.swift) | **数据库** |
 | 178 | | | |
-| 179 | | | |
+| 179. 最大数 | 中等 | [swift](leetcode-swift/leetcode-swift/179.最大数.swift) | **排序** |
 | 180 | | | |
 | 181 | | | |
 | 182. 查找重复的电子邮箱 | 简单 | [swift](leetcode-swift/leetcode-swift/182.查找重复的电子邮箱.swift) | **数据库** |
@@ -251,15 +251,22 @@
 | 1004. 最大连续1的个数III | 中等 | [swift](leetcode-swift/leetcode-swift/1004.最大连续1的个数III.swift) | **滑动窗口** |
 | 1089. 复写零 | 简单 | [swift](leetcode-swift/leetcode-swift/1089.复写零.swift) |  |
 | 1346. 检查整数及其两倍数是否存在 | 简单 | [swift](leetcode-swift/leetcode-swift/1346.检查整数及其两倍数是否存在.swift) | **哈希表** |
-| 面试题03. 数组中重复的数字 | 简单 | [swift](leetcode-swift/leetcode-swift/面试题03.数组中重复的数字.swift) | **哈希表** |
-| 面试题04. 二维数组中的查找 | 简单 | [swift](leetcode-swift/leetcode-swift/面试题04.二维数组中的查找.swift) |  |
-| 面试题05. 替换空格 | 简单 | [swift](leetcode-swift/leetcode-swift/面试题05.替换空格.swift) | |
-| 面试题06. 从尾到头打印链表 | 简单 | [swift](leetcode-swift/leetcode-swift/面试题06.从尾到头打印链表.swift) | **链表** |
-| 面试题07. 重建二叉树 | 中等 | [swift](leetcode-swift/leetcode-swift/面试题07.重建二叉树.swift) | **二叉树** |
-| 面试题40. 最小的k个数 | 简单 | [swift](leetcode-swift/leetcode-swift/面试题40.最小的k个数.swift) | |
-| 面试题49. 丑数 | 中等 | [swift](leetcode-swift/leetcode-swift/面试题49.丑数.swift) | **动态规划** |
-| 面试题62. 圆圈中最后剩下的数字 | 简单 | [swift](leetcode-swift/leetcode-swift/面试题62.圆圈中最后剩下的数字.swift) | **数学** |
-| 面试题64. 求1+2+…+n | 简单 | [swift](leetcode-swift/leetcode-swift/面试题64.求1+2+…+n.swift) | **三目运算** |
+| 剑指Offer03. 数组中重复的数字 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer03.数组中重复的数字.swift) | **哈希表** |
+| 剑指Offer04. 二维数组中的查找 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer04.二维数组中的查找.swift) |  |
+| 剑指Offer05. 替换空格 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer05.替换空格.swift) | |
+| 剑指Offer06. 从尾到头打印链表 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer06.从尾到头打印链表.swift) | **链表** |
+| 剑指Offer07. 重建二叉树 | 中等 | [swift](leetcode-swift/leetcode-swift/剑指Offer07.重建二叉树.swift) | **二叉树** |
+| 剑指Offer10-I. 斐波那契数列 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer10-I.斐波那契数列.swift) | **动态规划** |
+| 剑指Offer10-II. 青蛙跳台阶问题 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer10-II.青蛙跳台阶问题.swift) | **动态规划** |
+| 剑指Offer24. 反转链表 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer24.反转链表.swift) |  |
+| 剑指Offer40. 最小的k个数 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer40.最小的k个数.swift) | |
+| 剑指Offer49. 丑数 | 中等 | [swift](leetcode-swift/leetcode-swift/剑指Offer49.丑数.swift) | **动态规划** **三指针** |
+| 剑指Offer53-II. 0～n-1中缺失的数字 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer53-II.0～n-1中缺失的数字.swift) | **二分查找** |
+| 剑指Offer55-I. 二叉树的深度 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer55-I.二叉树的深度.swift) | **二叉树** |
+| 剑指Offer55-II. 平衡二叉树 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer55-II.平衡二叉树.swift) | **二叉树** |
+| 剑指Offer62. 圆圈中最后剩下的数字 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer62.圆圈中最后剩下的数字.swift) | **数学** |
+| 剑指Offer64. 求1+2+…+n | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer64.求1+2+…+n.swift) | **三目运算** |
+| 剑指Offer66. 构建乘积数组 | 中等 | [swift](leetcode-swift/leetcode-swift/剑指Offer66.构建乘积数组.swift) |  |
 
 
 

@@ -1,5 +1,5 @@
 //
-//  面试题62.圆圈中最后剩下的数字.swift
+//  剑指Offer62.圆圈中最后剩下的数字.swift
 //  leetcode-swift
 //
 //  Created by 徐荣 on 2020/6/2.

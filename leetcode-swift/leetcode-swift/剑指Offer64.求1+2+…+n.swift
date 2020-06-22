@@ -1,5 +1,5 @@
 //
-//  面试题64.求1+2+…+n.swift
+//  剑指Offer64.求1+2+…+n.swift
 //  leetcode-swift
 //
 //  Created by 徐荣 on 2020/6/2.

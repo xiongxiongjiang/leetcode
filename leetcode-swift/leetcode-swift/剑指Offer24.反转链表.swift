@@ -1,5 +1,5 @@
 //
-//  面试题24.反转链表.swift
+//  剑指Offer24.反转链表.swift
 //  leetcode-swift
 //
 //  Created by 徐荣 on 2020/4/29.
