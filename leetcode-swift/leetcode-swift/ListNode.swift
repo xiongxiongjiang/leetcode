@@ -25,5 +25,16 @@ extension ListNode {
             tempNode = tempNode?.next
         }
     }
+    
+    static func buildNode(arr: [Int]) -> ListNode? {
+        let prev: ListNode? = ListNode(-1)
+        var curr = prev
+        for num in arr {
+            let node = ListNode(num)
+            curr?.next = node
+            curr = curr?.next
+        }
+        return prev?.next
+    }
 }
 

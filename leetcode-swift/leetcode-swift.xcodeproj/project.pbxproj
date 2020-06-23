@@ -109,6 +109,7 @@
 		0A725235249E3ED500AC4EA5 /* 剑指Offer53-II.0～n-1中缺失的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A725234249E3ED500AC4EA5 /* 剑指Offer53-II.0～n-1中缺失的数字.swift */; };
 		0A72523924A0920B00AC4EA5 /* 179.最大数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A72523824A0920B00AC4EA5 /* 179.最大数.swift */; };
 		0A72523B24A111EC00AC4EA5 /* 191.位1的个数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A72523A24A111EC00AC4EA5 /* 191.位1的个数.swift */; };
+		0A72523D24A2020700AC4EA5 /* 086.分隔链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A72523C24A2020700AC4EA5 /* 086.分隔链表.swift */; };
 		0A84142D247F932500ABBE45 /* bucket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A84142C247F932500ABBE45 /* bucket.swift */; };
 		0A8CB3BF245881CD00A53C14 /* 240.搜索二维矩阵II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8CB3BE245881CD00A53C14 /* 240.搜索二维矩阵II.swift */; };
 		0A94C8982452C78300A59E17 /* 252.会议室.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A94C8972452C78300A59E17 /* 252.会议室.swift */; };
@@ -290,6 +291,7 @@
 		0A725234249E3ED500AC4EA5 /* 剑指Offer53-II.0～n-1中缺失的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指Offer53-II.0～n-1中缺失的数字.swift"; sourceTree = "<group>"; };
 		0A72523824A0920B00AC4EA5 /* 179.最大数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "179.最大数.swift"; sourceTree = "<group>"; };
 		0A72523A24A111EC00AC4EA5 /* 191.位1的个数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "191.位1的个数.swift"; sourceTree = "<group>"; };
+		0A72523C24A2020700AC4EA5 /* 086.分隔链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "086.分隔链表.swift"; sourceTree = "<group>"; };
 		0A84142C247F932500ABBE45 /* bucket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bucket.swift; sourceTree = "<group>"; };
 		0A8CB3BE245881CD00A53C14 /* 240.搜索二维矩阵II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "240.搜索二维矩阵II.swift"; sourceTree = "<group>"; };
 		0A94C8972452C78300A59E17 /* 252.会议室.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "252.会议室.swift"; sourceTree = "<group>"; };
@@ -454,6 +456,7 @@
 				0A165BB4243DBA2C00E85723 /* 082.删除排序链表中的重复元素II.swift */,
 				0A165BAD243DBA2B00E85723 /* 083.删除排序链表中的重复元素.swift */,
 				0AFCABBD245682F300345F40 /* 084.柱状图中最大的矩形.swift */,
+				0A72523C24A2020700AC4EA5 /* 086.分隔链表.swift */,
 				0AC470A52442E94B00FBA4D0 /* 088.合并两个有序数组.swift */,
 				0A571114245022BD0029BB2C /* 092.反转链表II.swift */,
 				0A9FB8292445A23300359364 /* 093.复原IP地址.swift */,
@@ -629,6 +632,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A29D5D1248651AB0027B5AF /* 剑指Offer49.丑数.swift in Sources */,
+				0A72523D24A2020700AC4EA5 /* 086.分隔链表.swift in Sources */,
 				0A9FB83C2448038200359364 /* 1346.检查整数及其两倍数是否存在.swift in Sources */,
 				0A57110B244EA6EF0029BB2C /* 155.最小栈.swift in Sources */,
 				0A571109244E91AA0029BB2C /* 073.矩阵置零.swift in Sources */,
