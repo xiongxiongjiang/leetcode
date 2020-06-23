@@ -38,21 +38,22 @@ extension Solution {
         }
         var pre = 0, cur = 0
         var res = ""
-        for i in stride(from: countA - 1, through: 0, by: -1) {
-            let iA = Int(String(A[A.index(A.startIndex, offsetBy: i)])) ?? 0
-            let iB = Int(String(B[B.index(B.startIndex, offsetBy: i)])) ?? 0
-            cur = iA ^ iB ^ pre
-            if iA + iB + pre >= 2 {
+        while countA != 0 {
+            let aLast = Int(String(A.removeLast())) ?? 0
+            let bLast = Int(String(B.removeLast())) ?? 0
+            cur = aLast ^ bLast ^ pre
+            if aLast + bLast + pre >= 2 {
                 pre = 1
             } else {
                 pre = 0
             }
-            res.append(String(cur))
+            res = String(cur) + res
+            countA -= 1
         }
         if pre == 1 {
-            res.append("1")
+            res = String(1) + res
         }
-        return String(res.reversed())
+        return res
     }
     
     func binary2dec(num: String) -> Int {
@@ -67,7 +68,9 @@ extension Solution {
 func test067(s: Solution) {
     //let a = "1010"
     //let b = "101110"
-    let a = "10100000100100110110010000010101111011011001101110111111111101000000101111001110001111100001101"
-    let b = "110101001011101110001111100110001010100001101011101010000011011011001011101111001100000011011110011"
+//    let a = "10100000100100110110010000010101111011011001101110111111111101000000101111001110001111100001101"
+//    let b = "110101001011101110001111100110001010100001101011101010000011011011001011101111001100000011011110011"
+    let a = "11"
+    let b = "1"
     print(s.addBinary(a, b))
 }
