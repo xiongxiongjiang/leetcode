@@ -155,6 +155,7 @@
 		0AEC10132453F59B006BFBF4 /* 075.颜色分类.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEC10122453F59B006BFBF4 /* 075.颜色分类.swift */; };
 		0AEC101524542AD5006BFBF4 /* 125.验证回文串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEC101424542AD5006BFBF4 /* 125.验证回文串.swift */; };
 		0AEC1017245860A2006BFBF4 /* 剑指Offer03.数组中重复的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEC1016245860A2006BFBF4 /* 剑指Offer03.数组中重复的数字.swift */; };
+		0AED54C724A22A9A00F93136 /* 074.搜索二维矩阵.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AED54C624A22A9A00F93136 /* 074.搜索二维矩阵.swift */; };
 		0AFCABB824551B1D00345F40 /* 079.单词搜索.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABB724551B1D00345F40 /* 079.单词搜索.swift */; };
 		0AFCABBA24555FBD00345F40 /* 012.整数转罗马数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABB924555FBD00345F40 /* 012.整数转罗马数字.swift */; };
 		0AFCABBC245576BB00345F40 /* 038.外观数列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABBB245576BB00345F40 /* 038.外观数列.swift */; };
@@ -337,6 +338,7 @@
 		0AEC10122453F59B006BFBF4 /* 075.颜色分类.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "075.颜色分类.swift"; sourceTree = "<group>"; };
 		0AEC101424542AD5006BFBF4 /* 125.验证回文串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "125.验证回文串.swift"; sourceTree = "<group>"; };
 		0AEC1016245860A2006BFBF4 /* 剑指Offer03.数组中重复的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指Offer03.数组中重复的数字.swift"; sourceTree = "<group>"; };
+		0AED54C624A22A9A00F93136 /* 074.搜索二维矩阵.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "074.搜索二维矩阵.swift"; sourceTree = "<group>"; };
 		0AFCABB724551B1D00345F40 /* 079.单词搜索.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "079.单词搜索.swift"; sourceTree = "<group>"; };
 		0AFCABB924555FBD00345F40 /* 012.整数转罗马数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "012.整数转罗马数字.swift"; sourceTree = "<group>"; };
 		0AFCABBB245576BB00345F40 /* 038.外观数列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "038.外观数列.swift"; sourceTree = "<group>"; };
@@ -449,6 +451,7 @@
 				0A9FB83F2448541400359364 /* 071.简化路径.swift */,
 				0A9FB8412448688600359364 /* 072.编辑距离.swift */,
 				0A571108244E91AA0029BB2C /* 073.矩阵置零.swift */,
+				0AED54C624A22A9A00F93136 /* 074.搜索二维矩阵.swift */,
 				0AEC10122453F59B006BFBF4 /* 075.颜色分类.swift */,
 				0A9FB823244552E700359364 /* 077.组合.swift */,
 				0A9FB825244567B300359364 /* 078.子集.swift */,
@@ -796,6 +799,7 @@
 				0A023E1B24498D7000885193 /* 006.Z字形变换.swift in Sources */,
 				0A165BCE243DBA2D00E85723 /* 102.二叉树的层次遍历.swift in Sources */,
 				0AC47092243F0FE300FBA4D0 /* 033.搜索旋转排序数组.swift in Sources */,
+				0AED54C724A22A9A00F93136 /* 074.搜索二维矩阵.swift in Sources */,
 				0A9FB83E24480FCB00359364 /* 148.排序链表.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
