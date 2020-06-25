@@ -157,6 +157,7 @@
 		0AEC1017245860A2006BFBF4 /* 剑指Offer03.数组中重复的数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEC1016245860A2006BFBF4 /* 剑指Offer03.数组中重复的数字.swift */; };
 		0AED54C724A22A9A00F93136 /* 074.搜索二维矩阵.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AED54C624A22A9A00F93136 /* 074.搜索二维矩阵.swift */; };
 		0AED54C924A3A20700F93136 /* 165.比较版本号.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AED54C824A3A20700F93136 /* 165.比较版本号.swift */; };
+		0AED54CB24A3AA1C00F93136 /* 剑指Offer14-I.剪绳子.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AED54CA24A3AA1C00F93136 /* 剑指Offer14-I.剪绳子.swift */; };
 		0AFCABB824551B1D00345F40 /* 079.单词搜索.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABB724551B1D00345F40 /* 079.单词搜索.swift */; };
 		0AFCABBA24555FBD00345F40 /* 012.整数转罗马数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABB924555FBD00345F40 /* 012.整数转罗马数字.swift */; };
 		0AFCABBC245576BB00345F40 /* 038.外观数列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABBB245576BB00345F40 /* 038.外观数列.swift */; };
@@ -341,6 +342,7 @@
 		0AEC1016245860A2006BFBF4 /* 剑指Offer03.数组中重复的数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指Offer03.数组中重复的数字.swift"; sourceTree = "<group>"; };
 		0AED54C624A22A9A00F93136 /* 074.搜索二维矩阵.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "074.搜索二维矩阵.swift"; sourceTree = "<group>"; };
 		0AED54C824A3A20700F93136 /* 165.比较版本号.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "165.比较版本号.swift"; sourceTree = "<group>"; };
+		0AED54CA24A3AA1C00F93136 /* 剑指Offer14-I.剪绳子.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指Offer14-I.剪绳子.swift"; sourceTree = "<group>"; };
 		0AFCABB724551B1D00345F40 /* 079.单词搜索.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "079.单词搜索.swift"; sourceTree = "<group>"; };
 		0AFCABB924555FBD00345F40 /* 012.整数转罗马数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "012.整数转罗马数字.swift"; sourceTree = "<group>"; };
 		0AFCABBB245576BB00345F40 /* 038.外观数列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "038.外观数列.swift"; sourceTree = "<group>"; };
@@ -546,6 +548,7 @@
 				0AFF29552459208C00E0103D /* 剑指Offer07.重建二叉树.swift */,
 				0AFF29592459662300E0103D /* 剑指Offer10-I.斐波那契数列.swift */,
 				0A725230249E30C700AC4EA5 /* 剑指Offer10-II.青蛙跳台阶问题.swift */,
+				0AED54CA24A3AA1C00F93136 /* 剑指Offer14-I.剪绳子.swift */,
 				0AFF295B245981C100E0103D /* 剑指Offer24.反转链表.swift */,
 				0A165B97243DBA2A00E85723 /* 剑指Offer40.最小的k个数.swift */,
 				0A29D5D0248651AB0027B5AF /* 剑指Offer49.丑数.swift */,
@@ -771,6 +774,7 @@
 				0A165BE5243DBA2E00E85723 /* 009.回文数.swift in Sources */,
 				0A6900C2245DCCA00088C05F /* 151.翻转字符串里的单词.swift in Sources */,
 				0A9FB8192444041900359364 /* 062.不同路径.swift in Sources */,
+				0AED54CB24A3AA1C00F93136 /* 剑指Offer14-I.剪绳子.swift in Sources */,
 				0A9FB82E2445E11C00359364 /* 442.数组中重复的数据.swift in Sources */,
 				0A165BE7243DBA2E00E85723 /* 083.删除排序链表中的重复元素.swift in Sources */,
 				0A165BD8243DBA2D00E85723 /* 182.查找重复的电子邮箱.swift in Sources */,
