@@ -163,7 +163,7 @@
 | 159 | | | |
 | 160. 相交链表 | 简单 | [swift](leetcode-swift/leetcode-swift/160.相交链表.swift) | **链表** |
 | 161 | | | |
-| 162 | | | |
+| 162. 寻找峰值 | 中的 | [swift](leetcode-swift/leetcode-swift/162.寻找峰值.swift) | **二分法** |
 | 163 | | | |
 | 164 | | | |
 | 165. 比较版本号 | 中等 | [swift](leetcode-swift/leetcode-swift/165.比较版本号.swift) | **字符串** |
