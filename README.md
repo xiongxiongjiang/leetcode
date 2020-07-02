@@ -266,6 +266,7 @@
 | 剑指Offer53-II. 0～n-1中缺失的数字 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer53-II.0～n-1中缺失的数字.swift) | **二分查找** |
 | 剑指Offer55-I. 二叉树的深度 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer55-I.二叉树的深度.swift) | **二叉树** |
 | 剑指Offer55-II. 平衡二叉树 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer55-II.平衡二叉树.swift) | **二叉树** |
+| 剑指Offer57. 和为s的两个数字 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer57.和为s的两个数字.swift) | **双指针** |
 | 剑指Offer59-I. 滑动窗口的最大值 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer59-I.滑动窗口的最大值.swift) | **单调队列** |
 | 剑指Offer60. n个骰子的点数 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer60.n个骰子的点数.swift) | **动态规划** |
 | 剑指Offer61. 扑克牌中的顺子 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer61.扑克牌中的顺子.swift) |  |
