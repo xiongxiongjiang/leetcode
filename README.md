@@ -75,7 +75,7 @@
 | 071. 简化路径 | 中等 | [swift](leetcode-swift/leetcode-swift/071.简化路径.swift) | **栈** |
 | 072. 编辑距离 | 困难 | [swift](leetcode-swift/leetcode-swift/072.编辑距离.swift) | **动态规划** |
 | 073. 矩阵置零 | 中等 | [swift](leetcode-swift/leetcode-swift/073.矩阵置零.swift) | |
-| 074 | | | |
+| 074. 搜索二维矩阵 | 中等 | [swift](leetcode-swift/leetcode-swift/074.搜索二维矩阵.swift) | **二分法** |
 | 075. 颜色分类 | 中等 | [swift](leetcode-swift/leetcode-swift/075.颜色分类.swift) | **双指针** |
 | 076 | | | |
 | 077. 组合 | 中等 | [swift](leetcode-swift/leetcode-swift/077.组合.swift) | **回溯** |
@@ -87,7 +87,7 @@
 | 083. 删除排序链表中的重复元素 | 简单 | [swift](leetcode-swift/leetcode-swift/083.删除排序链表中的重复元素.swift) | **链表** |
 | 084. 柱状图中最大的矩形 | 困难 | [swift](leetcode-swift/leetcode-swift/084.柱状图中最大的矩形.swift) | **栈** |
 | 085 | | | |
-| 086 | | | |
+| 086. 分隔链表 | 中等 | [swift](leetcode-swift/leetcode-swift/086.分隔链表.swift) | **链表** |
 | 087 | | | |
 | 088. 合并两个有序数组 | 简单 | [swift](leetcode-swift/leetcode-swift/088.合并两个有序数组.swift) | **双指针** |
 | 089 | | | |
@@ -166,7 +166,7 @@
 | 162 | | | |
 | 163 | | | |
 | 164 | | | |
-| 165 | | | |
+| 165. 比较版本号 | 中等 | [swift](leetcode-swift/leetcode-swift/165.比较版本号.swift) | **字符串** |
 | 166 | | | |
 | 167. 两数之和II-输入有序数组 | 简单 | [swift](leetcode-swift/leetcode-swift/167.两数之和II-输入有序数组.swift) | **双指针** |
 | 168 | | | |
@@ -192,7 +192,7 @@
 | 188 | | | |
 | 189. 旋转数组 | 简单 | [swift](leetcode-swift/leetcode-swift/189.旋转数组.swift) |  |
 | 190 | | | |
-| 191 | | | |
+| 191. 位1的个数 | 简单 | [swift](leetcode-swift/leetcode-swift/191.位1的个数.swift) | **位运算** |
 | 192 | | | |
 | 193 | | | |
 | 194 | | | |
@@ -258,13 +258,19 @@
 | 剑指Offer07. 重建二叉树 | 中等 | [swift](leetcode-swift/leetcode-swift/剑指Offer07.重建二叉树.swift) | **二叉树** |
 | 剑指Offer10-I. 斐波那契数列 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer10-I.斐波那契数列.swift) | **动态规划** |
 | 剑指Offer10-II. 青蛙跳台阶问题 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer10-II.青蛙跳台阶问题.swift) | **动态规划** |
-| 剑指Offer24. 反转链表 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer24.反转链表.swift) |  |
+| 剑指Offer15. 二进制中1的个数 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer15.二进制中1的个数.swift) | **位运算** |
+| 剑指Offer18. 删除链表的节点 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer18.删除链表的节点.swift) | **链表** |
+| 剑指Offer24. 反转链表 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer24.反转链表.swift) | **链表** |
 | 剑指Offer40. 最小的k个数 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer40.最小的k个数.swift) | |
 | 剑指Offer49. 丑数 | 中等 | [swift](leetcode-swift/leetcode-swift/剑指Offer49.丑数.swift) | **动态规划** **三指针** |
 | 剑指Offer53-II. 0～n-1中缺失的数字 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer53-II.0～n-1中缺失的数字.swift) | **二分查找** |
 | 剑指Offer55-I. 二叉树的深度 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer55-I.二叉树的深度.swift) | **二叉树** |
 | 剑指Offer55-II. 平衡二叉树 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer55-II.平衡二叉树.swift) | **二叉树** |
+| 剑指Offer59-I. 滑动窗口的最大值 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer59-I.滑动窗口的最大值.swift) | **单调队列** |
+| 剑指Offer60. n个骰子的点数 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer60.n个骰子的点数.swift) | **动态规划** |
+| 剑指Offer61. 扑克牌中的顺子 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer61.扑克牌中的顺子.swift) |  |
 | 剑指Offer62. 圆圈中最后剩下的数字 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer62.圆圈中最后剩下的数字.swift) | **数学** |
+| 剑指Offer63. 股票的最大利润 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer63.股票的最大利润.swift) |  |
 | 剑指Offer64. 求1+2+…+n | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer64.求1+2+…+n.swift) | **三目运算** |
 | 剑指Offer66. 构建乘积数组 | 中等 | [swift](leetcode-swift/leetcode-swift/剑指Offer66.构建乘积数组.swift) |  |
 

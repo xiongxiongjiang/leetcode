@@ -117,6 +117,8 @@
 		0A94C89C2452E6E100A59E17 /* 111.二叉树的最小深度.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A94C89B2452E6E100A59E17 /* 111.二叉树的最小深度.swift */; };
 		0A9DE55124A9CC31004E1FEB /* 剑指Offer63.股票的最大利润.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE55024A9CC31004E1FEB /* 剑指Offer63.股票的最大利润.swift */; };
 		0A9DE55324A9CF71004E1FEB /* 剑指Offer61.扑克牌中的顺子.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE55224A9CF71004E1FEB /* 剑指Offer61.扑克牌中的顺子.swift */; };
+		0A9DE55524AA135E004E1FEB /* 剑指Offer60.n个骰子的点数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE55424AA135E004E1FEB /* 剑指Offer60.n个骰子的点数.swift */; };
+		0A9DE55724AB3793004E1FEB /* 剑指Offer59-I.滑动窗口的最大值.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE55624AB3793004E1FEB /* 剑指Offer59-I.滑动窗口的最大值.swift */; };
 		0A9FB8192444041900359364 /* 062.不同路径.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FB8182444041900359364 /* 062.不同路径.swift */; };
 		0A9FB81B2444143C00359364 /* 064.最小路径和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FB81A2444143C00359364 /* 064.最小路径和.swift */; };
 		0A9FB822244468EA00359364 /* 051.N皇后.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FB821244468EA00359364 /* 051.N皇后.swift */; };
@@ -306,6 +308,8 @@
 		0A94C89B2452E6E100A59E17 /* 111.二叉树的最小深度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "111.二叉树的最小深度.swift"; sourceTree = "<group>"; };
 		0A9DE55024A9CC31004E1FEB /* 剑指Offer63.股票的最大利润.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指Offer63.股票的最大利润.swift"; sourceTree = "<group>"; };
 		0A9DE55224A9CF71004E1FEB /* 剑指Offer61.扑克牌中的顺子.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指Offer61.扑克牌中的顺子.swift"; sourceTree = "<group>"; };
+		0A9DE55424AA135E004E1FEB /* 剑指Offer60.n个骰子的点数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指Offer60.n个骰子的点数.swift"; sourceTree = "<group>"; };
+		0A9DE55624AB3793004E1FEB /* 剑指Offer59-I.滑动窗口的最大值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指Offer59-I.滑动窗口的最大值.swift"; sourceTree = "<group>"; };
 		0A9FB8182444041900359364 /* 062.不同路径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "062.不同路径.swift"; sourceTree = "<group>"; };
 		0A9FB81A2444143C00359364 /* 064.最小路径和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "064.最小路径和.swift"; sourceTree = "<group>"; };
 		0A9FB821244468EA00359364 /* 051.N皇后.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "051.N皇后.swift"; sourceTree = "<group>"; };
@@ -565,6 +569,8 @@
 				0A725234249E3ED500AC4EA5 /* 剑指Offer53-II.0～n-1中缺失的数字.swift */,
 				0A29D5CE2485F9D70027B5AF /* 剑指Offer55-I.二叉树的深度.swift */,
 				0A725232249E38AE00AC4EA5 /* 剑指Offer55-II.平衡二叉树.swift */,
+				0A9DE55624AB3793004E1FEB /* 剑指Offer59-I.滑动窗口的最大值.swift */,
+				0A9DE55424AA135E004E1FEB /* 剑指Offer60.n个骰子的点数.swift */,
 				0A9DE55224A9CF71004E1FEB /* 剑指Offer61.扑克牌中的顺子.swift */,
 				0A29D5D2248682380027B5AF /* 剑指Offer62.圆圈中最后剩下的数字.swift */,
 				0A9DE55024A9CC31004E1FEB /* 剑指Offer63.股票的最大利润.swift */,
@@ -765,9 +771,11 @@
 				0A165BEE243DBA2E00E85723 /* 082.删除排序链表中的重复元素II.swift in Sources */,
 				0A5710F3244D7E300029BB2C /* 063.不同路径II.swift in Sources */,
 				0AC4708E243EF8C200FBA4D0 /* 121.买卖股票的最佳时机.swift in Sources */,
+				0A9DE55524AA135E004E1FEB /* 剑指Offer60.n个骰子的点数.swift in Sources */,
 				0AFCABC82457C89C00345F40 /* 234.回文链表.swift in Sources */,
 				0AFF295A2459662300E0103D /* 剑指Offer10-I.斐波那契数列.swift in Sources */,
 				0A165BD5243DBA2D00E85723 /* 070.爬楼梯.swift in Sources */,
+				0A9DE55724AB3793004E1FEB /* 剑指Offer59-I.滑动窗口的最大值.swift in Sources */,
 				0A165BD1243DBA2D00E85723 /* 剑指Offer40.最小的k个数.swift in Sources */,
 				0A165BE6243DBA2E00E85723 /* 024.两两交换链表中的节点.swift in Sources */,
 				0A9FB8302445F4A900359364 /* 389.找不同.swift in Sources */,

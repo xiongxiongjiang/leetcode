@@ -40,7 +40,7 @@ extension Solution {
     }
 }
 
-func test0ffer61(s: Solution) {
+func testOffer61(s: Solution) {
     let num = [0, 1, 0, 2, 5]
     print(s.isStraight(num))
 }
