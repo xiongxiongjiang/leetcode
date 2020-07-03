@@ -1,44 +1,43 @@
 //
-//  102. 二叉树的层次遍历.swift
+//  剑指Offer32-I.从上到下打印二叉树.swift
 //  leetcode-swift
 //
-//  Created by 徐荣 on 2020/3/31.
+//  Created by 徐荣 on 2020/7/3.
 //  Copyright © 2020 xurong. All rights reserved.
 //
 
 import Foundation
 
 /*
- 给你一个二叉树，请你返回其按 层序遍历 得到的节点值。 （即逐层地，从左到右访问所有节点）。
+ 从上到下打印出二叉树的每个节点，同一层的节点按照从左到右的顺序打印。
 
- 示例：
- 二叉树：[3,9,20,null,null,15,7],
+ 例如:
+ 给定二叉树: [3,9,20,null,null,15,7],
 
      3
     / \
    9  20
      /  \
     15   7
- 返回其层次遍历结果：
+ 返回：
 
- [
-   [3],
-   [9,20],
-   [15,7]
- ]
+ [3,9,20,15,7]
+ 
+ 提示：
+ 节点总数 <= 1000
  */
 
 extension Solution {
-    func levelOrder(_ root: TreeNode?) -> [[Int]] {
+    func levelOrder1(_ root: TreeNode?) -> [Int] {
         guard let root = root else { return [] }
+        var res = [Int]()
         var stack = [TreeNode]()
-        var res = [[Int]]()
         stack.append(root)
         while stack.isEmpty == false {
-            var level = [Int]() //存放该层所有数值
-            for _ in 0..<stack.count {
+            let count = stack.count
+            for _ in 0..<count {
                 let node = stack.removeFirst()
-                level.append(node.val)
+                res.append(node.val)
                 if let left = node.left {
                     stack.append(left)
                 }
@@ -46,21 +45,12 @@ extension Solution {
                     stack.append(right)
                 }
             }
-            res.append(level)
         }
         return res
     }
 }
 
-/*
-   3
-  / \
- 9  20
-   /  \
-  15   7
- */
-
-func test102(s: Solution) {
+func testOffer32I(s: Solution) {
     let nodeA = TreeNode(3)
     let nodeB = TreeNode(9)
     let nodeC = TreeNode(20)
@@ -78,5 +68,5 @@ func test102(s: Solution) {
     let node2 = TreeNode(12)
     nodeD.left = node2
     
-    print(s.levelOrder(nodeA))
+    print(s.levelOrder1(nodeA))
 }

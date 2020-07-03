@@ -121,6 +121,7 @@
 		0A9DE55724AB3793004E1FEB /* 剑指Offer59-I.滑动窗口的最大值.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE55624AB3793004E1FEB /* 剑指Offer59-I.滑动窗口的最大值.swift */; };
 		0A9DE55924ADD950004E1FEB /* 162.寻找峰值.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE55824ADD950004E1FEB /* 162.寻找峰值.swift */; };
 		0A9DE55B24AE1996004E1FEB /* 剑指Offer57.和为s的两个数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE55A24AE1996004E1FEB /* 剑指Offer57.和为s的两个数字.swift */; };
+		0A9DE55D24AED7A0004E1FEB /* 剑指Offer32-I.从上到下打印二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE55C24AED7A0004E1FEB /* 剑指Offer32-I.从上到下打印二叉树.swift */; };
 		0A9FB8192444041900359364 /* 062.不同路径.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FB8182444041900359364 /* 062.不同路径.swift */; };
 		0A9FB81B2444143C00359364 /* 064.最小路径和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FB81A2444143C00359364 /* 064.最小路径和.swift */; };
 		0A9FB822244468EA00359364 /* 051.N皇后.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FB821244468EA00359364 /* 051.N皇后.swift */; };
@@ -314,6 +315,7 @@
 		0A9DE55624AB3793004E1FEB /* 剑指Offer59-I.滑动窗口的最大值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指Offer59-I.滑动窗口的最大值.swift"; sourceTree = "<group>"; };
 		0A9DE55824ADD950004E1FEB /* 162.寻找峰值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "162.寻找峰值.swift"; sourceTree = "<group>"; };
 		0A9DE55A24AE1996004E1FEB /* 剑指Offer57.和为s的两个数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指Offer57.和为s的两个数字.swift"; sourceTree = "<group>"; };
+		0A9DE55C24AED7A0004E1FEB /* 剑指Offer32-I.从上到下打印二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指Offer32-I.从上到下打印二叉树.swift"; sourceTree = "<group>"; };
 		0A9FB8182444041900359364 /* 062.不同路径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "062.不同路径.swift"; sourceTree = "<group>"; };
 		0A9FB81A2444143C00359364 /* 064.最小路径和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "064.最小路径和.swift"; sourceTree = "<group>"; };
 		0A9FB821244468EA00359364 /* 051.N皇后.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "051.N皇后.swift"; sourceTree = "<group>"; };
@@ -569,6 +571,7 @@
 				0AED54CC24A486FB00F93136 /* 剑指Offer15.二进制中1的个数.swift */,
 				0AED54CE24A49E4300F93136 /* 剑指Offer18.删除链表的节点.swift */,
 				0AFF295B245981C100E0103D /* 剑指Offer24.反转链表.swift */,
+				0A9DE55C24AED7A0004E1FEB /* 剑指Offer32-I.从上到下打印二叉树.swift */,
 				0A165B97243DBA2A00E85723 /* 剑指Offer40.最小的k个数.swift */,
 				0A29D5D0248651AB0027B5AF /* 剑指Offer49.丑数.swift */,
 				0A725234249E3ED500AC4EA5 /* 剑指Offer53-II.0～n-1中缺失的数字.swift */,
@@ -707,6 +710,7 @@
 				0A9FB8402448541400359364 /* 071.简化路径.swift in Sources */,
 				0A165BD3243DBA2D00E85723 /* 177.第N高的薪水.swift in Sources */,
 				0A165BEF243DBA2E00E85723 /* 003.无重复字符的最长子串.swift in Sources */,
+				0A9DE55D24AED7A0004E1FEB /* 剑指Offer32-I.从上到下打印二叉树.swift in Sources */,
 				0AFCABC62456E53C00345F40 /* 017.电话号码的字母组合.swift in Sources */,
 				0AFCABBE245682F300345F40 /* 084.柱状图中最大的矩形.swift in Sources */,
 				0AFF2952245911F700E0103D /* 剑指Offer05.替换空格.swift in Sources */,
