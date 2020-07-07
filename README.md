@@ -153,7 +153,7 @@
 | 149 | | | |
 | 150 | | | |
 | 151. 翻转字符串里的单词 | 中等 | [swift](leetcode-swift/leetcode-swift/151.翻转字符串里的单词.swift) | |
-| 152 | | | |
+| 152. 乘积最大子数组 | 中等 | [swift](leetcode-swift/leetcode-swift/152.乘积最大子数组.swift) | |
 | 153. 寻找旋转排序数组中的最小值 | 中等 | [swift](leetcode-swift/leetcode-swift/153.寻找旋转排序数组中的最小值.swift) | **二分查找** |
 | 154 | | | |
 | 155. 最小栈 | 简单 | [swift](leetcode-swift/leetcode-swift/155.最小栈.swift) | **栈** |
@@ -261,6 +261,8 @@
 | 剑指Offer15. 二进制中1的个数 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer15.二进制中1的个数.swift) | **位运算** |
 | 剑指Offer18. 删除链表的节点 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer18.删除链表的节点.swift) | **链表** |
 | 剑指Offer24. 反转链表 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer24.反转链表.swift) | **链表** |
+| 剑指Offer32-I. 从上到下打印二叉树 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer32-I.从上到下打印二叉树.swift) | **二叉树** |
+| 剑指Offer38. 字符串的排列 | 中等 | [swift](leetcode-swift/leetcode-swift/剑指Offer38.字符串的排列.swift) | **回溯** |
 | 剑指Offer40. 最小的k个数 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer40.最小的k个数.swift) | |
 | 剑指Offer49. 丑数 | 中等 | [swift](leetcode-swift/leetcode-swift/剑指Offer49.丑数.swift) | **动态规划** **三指针** |
 | 剑指Offer53-II. 0～n-1中缺失的数字 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer53-II.0～n-1中缺失的数字.swift) | **二分查找** |

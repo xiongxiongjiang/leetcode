@@ -122,6 +122,8 @@
 		0A9DE55924ADD950004E1FEB /* 162.寻找峰值.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE55824ADD950004E1FEB /* 162.寻找峰值.swift */; };
 		0A9DE55B24AE1996004E1FEB /* 剑指Offer57.和为s的两个数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE55A24AE1996004E1FEB /* 剑指Offer57.和为s的两个数字.swift */; };
 		0A9DE55D24AED7A0004E1FEB /* 剑指Offer32-I.从上到下打印二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE55C24AED7A0004E1FEB /* 剑指Offer32-I.从上到下打印二叉树.swift */; };
+		0A9DE55F24B1D1DB004E1FEB /* 152.乘积最大子数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE55E24B1D1DB004E1FEB /* 152.乘积最大子数组.swift */; };
+		0A9DE56124B45CB9004E1FEB /* 剑指Offer38.字符串的排列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE56024B45CB9004E1FEB /* 剑指Offer38.字符串的排列.swift */; };
 		0A9FB8192444041900359364 /* 062.不同路径.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FB8182444041900359364 /* 062.不同路径.swift */; };
 		0A9FB81B2444143C00359364 /* 064.最小路径和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FB81A2444143C00359364 /* 064.最小路径和.swift */; };
 		0A9FB822244468EA00359364 /* 051.N皇后.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FB821244468EA00359364 /* 051.N皇后.swift */; };
@@ -316,6 +318,8 @@
 		0A9DE55824ADD950004E1FEB /* 162.寻找峰值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "162.寻找峰值.swift"; sourceTree = "<group>"; };
 		0A9DE55A24AE1996004E1FEB /* 剑指Offer57.和为s的两个数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指Offer57.和为s的两个数字.swift"; sourceTree = "<group>"; };
 		0A9DE55C24AED7A0004E1FEB /* 剑指Offer32-I.从上到下打印二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指Offer32-I.从上到下打印二叉树.swift"; sourceTree = "<group>"; };
+		0A9DE55E24B1D1DB004E1FEB /* 152.乘积最大子数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "152.乘积最大子数组.swift"; sourceTree = "<group>"; };
+		0A9DE56024B45CB9004E1FEB /* 剑指Offer38.字符串的排列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指Offer38.字符串的排列.swift"; sourceTree = "<group>"; };
 		0A9FB8182444041900359364 /* 062.不同路径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "062.不同路径.swift"; sourceTree = "<group>"; };
 		0A9FB81A2444143C00359364 /* 064.最小路径和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "064.最小路径和.swift"; sourceTree = "<group>"; };
 		0A9FB821244468EA00359364 /* 051.N皇后.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "051.N皇后.swift"; sourceTree = "<group>"; };
@@ -516,6 +520,7 @@
 				0A165B9C243DBA2A00E85723 /* 146.LRU缓存机制.swift */,
 				0A9FB83D24480FCB00359364 /* 148.排序链表.swift */,
 				0A6900C1245DCCA00088C05F /* 151.翻转字符串里的单词.swift */,
+				0A9DE55E24B1D1DB004E1FEB /* 152.乘积最大子数组.swift */,
 				0AFCABCB2458279500345F40 /* 153.寻找旋转排序数组中的最小值.swift */,
 				0A57110A244EA6EF0029BB2C /* 155.最小栈.swift */,
 				0A165B98243DBA2A00E85723 /* 160.相交链表.swift */,
@@ -572,6 +577,7 @@
 				0AED54CE24A49E4300F93136 /* 剑指Offer18.删除链表的节点.swift */,
 				0AFF295B245981C100E0103D /* 剑指Offer24.反转链表.swift */,
 				0A9DE55C24AED7A0004E1FEB /* 剑指Offer32-I.从上到下打印二叉树.swift */,
+				0A9DE56024B45CB9004E1FEB /* 剑指Offer38.字符串的排列.swift */,
 				0A165B97243DBA2A00E85723 /* 剑指Offer40.最小的k个数.swift */,
 				0A29D5D0248651AB0027B5AF /* 剑指Offer49.丑数.swift */,
 				0A725234249E3ED500AC4EA5 /* 剑指Offer53-II.0～n-1中缺失的数字.swift */,
@@ -755,6 +761,7 @@
 				0A5710EB244AFA1F0029BB2C /* 037.解数独.swift in Sources */,
 				0AFCABBC245576BB00345F40 /* 038.外观数列.swift in Sources */,
 				0AC5A93D2463AE2700DA6D5E /* 013.罗马数字转整数.swift in Sources */,
+				0A9DE56124B45CB9004E1FEB /* 剑指Offer38.字符串的排列.swift in Sources */,
 				0A165BFD243DBA2E00E85723 /* 206.反转链表.swift in Sources */,
 				0AFF295824592DB900E0103D /* 105.从前序与中序遍历序列构造二叉树.swift in Sources */,
 				0AC470A82442FFF200FBA4D0 /* 232.用栈实现队列.swift in Sources */,
@@ -782,6 +789,7 @@
 				0A165BEE243DBA2E00E85723 /* 082.删除排序链表中的重复元素II.swift in Sources */,
 				0A5710F3244D7E300029BB2C /* 063.不同路径II.swift in Sources */,
 				0AC4708E243EF8C200FBA4D0 /* 121.买卖股票的最佳时机.swift in Sources */,
+				0A9DE55F24B1D1DB004E1FEB /* 152.乘积最大子数组.swift in Sources */,
 				0A9DE55524AA135E004E1FEB /* 剑指Offer60.n个骰子的点数.swift in Sources */,
 				0AFCABC82457C89C00345F40 /* 234.回文链表.swift in Sources */,
 				0AFF295A2459662300E0103D /* 剑指Offer10-I.斐波那契数列.swift in Sources */,
