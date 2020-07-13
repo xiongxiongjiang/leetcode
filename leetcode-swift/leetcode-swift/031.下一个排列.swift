@@ -38,24 +38,15 @@ extension Solution {
             while j >= 0 && nums[j] <= nums[i] {
                 j -= 1
             }
-            swap(nums: &nums, i: i, j: j)
+            nums.swapAt(i, j)
         }
         reverse(nums: &nums, i: i + 1, j: nums.count - 1)
-    }
-    
-    private func swap(nums: inout [Int], i: Int, j: Int) {
-        if i < 0 || j < 0 || i > nums.count - 1 || j > nums.count - 1 {
-            return
-        }
-        let tmp = nums[i]
-        nums[i] = nums[j]
-        nums[j] = tmp
     }
     
     private func reverse(nums: inout [Int], i: Int, j: Int) {
         var i = i, j = j
         while i < j {
-            swap(nums: &nums, i: i, j: j)
+            nums.swapAt(i, j)
             i += 1
             j -= 1
         }
@@ -63,8 +54,8 @@ extension Solution {
 }
 
 func test031(s: Solution) {
-//    var nums = [1, 5, 8, 4, 7, 6, 5, 3, 1]
-    var nums = [3, 2, 1]
+    var nums = [1, 5, 8, 4, 7, 6, 5, 3, 1]
+//    var nums = [3, 2, 1]
     s.nextPermutation(&nums)
     print(nums)
 }

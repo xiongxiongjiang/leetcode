@@ -124,6 +124,14 @@
 		0A9DE55D24AED7A0004E1FEB /* 剑指Offer32-I.从上到下打印二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE55C24AED7A0004E1FEB /* 剑指Offer32-I.从上到下打印二叉树.swift */; };
 		0A9DE55F24B1D1DB004E1FEB /* 152.乘积最大子数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE55E24B1D1DB004E1FEB /* 152.乘积最大子数组.swift */; };
 		0A9DE56124B45CB9004E1FEB /* 剑指Offer38.字符串的排列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE56024B45CB9004E1FEB /* 剑指Offer38.字符串的排列.swift */; };
+		0A9DE56324B4A6E2004E1FEB /* 剑指Offer42.连续子数组的最大和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE56224B4A6E2004E1FEB /* 剑指Offer42.连续子数组的最大和.swift */; };
+		0A9DE56524B4F7C9004E1FEB /* 055.跳跃游戏.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE56424B4F7C9004E1FEB /* 055.跳跃游戏.swift */; };
+		0A9DE56724B5638B004E1FEB /* 187.重复的DNA序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE56624B5638B004E1FEB /* 187.重复的DNA序列.swift */; };
+		0A9DE56924B7190D004E1FEB /* 045.跳跃游戏II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE56824B7190D004E1FEB /* 045.跳跃游戏II.swift */; };
+		0A9DE56B24B75CB6004E1FEB /* 080.删除排序数组中的重复项 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE56A24B75CB6004E1FEB /* 080.删除排序数组中的重复项 II.swift */; };
+		0A9DE56D24B9B712004E1FEB /* 081.搜索旋转排序数组 II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE56C24B9B712004E1FEB /* 081.搜索旋转排序数组 II.swift */; };
+		0A9DE56F24BA0B6C004E1FEB /* 090.子集II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE56E24BA0B6C004E1FEB /* 090.子集II.swift */; };
+		0A9DE57124BCC8EA004E1FEB /* 091.解码方法.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE57024BCC8EA004E1FEB /* 091.解码方法.swift */; };
 		0A9FB8192444041900359364 /* 062.不同路径.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FB8182444041900359364 /* 062.不同路径.swift */; };
 		0A9FB81B2444143C00359364 /* 064.最小路径和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FB81A2444143C00359364 /* 064.最小路径和.swift */; };
 		0A9FB822244468EA00359364 /* 051.N皇后.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FB821244468EA00359364 /* 051.N皇后.swift */; };
@@ -320,6 +328,14 @@
 		0A9DE55C24AED7A0004E1FEB /* 剑指Offer32-I.从上到下打印二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指Offer32-I.从上到下打印二叉树.swift"; sourceTree = "<group>"; };
 		0A9DE55E24B1D1DB004E1FEB /* 152.乘积最大子数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "152.乘积最大子数组.swift"; sourceTree = "<group>"; };
 		0A9DE56024B45CB9004E1FEB /* 剑指Offer38.字符串的排列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指Offer38.字符串的排列.swift"; sourceTree = "<group>"; };
+		0A9DE56224B4A6E2004E1FEB /* 剑指Offer42.连续子数组的最大和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指Offer42.连续子数组的最大和.swift"; sourceTree = "<group>"; };
+		0A9DE56424B4F7C9004E1FEB /* 055.跳跃游戏.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "055.跳跃游戏.swift"; sourceTree = "<group>"; };
+		0A9DE56624B5638B004E1FEB /* 187.重复的DNA序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "187.重复的DNA序列.swift"; sourceTree = "<group>"; };
+		0A9DE56824B7190D004E1FEB /* 045.跳跃游戏II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "045.跳跃游戏II.swift"; sourceTree = "<group>"; };
+		0A9DE56A24B75CB6004E1FEB /* 080.删除排序数组中的重复项 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "080.删除排序数组中的重复项 II.swift"; sourceTree = "<group>"; };
+		0A9DE56C24B9B712004E1FEB /* 081.搜索旋转排序数组 II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "081.搜索旋转排序数组 II.swift"; sourceTree = "<group>"; };
+		0A9DE56E24BA0B6C004E1FEB /* 090.子集II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "090.子集II.swift"; sourceTree = "<group>"; };
+		0A9DE57024BCC8EA004E1FEB /* 091.解码方法.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "091.解码方法.swift"; sourceTree = "<group>"; };
 		0A9FB8182444041900359364 /* 062.不同路径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "062.不同路径.swift"; sourceTree = "<group>"; };
 		0A9FB81A2444143C00359364 /* 064.最小路径和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "064.最小路径和.swift"; sourceTree = "<group>"; };
 		0A9FB821244468EA00359364 /* 051.N皇后.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "051.N皇后.swift"; sourceTree = "<group>"; };
@@ -456,11 +472,13 @@
 				0AC4709D24418F9400FBA4D0 /* 041.缺失的第一个正数.swift */,
 				0A165BAE243DBA2B00E85723 /* 042.接雨水.swift */,
 				0A9FB8392447170E00359364 /* 043.字符串相乘.swift */,
+				0A9DE56824B7190D004E1FEB /* 045.跳跃游戏II.swift */,
 				0A165B91243DBA2900E85723 /* 046.全排列.swift */,
 				0AC470AB2443072100FBA4D0 /* 048.旋转图像.swift */,
 				0A9FB821244468EA00359364 /* 051.N皇后.swift */,
 				0A165B9D243DBA2A00E85723 /* 053.最大子序和.swift */,
 				0A5710F4244D87530029BB2C /* 054.螺旋矩阵.swift */,
+				0A9DE56424B4F7C9004E1FEB /* 055.跳跃游戏.swift */,
 				0A165BA9243DBA2B00E85723 /* 056.合并区间.swift */,
 				0AC470A32441AF5E00FBA4D0 /* 057.插入区间.swift */,
 				0A165BBE243DBA2C00E85723 /* 058.最后一个单词的长度.swift */,
@@ -482,11 +500,15 @@
 				0A9FB823244552E700359364 /* 077.组合.swift */,
 				0A9FB825244567B300359364 /* 078.子集.swift */,
 				0AFCABB724551B1D00345F40 /* 079.单词搜索.swift */,
+				0A9DE56A24B75CB6004E1FEB /* 080.删除排序数组中的重复项 II.swift */,
+				0A9DE56C24B9B712004E1FEB /* 081.搜索旋转排序数组 II.swift */,
 				0A165BB4243DBA2C00E85723 /* 082.删除排序链表中的重复元素II.swift */,
 				0A165BAD243DBA2B00E85723 /* 083.删除排序链表中的重复元素.swift */,
 				0AFCABBD245682F300345F40 /* 084.柱状图中最大的矩形.swift */,
 				0A72523C24A2020700AC4EA5 /* 086.分隔链表.swift */,
 				0AC470A52442E94B00FBA4D0 /* 088.合并两个有序数组.swift */,
+				0A9DE56E24BA0B6C004E1FEB /* 090.子集II.swift */,
+				0A9DE57024BCC8EA004E1FEB /* 091.解码方法.swift */,
 				0A571114245022BD0029BB2C /* 092.反转链表II.swift */,
 				0A9FB8292445A23300359364 /* 093.复原IP地址.swift */,
 				0A165BA0243DBA2A00E85723 /* 094.二叉树的中序遍历.swift */,
@@ -534,6 +556,7 @@
 				0A165B99243DBA2A00E85723 /* 177.第N高的薪水.swift */,
 				0A72523824A0920B00AC4EA5 /* 179.最大数.swift */,
 				0A165B9E243DBA2A00E85723 /* 182.查找重复的电子邮箱.swift */,
+				0A9DE56624B5638B004E1FEB /* 187.重复的DNA序列.swift */,
 				0A57111A24512E890029BB2C /* 189.旋转数组.swift */,
 				0A72523A24A111EC00AC4EA5 /* 191.位1的个数.swift */,
 				0A165BBA243DBA2C00E85723 /* 196.删除重复的电子邮箱.swift */,
@@ -579,6 +602,7 @@
 				0A9DE55C24AED7A0004E1FEB /* 剑指Offer32-I.从上到下打印二叉树.swift */,
 				0A9DE56024B45CB9004E1FEB /* 剑指Offer38.字符串的排列.swift */,
 				0A165B97243DBA2A00E85723 /* 剑指Offer40.最小的k个数.swift */,
+				0A9DE56224B4A6E2004E1FEB /* 剑指Offer42.连续子数组的最大和.swift */,
 				0A29D5D0248651AB0027B5AF /* 剑指Offer49.丑数.swift */,
 				0A725234249E3ED500AC4EA5 /* 剑指Offer53-II.0～n-1中缺失的数字.swift */,
 				0A29D5CE2485F9D70027B5AF /* 剑指Offer55-I.二叉树的深度.swift */,
@@ -674,6 +698,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A29D5D1248651AB0027B5AF /* 剑指Offer49.丑数.swift in Sources */,
+				0A9DE56924B7190D004E1FEB /* 045.跳跃游戏II.swift in Sources */,
 				0A72523D24A2020700AC4EA5 /* 086.分隔链表.swift in Sources */,
 				0A9FB83C2448038200359364 /* 1346.检查整数及其两倍数是否存在.swift in Sources */,
 				0A57110B244EA6EF0029BB2C /* 155.最小栈.swift in Sources */,
@@ -681,6 +706,7 @@
 				0A165BFE243DBA2E00E85723 /* 014.最长公共前缀.swift in Sources */,
 				0A165B8C243DB95A00E85723 /* 001.两数之和.swift in Sources */,
 				0AFCABC22456BEB400345F40 /* 485.最大连续1的个数.swift in Sources */,
+				0A9DE56D24B9B712004E1FEB /* 081.搜索旋转排序数组 II.swift in Sources */,
 				0A165BDF243DBA2E00E85723 /* 135.分发糖果.swift in Sources */,
 				0A165C03243DBA2E00E85723 /* 349.两个数组的交集.swift in Sources */,
 				0A165BF2243DBA2E00E85723 /* 100.相同的树.swift in Sources */,
@@ -698,6 +724,7 @@
 				0AC5A93F2463F33700DA6D5E /* 131.分割回文串.swift in Sources */,
 				0A725233249E38AE00AC4EA5 /* 剑指Offer55-II.平衡二叉树.swift in Sources */,
 				0A165BEB243DBA2E00E85723 /* 021.合并两个有序链表.swift in Sources */,
+				0A9DE57124BCC8EA004E1FEB /* 091.解码方法.swift in Sources */,
 				0A165BE1243DBA2E00E85723 /* 199.二叉树的右视图.swift in Sources */,
 				0A165BDD243DBA2D00E85723 /* 110.平衡二叉树.swift in Sources */,
 				0A84142D247F932500ABBE45 /* bucket.swift in Sources */,
@@ -722,6 +749,7 @@
 				0AFF2952245911F700E0103D /* 剑指Offer05.替换空格.swift in Sources */,
 				0A9FB82C2445C93C00359364 /* 118.杨辉三角.swift in Sources */,
 				0AC470982440234E00FBA4D0 /* 122.买卖股票的最佳时机II.swift in Sources */,
+				0A9DE56B24B75CB6004E1FEB /* 080.删除排序数组中的重复项 II.swift in Sources */,
 				0A571119245038F40029BB2C /* 114.二叉树展开为链表.swift in Sources */,
 				0A023E1F2449C56700885193 /* 034.在排序数组中查找元素的第一个和最后一个位置.swift in Sources */,
 				0A165BE8243DBA2E00E85723 /* 042.接雨水.swift in Sources */,
@@ -753,6 +781,7 @@
 				0A165BFF243DBA2E00E85723 /* 005.最长回文子串.swift in Sources */,
 				0A9FB8382446E04100359364 /* 060.第k个排列.swift in Sources */,
 				0A9FB83A2447170E00359364 /* 043.字符串相乘.swift in Sources */,
+				0A9DE56724B5638B004E1FEB /* 187.重复的DNA序列.swift in Sources */,
 				0AED54CD24A486FB00F93136 /* 剑指Offer15.二进制中1的个数.swift in Sources */,
 				0A165BD4243DBA2D00E85723 /* 104.二叉树的最大深度.swift in Sources */,
 				0A165BD0243DBA2D00E85723 /* 225.用队列实现栈.swift in Sources */,
@@ -776,6 +805,7 @@
 				0A165BEC243DBA2E00E85723 /* 019.删除链表的倒数第N个节点.swift in Sources */,
 				0A165BF5243DBA2E00E85723 /* 136.只出现一次的数字.swift in Sources */,
 				0A9DE55124A9CC31004E1FEB /* 剑指Offer63.股票的最大利润.swift in Sources */,
+				0A9DE56F24BA0B6C004E1FEB /* 090.子集II.swift in Sources */,
 				0A5710F7244D978C0029BB2C /* 040.组合总和II.swift in Sources */,
 				0A023E1D2449979B00885193 /* 008.字符串转换整数(atoi).swift in Sources */,
 				0AFCABC02456B79300345F40 /* 172.阶乘后的零.swift in Sources */,
@@ -831,6 +861,7 @@
 				0AC4709424400E2400FBA4D0 /* 023.合并K个排序链表.swift in Sources */,
 				0A165BFC243DBA2E00E85723 /* 142.环形链表II.swift in Sources */,
 				0A165BE4243DBA2E00E85723 /* 204.计数质数.swift in Sources */,
+				0A9DE56524B4F7C9004E1FEB /* 055.跳跃游戏.swift in Sources */,
 				0A571115245022BD0029BB2C /* 092.反转链表II.swift in Sources */,
 				0A165C01243DBA2E00E85723 /* 069.x的平方根.swift in Sources */,
 				0ABDE623245888D2008BDEE1 /* 剑指Offer04.二维数组中的查找.swift in Sources */,
@@ -839,6 +870,7 @@
 				0A9FB8342446B3A000359364 /* 222.完全二叉树的节点个数.swift in Sources */,
 				0A5710F9244DA77D0029BB2C /* 059.螺旋矩阵II.swift in Sources */,
 				0A165BF0243DBA2E00E85723 /* 144.二叉树的前序遍历.swift in Sources */,
+				0A9DE56324B4A6E2004E1FEB /* 剑指Offer42.连续子数组的最大和.swift in Sources */,
 				0A5710FF244DD2490029BB2C /* bubble.swift in Sources */,
 				0AEC1017245860A2006BFBF4 /* 剑指Offer03.数组中重复的数字.swift in Sources */,
 				0A165BDC243DBA2D00E85723 /* 101.对称二叉树.swift in Sources */,

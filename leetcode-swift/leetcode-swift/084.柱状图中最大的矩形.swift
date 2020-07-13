@@ -23,10 +23,11 @@ extension Solution {
         var stack = [Int]()
         var maxArea = 0
         stack.append(-1)
+        //栈存入的是下标
         for i in 0..<heights.count {
-            //如果当前高度比栈顶元素矮
+            //如果当前高度比栈顶元素矮（也就是数组的最后一个）
             while stack.last != -1 && heights[i] < heights[stack.last!] {
-                //因为栈是递增的
+                //因为栈是从前往后递增的
                 let length = heights[stack.removeLast()]
                 let width = i - stack.last! - 1
                 print(length, width)

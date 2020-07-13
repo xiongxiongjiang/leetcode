@@ -129,19 +129,17 @@ class LRUCache {
         if map[key] != nil {
             //删除旧节点
             cache.remove((map[key] as? CacheNode)!)
-            cache.addFirst(x)
-            //更新map中的数据
-            map[key] = x
         } else {
             if cap == cache.Size() {
                 //删除链表最后一个节点
                 let last = cache.removeLast()
                 map.removeValue(forKey: (last?.key)!)
             }
-            //直接添加到头部
-            cache.addFirst(x)
-            map[key] = x
         }
+        //直接添加到头部
+        cache.addFirst(x)
+        //更新map数据
+        map[key] = x
     }
 }
 

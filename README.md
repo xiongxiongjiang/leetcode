@@ -5,13 +5,13 @@
 | 001. 两数之和 | 简单 | [swift](leetcode-swift/leetcode-swift/001.两数之和.swift) [go](leetcode-go/Solution/001.两数之和.go) | **哈希表** |
 | 002. 两数相加 | 中等 | [swift](leetcode-swift/leetcode-swift/002.两数相加.swift) [go](leetcode-go/Solution/002.两数相加.go) | **链表** |
 | 003. 无重复字符的最长子串 | 中等 | [swift](leetcode-swift/leetcode-swift/003.无重复字符的最长子串.swift) [go](leetcode-go/Solution/003.无重复字符的最长子串.go) | **滑动窗口** |
-| 004  |   |                      |      |
+| [004.寻找两个正序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays) | 困难 |                      |      |
 | 005. 最长回文子串 | 中等 | [swift](leetcode-swift/leetcode-swift/005.最长回文子串.swift) [go](leetcode-go/Solution/005.最长回文子串.go) | **动态规划** |
 | 006. Z字形变换 | 中等 | [swift](leetcode-swift/leetcode-swift/006.Z字形变换.swift) [go](leetcode-go/Solution/006.Z字形变换.go) | **字符串** |
 | 007. 整数反转 | 简单 | [swift](leetcode-swift/leetcode-swift/007.整数反转.swift) [go](leetcode-go/Solution/007.整数反转.go) |      |
 | 008. 字符串转换整数(atoi) | 中等 | [swift](leetcode-swift/leetcode-swift/008.字符串转换整数(atoi).swift) |      |
 | 009. 回文数 | 简单 | [swift](leetcode-swift/leetcode-swift/009.回文数.swift) [go](leetcode-go/Solution/009.回文数.go) |      |
-| 010  |   |                      |      |
+| [010. 正则表达式匹配](https://leetcode-cn.com/problems/regular-expression-matching) | 困难 |                      |      |
 | 011. 盛最多水的容器 | 中等 | [swift](leetcode-swift/leetcode-swift/011.盛最多水的容器.swift) [go](leetcode-go/Solution/011.盛最多水的容器.go) | **双指针** |
 | 012. 整数转罗马数字 | 中等 | [swift](leetcode-swift/leetcode-swift/012.整数转罗马数字.swift) [go](leetcode-go/Solution/012.整数转罗马数字.go) |      |
 | 013. 罗马数字转整数 | 简单 | [swift](leetcode-swift/leetcode-swift/013.罗马数字转整数.swift) [go](leetcode-go/Solution/013.罗马数字转整数.go) |      |
@@ -19,19 +19,19 @@
 | 015. 三数之和 | 中等 | [swift](leetcode-swift/leetcode-swift/015.三数之和.swift) |      |
 | 016. 最接近的三数之和 | 中等 | [swift](leetcode-swift/leetcode-swift/016.最接近的三数之和.swift) | **双指针** |
 | 017. 电话号码的字母组合 | 中等 | [swift](leetcode-swift/leetcode-swift/017.电话号码的字母组合.swift) | **回溯** |
-| 018  |   |                      |      |
+| [018. 四数之和](https://leetcode-cn.com/problems/4sum) | 中等 |                      |      |
 | 019. 删除链表的倒数第N个节点 | 中等 | [swift](leetcode-swift/leetcode-swift/019.删除链表的倒数第N个节点.swift) |      |
 | 020. 有效的括号 | 简单 | [swift](leetcode-swift/leetcode-swift/020.有效的括号.swift) |      |
-| 021. 合并两个有序链表 | 简单 | [swift](leetcode-swift/leetcode-swift/021.合并两个有序链表.swift) |      |
+| 021. 合并两个有序链表 | 简单 | [swift](leetcode-swift/leetcode-swift/021.合并两个有序链表.swift) | **链表** |
 | 022. 括号生成 | 中等 | [swift](leetcode-swift/leetcode-swift/022.括号生成.swift) |      |
-| 023. 合并K个排序链表 | 中等 | [swift](leetcode-swift/leetcode-swift/023.合并K个排序链表.swift) |      |
-| 024. 两两交换链表中的节点 | 中等 | [swift](leetcode-swift/leetcode-swift/024.两两交换链表中的节点.swift) |      |
-| 025. |  |                      |      |
+| 023. 合并K个排序链表 | 中等 | [swift](leetcode-swift/leetcode-swift/023.合并K个排序链表.swift) | **链表** |
+| 024. 两两交换链表中的节点 | 中等 | [swift](leetcode-swift/leetcode-swift/024.两两交换链表中的节点.swift) | **链表** |
+| [025. K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group) | 困难 |                      |      |
 | 026. 删除排序数组中的重复项 | 简单 | [swift](leetcode-swift/leetcode-swift/026.删除排序数组中的重复项.swift) |      |
 | 027. 移除元素 | 简单 | [swift](leetcode-swift/leetcode-swift/027.移除元素.swift) |      |
 | 028. 实现 strStr() | 简单 | [swift](leetcode-swift/leetcode-swift/028.实现strStr().swift) |      |
-| 029 |      |                      |      |
-| 030 |      |                      |      |
+| [029. 两数相除](https://leetcode-cn.com/problems/divide-two-integers) | 中等 |                      |      |
+| [030. 串联所有单词的子串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words) | 困难 |                      |      |
 | 031. 下一个排列 | 中等 | [swift](leetcode-swift/leetcode-swift/031.下一个排列.swift) |      |
 | 032. 最长有效括号 | 困难 | [swift](leetcode-swift/leetcode-swift/032.最长有效括号.swift) | **动态规划** |
 | 033. 搜索旋转排序数组 | 中等 | [swift](leetcode-swift/leetcode-swift/033.搜索旋转排序数组.swift) | **二分查找** |
@@ -45,20 +45,20 @@
 | 041. 缺失的第一个正数 | 困难 | [swift](leetcode-swift/leetcode-swift/041.缺失的第一个正数.swift) | **哈希表** |
 | 042. 接雨水 | 困难 | [swift](leetcode-swift/leetcode-swift/042.接雨水.swift) |      |
 | 043. 字符串相乘 | 中等 | [swift](leetcode-swift/leetcode-swift/043.字符串相乘.swift) | **字符串** |
-| 044 |      |                      |      |
-| 045 |      |                      |      |
+| [044. 通配符匹配](https://leetcode-cn.com/problems/wildcard-matching) | 困难 |                      |      |
+| 045. 跳跃游戏II | 困难 | [swift](leetcode-swift/leetcode-swift/045.跳跃游戏II.swift) | **贪心** |
 | 046. 全排列 | 中等 | [swift](leetcode-swift/leetcode-swift/046.全排列.swift) | **回溯** |
-| 047 |      |                      |      |
+| [047. 全排列 II](https://leetcode-cn.com/problems/permutations-ii) | 中等 |                      |      |
 | 048. 旋转图像 | 中等 | [swift](leetcode-swift/leetcode-swift/048.旋转图像.swift) |      |
-| 049 |      |                      |      |
-| 050 |      |                      |      |
-| 051 |      |                      |      |
-| 052 |      |                      |      |
+| [049. 字母异位词分组](https://leetcode-cn.com/problems/group-anagrams) | 中等 |                      |      |
+| [050.Pow(x, n)](https://leetcode-cn.com/problems/powx-n) | 中等 |                      |      |
+| 051. N皇后 | 困难 | [swift](leetcode-swift/leetcode-swift/051.N皇后.swift) |      |
+| [052. N皇后 II](https://leetcode-cn.com/problems/n-queens-ii) | 困难 |                      |      |
 | 053. 最大子序和 | 简单 | [swift](leetcode-swift/leetcode-swift/053.最大子序和.swift) |      |
 | 054. 螺旋矩阵 | 中等 | [swift](leetcode-swift/leetcode-swift/054.螺旋矩阵.swift) |      |
-| 055 |      |                      |      |
+| 055. 跳跃游戏 | 中等 | [swift](leetcode-swift/leetcode-swift/055.跳跃游戏.swift) | **贪心** |
 | 056. 合并区间 | 中等 | [swift](leetcode-swift/leetcode-swift/056.合并区间.swift) |      |
-| 057. 插入区间 | 困难 | [swift](leetcode-swift/leetcode-swift/057.插入区间.swift) |      |
+| 057. 插入区间 | 困难 | [swift](leetcode-swift/leetcode-swift/057.插入区间.swift) | **排序** |
 | 058. 最后一个单词的长度 | 简单 | [swift](leetcode-swift/leetcode-swift/058.最后一个单词的长度.swift) |      |
 | 059. 螺旋矩阵II | 中等 | [swift](leetcode-swift/leetcode-swift/059.螺旋矩阵II.swift) |      |
 | 060. 第k个排列 | 中等 | [swift](leetcode-swift/leetcode-swift/060.第k个排列.swift) | **回溯** |
@@ -66,10 +66,10 @@
 | 062. 不同路径 | 中等 | [swift](leetcode-swift/leetcode-swift/062.不同路径.swift) | **动态规划** |
 | 063. 不同路径II | 中等 | [swift](leetcode-swift/leetcode-swift/063.不同路径II.swift) | **动态规划** |
 | 064.最小路径和 | 中等 | [swift](leetcode-swift/leetcode-swift/064.最小路径和.swift) | **动态规划** |
-| 065 | | | |
+| [065. 有效数字](https://leetcode-cn.com/problems/valid-number) | 困难 | | |
 | 066. 加一 | 简单 | [swift](leetcode-swift/leetcode-swift/066.加一.swift) | |
 | 067. 二进制求和 | 简单 | [swift](leetcode-swift/leetcode-swift/067.二进制求和.swift) | |
-| 068 | | | |
+| [068. 文本左右对齐](https://leetcode-cn.com/problems/text-justification) | 困难 | | |
 | 069. x 的平方根 | 简单 | [swift](leetcode-swift/leetcode-swift/069.x的平方根.swift) | |
 | 070. 爬楼梯 | 简单 | [swift](leetcode-swift/leetcode-swift/070.爬楼梯.swift) | **动态规划** |
 | 071. 简化路径 | 中等 | [swift](leetcode-swift/leetcode-swift/071.简化路径.swift) | **栈** |
@@ -77,21 +77,21 @@
 | 073. 矩阵置零 | 中等 | [swift](leetcode-swift/leetcode-swift/073.矩阵置零.swift) | |
 | 074. 搜索二维矩阵 | 中等 | [swift](leetcode-swift/leetcode-swift/074.搜索二维矩阵.swift) | **二分法** |
 | 075. 颜色分类 | 中等 | [swift](leetcode-swift/leetcode-swift/075.颜色分类.swift) | **双指针** |
-| 076 | | | |
+| [076. 最小覆盖子串](https://leetcode-cn.com/problems/minimum-window-substring) | 困难 | | |
 | 077. 组合 | 中等 | [swift](leetcode-swift/leetcode-swift/077.组合.swift) | **回溯** |
 | 078. 子集 | 中等 | [swift](leetcode-swift/leetcode-swift/078.子集.swift) | **回溯** |
 | 079. 单词搜索 | 中等 | [swift](leetcode-swift/leetcode-swift/079.单词搜索.swift) | **回溯** |
-| 080 | | | |
-| 081 | | | |
+| 080. 删除排序数组中的重复项 II | 中等 | [swift](leetcode-swift/leetcode-swift/080.删除排序数组中的重复项 II.swift) | |
+| 081. 搜索旋转排序数组 II | 中等 | [swift](leetcode-swift/leetcode-swift/081.搜索旋转排序数组 II.swift) | **二分查找** |
 | 082. 删除排序链表中的重复元素 II | 中等 | [swift](leetcode-swift/leetcode-swift/082.删除排序链表中的重复元素II.swift) | **链表** |
 | 083. 删除排序链表中的重复元素 | 简单 | [swift](leetcode-swift/leetcode-swift/083.删除排序链表中的重复元素.swift) | **链表** |
-| 084. 柱状图中最大的矩形 | 困难 | [swift](leetcode-swift/leetcode-swift/084.柱状图中最大的矩形.swift) | **栈** |
-| 085 | | | |
+| 084. 柱状图中最大的矩形 | 困难 | [swift](leetcode-swift/leetcode-swift/084.柱状图中最大的矩形.swift) | **单调栈** |
+| [085. 最大矩形](https://leetcode-cn.com/problems/maximal-rectangle) | 困难 | | |
 | 086. 分隔链表 | 中等 | [swift](leetcode-swift/leetcode-swift/086.分隔链表.swift) | **链表** |
-| 087 | | | |
+| [087. 扰乱字符串](https://leetcode-cn.com/problems/scramble-string) | 困难 | | |
 | 088. 合并两个有序数组 | 简单 | [swift](leetcode-swift/leetcode-swift/088.合并两个有序数组.swift) | **双指针** |
-| 089 | | | |
-| 090 | | | |
+| [089.格雷编码](https://leetcode-cn.com/problems/gray-code) | 中等 | | |
+| 090. 子集II | 中等 | [swift](leetcode-swift/leetcode-swift/090.子集II.swift) | **回溯** |
 | 091 | | | |
 | 092. 反转链表II | 中等 | [swift](leetcode-swift/leetcode-swift/092.反转链表II.swift) | **链表** |
 | 093. 复原IP地址 | 中等 | [swift](leetcode-swift/leetcode-swift/093.复原IP地址.swift) | **回溯** |
@@ -148,7 +148,7 @@
 | 144. 二叉树的前序遍历 | 中等 | [swift](leetcode-swift/leetcode-swift/144.二叉树的前序遍历.swift) | **二叉树** |
 | 145 | | | |
 | 146. LRU缓存机制 | 中等 | [swift](leetcode-swift/leetcode-swift/146.LRU缓存机制.swift) | **双向链表**  **哈希表** |
-| 147 | | | |
+| 147. 对链表进行插入排序 | 中等 | | |
 | 148. 排序链表 | 中等 | [swift](leetcode-swift/leetcode-swift/148.排序链表.swift) | **并归** **双指针** **链表** |
 | 149 | | | |
 | 150 | | | |
@@ -206,38 +206,14 @@
 | 202. 快乐数 | 简单 | [swift](leetcode-swift/leetcode-swift/202.快乐数.swift) | |
 | 203. 移除链表元素 | 简单 | [swift](leetcode-swift/leetcode-swift/203.移除链表元素.swift) | **链表** |
 | 204. 计数质数 | | | |
-| 205 | | | |
 | 206. 反转链表 | 简单 | [swift](leetcode-swift/leetcode-swift/206.反转链表.swift) | **链表** |
-| 207 | | | |
-| 208 | | | |
-| 209 | | | |
-| 210 | | | |
-| 211 | | | |
-| 212 | | | |
-| 213 | | | |
-| 214 | | | |
 | 215. 数组中的第K个最大元素 | 中等 | [swift](leetcode-swift/leetcode-swift/215.数组中的第K个最大元素.swift) | |
-| 216 | | | |
-| 217 | | | |
-| 218 | | | |
 | 219. 存在重复元素 II | 简单 | [swift](leetcode-swift/leetcode-swift/219.存在重复元素II.swift) | |
-| 220 | | | |
-| 221 | | | |
 | 222. 完全二叉树的节点个数 | 中等 | [swift](leetcode-swift/leetcode-swift/222.完全二叉树的节点个数.swift) | **二叉树** |
-| 223 | | | |
-| 224 | | | |
 | 225. 用队列实现栈 | 简单 | [swift](leetcode-swift/leetcode-swift/225.用队列实现栈.swift) | |
 | 226. 翻转二叉树 | 简单 | [swift](leetcode-swift/leetcode-swift/226.翻转二叉树.swift) | **二叉树** |
-| 227 | | | |
-| 228 | | | |
-| 229 | | | |
-| 230 | | | |
-| 231 | | | |
 | 232. 用栈实现队列 | 简单 | [swift](leetcode-swift/leetcode-swift/232.用栈实现队列.swift) | |
-| 233 | | | |
 | 234. 回文链表 | 简单 | [swift](leetcode-swift/leetcode-swift/234.回文链表.swift) | **链表** **双指针** |
-| 235 | | | |
-| 236 | | | |
 | 240. 搜索二维矩阵II | 中等 | [swift](leetcode-swift/leetcode-swift/240.搜索二维矩阵II.swift) | |
 | 252. 会议室 | 简单 | [swift](leetcode-swift/leetcode-swift/252.会议室.swift) | |
 | 256. 粉刷房子 | 简单 | [swift](leetcode-swift/leetcode-swift/256.粉刷房子.swift) | **动态规划** |
@@ -264,6 +240,7 @@
 | 剑指Offer32-I. 从上到下打印二叉树 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer32-I.从上到下打印二叉树.swift) | **二叉树** |
 | 剑指Offer38. 字符串的排列 | 中等 | [swift](leetcode-swift/leetcode-swift/剑指Offer38.字符串的排列.swift) | **回溯** |
 | 剑指Offer40. 最小的k个数 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer40.最小的k个数.swift) | |
+| 剑指Offer42. 连续子数组的最大和 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer42.连续子数组的最大和.swift) | **动态规划 分治 贪心** |
 | 剑指Offer49. 丑数 | 中等 | [swift](leetcode-swift/leetcode-swift/剑指Offer49.丑数.swift) | **动态规划** **三指针** |
 | 剑指Offer53-II. 0～n-1中缺失的数字 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer53-II.0～n-1中缺失的数字.swift) | **二分查找** |
 | 剑指Offer55-I. 二叉树的深度 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer55-I.二叉树的深度.swift) | **二叉树** |

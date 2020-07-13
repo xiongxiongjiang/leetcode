@@ -18,6 +18,7 @@ func insertionSort(_ array: [Int]) -> [Int] {
             if a[j] < a[j - 1] {
                 a.swapAt(j, j - 1)
             }
+            print(a)
         }
     }
     return a
