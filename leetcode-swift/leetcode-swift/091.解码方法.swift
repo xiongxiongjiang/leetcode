@@ -30,6 +30,35 @@ import Foundation
 
 extension Solution {
     func numDecodings(_ s: String) -> Int {
-        return 0
+        //没有0开头的编码
+        if s.first! == "0" {
+            return 0
+        }
+        let arr = Array(s).map { (sub) -> String in
+            return String(sub)
+        }
+        let count = arr.count
+        var curr = 1, total = 1
+        for i in 1..<count {
+            let tmp = total
+            if arr[i] == "0" {
+                if arr[i-1] == "1" || arr[i-1] == "2" {
+                    //若要有解，当前0必须和前一个1或者0结合
+                    total = curr
+                } else {
+                    //连续两个0，无解
+                    return 0
+                }
+            } else if arr[i-1] == "1" || (arr[i-1] == "2" && Int(arr[i])! >= 1 && Int(arr[i])! <= 6) {
+                total = total + curr
+            }
+            curr = tmp
+        }
+        return total
     }
+}
+
+func test091(s: Solution) {
+    let str = "00"
+    print(s.numDecodings(str))
 }

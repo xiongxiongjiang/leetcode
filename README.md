@@ -92,32 +92,32 @@
 | 088. 合并两个有序数组 | 简单 | [swift](leetcode-swift/leetcode-swift/088.合并两个有序数组.swift) | **双指针** |
 | [089.格雷编码](https://leetcode-cn.com/problems/gray-code) | 中等 | | |
 | 090. 子集II | 中等 | [swift](leetcode-swift/leetcode-swift/090.子集II.swift) | **回溯** |
-| 091 | | | |
+| 091. 解码方法 | 中等 | [swift](leetcode-swift/leetcode-swift/091.解码方法.swift) | **动态规划** |
 | 092. 反转链表II | 中等 | [swift](leetcode-swift/leetcode-swift/092.反转链表II.swift) | **链表** |
 | 093. 复原IP地址 | 中等 | [swift](leetcode-swift/leetcode-swift/093.复原IP地址.swift) | **回溯** |
 | 094. 二叉树的中序遍历 | 中等 | [swift](leetcode-swift/leetcode-swift/094.二叉树的中序遍历.swift) | **二叉树** |
-| 095 | | | |
-| 096 | | | |
-| 097 | | | |
+| [095. 不同的二叉搜索树 II](https://leetcode-cn.com/problems/unique-binary-search-trees-ii/) | 中等 | | |
+| 096. 不同的二叉搜索树 | 中等 | [swift](leetcode-swift/leetcode-swift/096.不同的二叉搜索树.swift) | **二叉树** **动态规划** |
+| [097. 交错字符串](https://leetcode-cn.com/problems/interleaving-string/) | 困难 | | **动态规划** |
 | 098. 验证二叉搜索树 | 中等 | [swift](leetcode-swift/leetcode-swift/098.验证二叉搜索树.swift) | **二叉树** |
-| 099 | | | |
+| [099. 恢复二叉搜索树](https://leetcode-cn.com/problems/recover-binary-search-tree/) | 困难 | | |
 | 100. 相同的树 | 简单 | [swift](leetcode-swift/leetcode-swift/100.相同的树.swift) | **二叉树** |
 | 101. 对称二叉树 | 简单 | [swift](leetcode-swift/leetcode-swift/101.对称二叉树.swift) | **二叉树** |
 | 102. 二叉树的层次遍历 | 中等 | [swift](leetcode-swift/leetcode-swift/102.二叉树的层次遍历.swift) | **二叉树** |
 | 103. 二叉树的锯齿形层次遍历 | 中等 | [swift](leetcode-swift/leetcode-swift/103.二叉树的锯齿形层次遍历.swift) | **二叉树** |
 | 104. 二叉树的最大深度 | 简单 | [swift](leetcode-swift/leetcode-swift/104.二叉树的最大深度.swift) | **二叉树** |
 | 105. 从前序与中序遍历序列构造二叉树 | 中等 | [swift](leetcode-swift/leetcode-swift/105.从前序与中序遍历序列构造二叉树.swift) | **二叉树** |
-| 106 | | | |
+| [106. 从中序与后序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal) | 中等 | | **二叉树** |
 | 107. 二叉树的层次遍历II | 简单 | [swift](leetcode-swift/leetcode-swift/107.二叉树的层次遍历II.swift) | **二叉树** |
-| 108 | | | |
-| 109 | | | |
+| 108. 将有序数组转换为二叉搜索树 | 简单 | [swift](leetcode-swift/leetcode-swift/108.将有序数组转换为二叉搜索树.swift) | **二叉树** |
+| 109. 有序链表转换二叉搜索树 | 中等 | [swift](leetcode-swift/leetcode-swift/109.有序链表转换二叉搜索树.swift) | **二叉树** |
 | 110. 平衡二叉树 | 简单 | [swift](leetcode-swift/leetcode-swift/110.平衡二叉树.swift) | **二叉树** |
 | 111. 二叉树的最小深度 | 简单 | [swift](leetcode-swift/leetcode-swift/111.二叉树的最小深度.swift) | **二叉树** |
 | 112. 路径总和 | 简单 | [swift](leetcode-swift/leetcode-swift/112.路径总和.swift) | **二叉树** |
 | 113. 路径总和II | 中等 | [swift](leetcode-swift/leetcode-swift/113.路径总和II.swift) | **二叉树** **回溯** |
 | 114. 二叉树展开为链表 | 中等 | [swift](leetcode-swift/leetcode-swift/114.二叉树展开为链表.swift) | **二叉树** |
 | 115 | | | |
-| 116 | | | |
+| 116. 填充每个节点的下一个右侧节点指针 | 中等 | [swift](leetcode-swift/leetcode-swift/116.填充每个节点的下一个右侧节点指针.swift) | **二叉树** |
 | 117 | | | |
 | 118. 杨辉三角 | 简单 | [swift](leetcode-swift/leetcode-swift/118.杨辉三角.swift) | **动态规划** |
 | 119 | | | |
@@ -202,7 +202,6 @@
 | 198. 打家劫舍 | 简单 | [swift](leetcode-swift/leetcode-swift/198.打家劫舍.swift) | **动态规划** |
 | 199. 二叉树的右视图 | 中等 | [swift](leetcode-swift/leetcode-swift/199.二叉树的右视图.swift) | **二叉树** |
 | 200. 岛屿数量 | 中等 | [swift](leetcode-swift/leetcode-swift/200.岛屿数量.swift) | **深度优先搜索** |
-| 201 | | | |
 | 202. 快乐数 | 简单 | [swift](leetcode-swift/leetcode-swift/202.快乐数.swift) | |
 | 203. 移除链表元素 | 简单 | [swift](leetcode-swift/leetcode-swift/203.移除链表元素.swift) | **链表** |
 | 204. 计数质数 | | | |
