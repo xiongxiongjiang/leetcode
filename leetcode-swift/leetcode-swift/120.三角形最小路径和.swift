@@ -33,13 +33,13 @@ extension Solution {
         var res = [[Int]](repeating: [Int](repeating: 0, count: n), count: n)
         res[0][0] = triangle[0][0]
         for i in 1..<n {
-            res[i][0] = res[i-1][0] + triangle[i][0]
+            res[i][0] = res[i - 1][0] + triangle[i][0]
             for j in 1..<i {
                 res[i][j] = min(res[i-1][j-1], res[i-1][j]) + triangle[i][j]
             }
-            res[i][i] = res[i][i-1] + triangle[i][i]
+            res[i][i] = res[i-1][i-1] + triangle[i][i]
         }
-        return res[0][0]
+        return res[n-1].min() ?? 0
     }
 }
 
@@ -50,10 +50,10 @@ func test120(s: Solution) {
 //       [6,5,7],
 //      [4,1,8,3]
 //    ]
-    let tr = [
-        [-1],
-        [2,3],
-        [1,-1,-3]
-    ]
-    print(s.minimumTotal(tr))
+//    let triangle = [
+//        [-1],
+//        [2,3],
+//        [1,-1,-3]
+//    ]
+    print(s.minimumTotal([[-1],[-2,-3]]))
 }

@@ -36,17 +36,17 @@ extension Solution {
     }
     
     func preorderTraversal1(_ root: TreeNode?) -> [Int] {
+        guard let root = root else { return [] }
         var res = [Int]()
-        var stack = [TreeNode?]()
-        stack.append(root)
+        var stack = [root]
         while !stack.isEmpty {
             //根据栈后进先出的原则 先放右子树再放左子树。当栈为空时，说明所有的子树都被遍历，函数结束
-            let current = stack.removeLast()
-            res.append(current!.val)
-            if let right = current?.right {
+            let node = stack.removeLast()
+            res.append(node.val)
+            if let right = node.right {
                 stack.append(right)
             }
-            if let left = current?.left {
+            if let left = node.left {
                 stack.append(left)
             }
         }
@@ -88,5 +88,5 @@ func test144(s: Solution) {
     nodeC.right = nodeE
     
     print(s.preorderTraversal(nodeA))
-    print(s.preorderTraversal1(nodeA))
+    print(s.preorderTraversal1(nil))
 }

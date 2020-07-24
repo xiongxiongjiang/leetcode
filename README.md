@@ -116,37 +116,37 @@
 | 112. 路径总和 | 简单 | [swift](leetcode-swift/leetcode-swift/112.路径总和.swift) | **二叉树** |
 | 113. 路径总和II | 中等 | [swift](leetcode-swift/leetcode-swift/113.路径总和II.swift) | **二叉树** **回溯** |
 | 114. 二叉树展开为链表 | 中等 | [swift](leetcode-swift/leetcode-swift/114.二叉树展开为链表.swift) | **二叉树** |
-| 115 | | | |
+| [115. 不同的子序列](https://leetcode-cn.com/problems/distinct-subsequences) | 困难 | | **动态规划** |
 | 116. 填充每个节点的下一个右侧节点指针 | 中等 | [swift](leetcode-swift/leetcode-swift/116.填充每个节点的下一个右侧节点指针.swift) | **二叉树** |
-| 117 | | | |
+| 117.填充每个节点的下一个右侧节点指针II | 中等 | [swift](leetcode-swift/leetcode-swift/117.填充每个节点的下一个右侧节点指针II.swift) | **二叉树** |
 | 118. 杨辉三角 | 简单 | [swift](leetcode-swift/leetcode-swift/118.杨辉三角.swift) | **动态规划** |
-| 119 | | | |
-| 120 | | | |
+| 119. 杨辉三角II | 简单 | [swift](leetcode-swift/leetcode-swift/119.杨辉三角II.swift) | |
+| 120. 三角形最小路径和 | 中等 | [swift](leetcode-swift/leetcode-swift/120.三角形最小路径和.swift) | **动态规划** |
 | 121. 买卖股票的最佳时机 | 简单 | [swift](leetcode-swift/leetcode-swift/121.买卖股票的最佳时机.swift) | **动态规划** |
 | 122. 买卖股票的最佳时机II | 简单 | [swift](leetcode-swift/leetcode-swift/122.买卖股票的最佳时机II.swift) | **贪心** **动态规划** |
-| 123 | | | |
-| 124 | | | |
+| [123. 买卖股票的最佳时机 III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii) | 困难 | | **动态规划** |
+| 124. 二叉树中的最大路径和 | | | |
 | 125. 验证回文串 | 简单 | [swift](leetcode-swift/leetcode-swift/125.验证回文串.swift) | **双指针** |
-| 126 | | | |
-| 127 | | | |
-| 128 | | | |
+| [126. 单词接龙 II](https://leetcode-cn.com/problems/word-ladder-ii/) | 困难 | | |
+| [127. 单词接龙](https://leetcode-cn.com/problems/word-ladder/) | 中等 | | |
+| [128. 最长连续序列](https://leetcode-cn.com/problems/longest-consecutive-sequence/) | 困难 | | |
 | 129. 求根到叶子节点数字之和 | 中等 | [swift](leetcode-swift/leetcode-swift/129.求根到叶子节点数字之和.swift) | **二叉树** **深度优先搜索** |
-| 130 | | | |
+| 130. 被围绕的区域 | 中等 | [swift](leetcode-swift/leetcode-swift/130.被围绕的区域.swift) | **深度优先搜索** **广度优先搜索** |
 | 131. 分割回文串 | 中等 | [swift](leetcode-swift/leetcode-swift/131.分割回文串.swift) | **回溯** |
-| 132 | | | |
-| 133 | | | |
+| [132. 分割回文串 II](https://leetcode-cn.com/problems/palindrome-partitioning-ii/) | 困难 | | **动态规划** |
+| [133. 克隆图](https://leetcode-cn.com/problems/clone-graph/) | 中等 | | |
 | 134. 加油站 | 中等 | [swift](leetcode-swift/leetcode-swift/134.加油站.swift) | **贪心** |
 | 135. 分发糖果 | 困难 | [swift](leetcode-swift/leetcode-swift/135.分发糖果.swift) | |
-| 136. 只出现一次的数字 | 简单 | [swift](leetcode-swift/leetcode-swift/136.只出现一次的数字.swift) | |
-| 137 | | | |
-| 138 | | | |
+| 136. 只出现一次的数字 | 简单 | [swift](leetcode-swift/leetcode-swift/136.只出现一次的数字.swift) | **位运算** |
+| [137. 只出现一次的数字 II](https://leetcode-cn.com/problems/single-number-ii/) | 中等 | | **位运算** |
+| [138. 复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/) | 中等 | | **链表** |
 | 139. 单词拆分 | 中等 | [swift](leetcode-swift/leetcode-swift/139.单词拆分.swift) | **动态规划** |
-| 140 | | | |
+| [140. 单词拆分 II](https://leetcode-cn.com/problems/word-break-ii/) | 困难 | | **动态规划** |
 | 141. 环形链表 | 中等 | [swift](leetcode-swift/leetcode-swift/141.环形链表.swift) | **链表** |
 | 142. 环形链表 II | 简单 | [swift](leetcode-swift/leetcode-swift/142.环形链表II.swift) | **链表** |
-| 143 | | | |
+| 143. 重排链表 | 中等 | [swift](leetcode-swift/leetcode-swift/143.重排链表.swift) | **链表** |
 | 144. 二叉树的前序遍历 | 中等 | [swift](leetcode-swift/leetcode-swift/144.二叉树的前序遍历.swift) | **二叉树** |
-| 145 | | | |
+| 145. 二叉树的后序遍历 | 困难 | [swift](leetcode-swift/leetcode-swift/145.二叉树的后序遍历.swift) | **二叉树** |
 | 146. LRU缓存机制 | 中等 | [swift](leetcode-swift/leetcode-swift/146.LRU缓存机制.swift) | **双向链表**  **哈希表** |
 | 147. 对链表进行插入排序 | 中等 | | |
 | 148. 排序链表 | 中等 | [swift](leetcode-swift/leetcode-swift/148.排序链表.swift) | **并归** **双指针** **链表** |
@@ -179,26 +179,26 @@
 | 175. 组合两个表 | 简单 | [swift](leetcode-swift/leetcode-swift/175.组合两个表.swift) | **数据库** |
 | 176. 第二高的薪水 | 简单 | [swift](leetcode-swift/leetcode-swift/176.第二高的薪水.swift) | **数据库** |
 | 177. 第N高的薪水 | 中等 | [swift](leetcode-swift/leetcode-swift/177.第N高的薪水.swift) | **数据库** |
-| 178 | | | |
+| [178. 分数排名](https://leetcode-cn.com/problems/rank-scores/) | | | |
 | 179. 最大数 | 中等 | [swift](leetcode-swift/leetcode-swift/179.最大数.swift) | **排序** |
-| 180 | | | |
-| 181 | | | |
+| [180. 连续出现的数字](https://leetcode-cn.com/problems/consecutive-numbers/) | 中等 | | **数据库** |
+| [181. 超过经理收入的员工](https://leetcode-cn.com/problems/employees-earning-more-than-their-managers/) | 简单 | | **数据库** |
 | 182. 查找重复的电子邮箱 | 简单 | [swift](leetcode-swift/leetcode-swift/182.查找重复的电子邮箱.swift) | **数据库** |
-| 183 | | | |
-| 184 | | | |
-| 185 | | | |
-| 186 | | | |
-| 187 | | | |
-| 188 | | | |
+| [183. 从不订购的客户](https://leetcode-cn.com/problems/customers-who-never-order/) | 简单 | | **数据库** |
+| [184. 部门工资最高的员工](https://leetcode-cn.com/problems/department-highest-salary/) | 中等 | | **数据库** |
+| [185. 部门工资前三高的所有员工](https://leetcode-cn.com/problems/department-top-three-salaries/) | 困难 | | **数据库** |
+| 186. 翻转字符串里的单词II | 中等 | [swift](leetcode-swift/leetcode-swift/186.翻转字符串里的单词II.swift) | **双指针** |
+| [187. 重复的DNA序列](https://leetcode-cn.com/problems/repeated-dna-sequences/) | | | |
+| [188. 买卖股票的最佳时机 IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv/) | 困难 | | **动态规划** |
 | 189. 旋转数组 | 简单 | [swift](leetcode-swift/leetcode-swift/189.旋转数组.swift) |  |
-| 190 | | | |
+| [190. 颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/) | 简单 | | **位运算** |
 | 191. 位1的个数 | 简单 | [swift](leetcode-swift/leetcode-swift/191.位1的个数.swift) | **位运算** |
-| 192 | | | |
-| 193 | | | |
-| 194 | | | |
-| 195 | | | |
+| [192. 统计词频](https://leetcode-cn.com/problems/word-frequency/) | 中等 | | **Bash** |
+| [193. 有效电话号码](https://leetcode-cn.com/problems/valid-phone-numbers/) | 简单 | | **Bash** |
+| [194. 转置文件](https://leetcode-cn.com/problems/transpose-file/) | 中等 | | **Bash** |
+| [195. 第十行](https://leetcode-cn.com/problems/tenth-line/) | 简单 | | **Bash** |
 | 196. 删除重复的电子邮箱 | 简单 | [swift](leetcode-swift/leetcode-swift/196.删除重复的电子邮箱.swift) | **数据库** |
-| 197 | | | |
+| [197. 上升的温度](https://leetcode-cn.com/problems/rising-temperature/) | 简单 | | **数据库** |
 | 198. 打家劫舍 | 简单 | [swift](leetcode-swift/leetcode-swift/198.打家劫舍.swift) | **动态规划** |
 | 199. 二叉树的右视图 | 中等 | [swift](leetcode-swift/leetcode-swift/199.二叉树的右视图.swift) | **二叉树** |
 | 200. 岛屿数量 | 中等 | [swift](leetcode-swift/leetcode-swift/200.岛屿数量.swift) | **深度优先搜索** |

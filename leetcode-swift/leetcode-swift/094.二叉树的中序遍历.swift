@@ -40,26 +40,24 @@ extension Solution {
     func inorderTraversal1(_ root: TreeNode?) -> [Int] {
         /*
         对于任一结点P，
-
         1)若其左孩子不为空，则将P入栈并将P的左孩子置为当前的P，然后对当前结点P再进行相同的处理；
-
         2)若其左孩子为空，则取栈顶元素并进行出栈操作，访问该栈顶结点，然后将当前的P置为栈顶结点的右孩子；
-
         3)直到P为NULL并且栈为空则遍历结束
          */
-        var stack = Array<TreeNode?>()
+        var stack = [TreeNode]()
         var curr = root
+        var res = [Int]()
         while stack.isEmpty == false || curr != nil {
             while curr != nil {
-                stack.append(curr)
+                stack.append(curr!)
                 curr = curr?.left
             }
             //用数组实现栈，移除最后一个(removeLast)等于pop()，往数组最后一个添加(append)等于push()
             curr = stack.removeLast()
-            arr.append(curr!.val)
+            res.append(curr!.val)
             curr = curr?.right
         }
-        return arr
+        return res
     }
 }
 
