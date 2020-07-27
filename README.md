@@ -150,32 +150,32 @@
 | 146. LRU缓存机制 | 中等 | [swift](leetcode-swift/leetcode-swift/146.LRU缓存机制.swift) | **双向链表**  **哈希表** |
 | 147. 对链表进行插入排序 | 中等 | | |
 | 148. 排序链表 | 中等 | [swift](leetcode-swift/leetcode-swift/148.排序链表.swift) | **并归** **双指针** **链表** |
-| 149 | | | |
-| 150 | | | |
+| [149. 直线上最多的点数](https://leetcode-cn.com/problems/max-points-on-a-line/) | 困难 | | |
+| 150. 逆波兰表达式求值 | 中等 | [swift](leetcode-swift/leetcode-swift/150.逆波兰表达式求值.swift) | **栈** |
 | 151. 翻转字符串里的单词 | 中等 | [swift](leetcode-swift/leetcode-swift/151.翻转字符串里的单词.swift) | |
 | 152. 乘积最大子数组 | 中等 | [swift](leetcode-swift/leetcode-swift/152.乘积最大子数组.swift) | |
 | 153. 寻找旋转排序数组中的最小值 | 中等 | [swift](leetcode-swift/leetcode-swift/153.寻找旋转排序数组中的最小值.swift) | **二分查找** |
-| 154 | | | |
+| [154. 寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/) | 困难 | | |
 | 155. 最小栈 | 简单 | [swift](leetcode-swift/leetcode-swift/155.最小栈.swift) | **栈** |
-| 156 | | | |
-| 157 | | | |
-| 158 | | | |
-| 159 | | | |
+| [156. 上下翻转二叉树](https://leetcode-cn.com/problems/binary-tree-upside-down/) | 中等 | | |
+| [157. 用 Read4 读取 N 个字符](https://leetcode-cn.com/problems/read-n-characters-given-read4/) | 简单 | | |
+| [158. 用 Read4 读取 N 个字符 II](https://leetcode-cn.com/problems/read-n-characters-given-read4-ii-call-multiple-times/) | 困难 | | |
+| 159. 至多包含两个不同字符的最长子串 | 中等 | [swift](leetcode-swift/leetcode-swift/159.至多包含两个不同字符的最长子串.swift) | **双指针** **哈希表** |
 | 160. 相交链表 | 简单 | [swift](leetcode-swift/leetcode-swift/160.相交链表.swift) | **链表** |
 | 161 | | | |
-| 162. 寻找峰值 | 中的 | [swift](leetcode-swift/leetcode-swift/162.寻找峰值.swift) | **二分法** |
-| 163 | | | |
+| 162. 寻找峰值 | 中等 | [swift](leetcode-swift/leetcode-swift/162.寻找峰值.swift) | **二分法** |
+| [163. 缺失的区间](https://leetcode-cn.com/problems/missing-ranges/) | 中等 | | |
 | 164 | | | |
 | 165. 比较版本号 | 中等 | [swift](leetcode-swift/leetcode-swift/165.比较版本号.swift) | **字符串** |
-| 166 | | | |
+| [166. 分数到小数](https://leetcode-cn.com/problems/fraction-to-recurring-decimal/) | 中等 | | |
 | 167. 两数之和II-输入有序数组 | 简单 | [swift](leetcode-swift/leetcode-swift/167.两数之和II-输入有序数组.swift) | **双指针** |
-| 168 | | | |
+| 168. Excel表列名称 | | [swift](leetcode-swift/leetcode-swift/168.Excel表列名称.swift) | |
 | 169. 多数元素 | 简单 | [swift](leetcode-swift/leetcode-swift/169.多数元素.swift) | **摩尔投票法** |
 | 170 | | | |
-| 171 | | | |
+| 171. Excel表列序号 | 简单 | [swift](leetcode-swift/leetcode-swift/171.Excel表列序号.swift) | |
 | 172. 阶乘后的零 | 简单 | [swift](leetcode-swift/leetcode-swift/172.阶乘后的零.swift) | |
-| 173 | | | |
-| 174 | | | |
+| 173. 二叉搜索树迭代器 | 中等 | [swift](leetcode-swift/leetcode-swift/173.二叉搜索树迭代器.swift) | **二叉树** **栈** |
+| 174. 地下城游戏 | 困难 | [swift](leetcode-swift/leetcode-swift/174.地下城游戏.swift) | **动态规划** |
 | 175. 组合两个表 | 简单 | [swift](leetcode-swift/leetcode-swift/175.组合两个表.swift) | **数据库** |
 | 176. 第二高的薪水 | 简单 | [swift](leetcode-swift/leetcode-swift/176.第二高的薪水.swift) | **数据库** |
 | 177. 第N高的薪水 | 中等 | [swift](leetcode-swift/leetcode-swift/177.第N高的薪水.swift) | **数据库** |
@@ -236,6 +236,7 @@
 | 剑指Offer15. 二进制中1的个数 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer15.二进制中1的个数.swift) | **位运算** |
 | 剑指Offer18. 删除链表的节点 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer18.删除链表的节点.swift) | **链表** |
 | 剑指Offer24. 反转链表 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer24.反转链表.swift) | **链表** |
+| 剑指Offer28. 对称的二叉树 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer28.对称的二叉树.swift) | **二叉树** |
 | 剑指Offer32-I. 从上到下打印二叉树 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer32-I.从上到下打印二叉树.swift) | **二叉树** |
 | 剑指Offer38. 字符串的排列 | 中等 | [swift](leetcode-swift/leetcode-swift/剑指Offer38.字符串的排列.swift) | **回溯** |
 | 剑指Offer40. 最小的k个数 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer40.最小的k个数.swift) | |

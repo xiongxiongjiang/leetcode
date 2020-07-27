@@ -64,13 +64,6 @@ extension Solution {
         }
         return dp[n][m]
     }
-    
-    private func charAt(string: String, index: Int) -> Character? {
-        if index >= string.count || index < 0 {
-            return nil
-        }
-        return string[string.index(string.startIndex, offsetBy: index)]
-    }
 }
 
 func test072(s: Solution) {
