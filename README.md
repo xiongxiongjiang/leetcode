@@ -213,15 +213,18 @@
 | 226. 翻转二叉树 | 简单 | [swift](leetcode-swift/leetcode-swift/226.翻转二叉树.swift) | **二叉树** |
 | 232. 用栈实现队列 | 简单 | [swift](leetcode-swift/leetcode-swift/232.用栈实现队列.swift) | |
 | 234. 回文链表 | 简单 | [swift](leetcode-swift/leetcode-swift/234.回文链表.swift) | **链表** **双指针** |
+| 237. 删除链表中的节点 | 简单 | [swift](leetcode-swift/leetcode-swift/237.删除链表中的节点.swift) | **链表** |
 | 240. 搜索二维矩阵II | 中等 | [swift](leetcode-swift/leetcode-swift/240.搜索二维矩阵II.swift) | |
 | 252. 会议室 | 简单 | [swift](leetcode-swift/leetcode-swift/252.会议室.swift) | |
 | 256. 粉刷房子 | 简单 | [swift](leetcode-swift/leetcode-swift/256.粉刷房子.swift) | **动态规划** |
+| 283. 移动零 | 简单 | [swift](leetcode-swift/leetcode-swift/283.移动零.swift) | **双指针** |
 | 290. 单词规律 | 简单 | [swift](leetcode-swift/leetcode-swift/290.单词规律.swift) | |
 | 322. 零钱兑换 | 简单 | [swift](leetcode-swift/leetcode-swift/322.零钱兑换.swift) | **动态规划** |
 | 349. 两个数组的交集 | 简单 | [swift](leetcode-swift/leetcode-swift/349.两个数组的交集.swift) | |
 | 389. 找不同 | 简单 | [swift](leetcode-swift/leetcode-swift/389.找不同.swift) | **位运算** |
 | 442. 数组中重复的数据 | 中等 | [swift](leetcode-swift/leetcode-swift/442.数组中重复的数据.swift) | |
 | 485. 最大连续1的个数 | 简单 | [swift](leetcode-swift/leetcode-swift/485.最大连续1的个数.swift) | |
+| 530. 二叉搜索树的最小绝对差 | 简单 | [swift](leetcode-swift/leetcode-swift/530.二叉搜索树的最小绝对差.swift) | **二叉树** |
 | 543. 二叉树的直径 | 中等 | [swift](leetcode-swift/leetcode-swift/543.二叉树的直径.swift) | **深度优先搜索** **二叉树** |
 | 1004. 最大连续1的个数III | 中等 | [swift](leetcode-swift/leetcode-swift/1004.最大连续1的个数III.swift) | **滑动窗口** |
 | 1089. 复写零 | 简单 | [swift](leetcode-swift/leetcode-swift/1089.复写零.swift) |  |

@@ -28,21 +28,46 @@ import Foundation
 
 extension Solution {
     func strStr(_ haystack: String, _ needle: String) -> Int {
-        if needle == "" {
+        let hCount = haystack.count
+        let nCount = needle.count
+        if nCount == 0 {
             return 0
         }
-        var pos = -1
-        if let range = haystack.range(of: needle, options: .literal) {
-            if !range.isEmpty {
-                pos = haystack.distance(from: haystack.startIndex, to: range.lowerBound)
+        if nCount > hCount {
+            return -1
+        }
+        if haystack == needle {
+            return 0
+        }
+        let hArr = Array(haystack)
+        let nArr = Array(needle)
+        l1: for i in 0..<hCount - nCount + 1 {
+            for j in 0..<nCount {
+                if hArr[i+j] != nArr[j] {
+                    continue l1
+                }
+                if hArr[i+j] == nArr[j] && j == nCount - 1 {
+                    return i
+                }
             }
         }
-        return pos
+        return -1
     }
+    
 }
 
 func test028(s: Solution) {
-    let haystack = "hello", needle = "ll"
+//    let haystack = "hello"
+//    let needle = "ll"
+    
+//    let haystack = "mississippi"
+//    let needle = "issipi"
+    
+//    let haystack = "a"
+//    let needle = "a"
+    
+    let haystack = "mississippi"
+    let needle = "pi"
     print(s.strStr(haystack, needle))
 }
 
