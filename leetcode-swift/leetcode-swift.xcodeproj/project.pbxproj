@@ -158,6 +158,7 @@
 		0A9DE5A324CFE18B004E1FEB /* 164.最大间距.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE5A224CFE18B004E1FEB /* 164.最大间距.swift */; };
 		0A9DE5A524D01DDF004E1FEB /* 237.删除链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE5A424D01DDF004E1FEB /* 237.删除链表中的节点.swift */; };
 		0A9DE5A724D067B5004E1FEB /* 530.二叉搜索树的最小绝对差.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE5A624D067B5004E1FEB /* 530.二叉搜索树的最小绝对差.swift */; };
+		0A9DE5A924D10C54004E1FEB /* 1143.最长公共子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE5A824D10C54004E1FEB /* 1143.最长公共子序列.swift */; };
 		0A9FB8192444041900359364 /* 062.不同路径.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FB8182444041900359364 /* 062.不同路径.swift */; };
 		0A9FB81B2444143C00359364 /* 064.最小路径和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FB81A2444143C00359364 /* 064.最小路径和.swift */; };
 		0A9FB822244468EA00359364 /* 051.N皇后.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FB821244468EA00359364 /* 051.N皇后.swift */; };
@@ -388,6 +389,7 @@
 		0A9DE5A224CFE18B004E1FEB /* 164.最大间距.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "164.最大间距.swift"; sourceTree = "<group>"; };
 		0A9DE5A424D01DDF004E1FEB /* 237.删除链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "237.删除链表中的节点.swift"; sourceTree = "<group>"; };
 		0A9DE5A624D067B5004E1FEB /* 530.二叉搜索树的最小绝对差.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "530.二叉搜索树的最小绝对差.swift"; sourceTree = "<group>"; };
+		0A9DE5A824D10C54004E1FEB /* 1143.最长公共子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1143.最长公共子序列.swift"; sourceTree = "<group>"; };
 		0A9FB8182444041900359364 /* 062.不同路径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "062.不同路径.swift"; sourceTree = "<group>"; };
 		0A9FB81A2444143C00359364 /* 064.最小路径和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "064.最小路径和.swift"; sourceTree = "<group>"; };
 		0A9FB821244468EA00359364 /* 051.N皇后.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "051.N皇后.swift"; sourceTree = "<group>"; };
@@ -663,6 +665,7 @@
 				0A6FBCC52448B2F500B29C7E /* 543.二叉树的直径.swift */,
 				0AFCABC32456DD7000345F40 /* 1004.最大连续1的个数III.swift */,
 				0A94C8992452D17900A59E17 /* 1089.复写零.swift */,
+				0A9DE5A824D10C54004E1FEB /* 1143.最长公共子序列.swift */,
 				0A9FB83B2448038200359364 /* 1346.检查整数及其两倍数是否存在.swift */,
 				0AEC1016245860A2006BFBF4 /* 剑指Offer03.数组中重复的数字.swift */,
 				0ABDE622245888D2008BDEE1 /* 剑指Offer04.二维数组中的查找.swift */,
@@ -871,6 +874,7 @@
 				0AED54CF24A49E4300F93136 /* 剑指Offer18.删除链表的节点.swift in Sources */,
 				0A6FBCC62448B2F500B29C7E /* 543.二叉树的直径.swift in Sources */,
 				0A165BFF243DBA2E00E85723 /* 005.最长回文子串.swift in Sources */,
+				0A9DE5A924D10C54004E1FEB /* 1143.最长公共子序列.swift in Sources */,
 				0A9FB8382446E04100359364 /* 060.第k个排列.swift in Sources */,
 				0A9FB83A2447170E00359364 /* 043.字符串相乘.swift in Sources */,
 				0A9DE56724B5638B004E1FEB /* 187.重复的DNA序列.swift in Sources */,
