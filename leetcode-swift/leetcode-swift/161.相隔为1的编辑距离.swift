@@ -33,4 +33,47 @@ import Foundation
  解释: 可以将字符串 s 中的 '0' 替换为 '1' 来得到 t。
  */
 
+extension Solution {
+    func isOneEditDistance(_ s: String, _ t: String) -> Bool {
+        let tc = t.count
+        let sc = s.count
+        //保证t的长度大于等于s的长度
+        if sc > tc {
+            return isOneEditDistance(t, s)
+        }
+        //长度差大于返回false
+        if abs(sc - tc) > 1 {
+            return false
+        }
+        let tArr = Array(t)
+        let sArr = Array(s)
+        for i in 0..<sc {
+            if sArr[i] != tArr[i] {
+                if sc == tc {
+                    return sArr[i+1..<sc] == tArr[i+1..<tc]
+                } else {
+                    return sArr[i..<sc] == tArr[i+1..<tc]
+                }
+            }
+        }
+        //如果按位比较没有差异，则可能是t最后一位有差异
+        return sc + 1 == tc
+    }
+}
 
+func test161(s: Solution) {
+    let str1 = "cab"
+    let str2 = "ad"
+    print(s.isOneEditDistance(str1, str2))
+}
+
+
+extension String {
+    // 截取字符串：从index到结束处
+    // - Parameter index: 开始索引
+    // - Returns: 子字符串
+    func substring(_ index: Int) -> String {
+        let theIndex = self.index(self.endIndex, offsetBy: index - self.count)
+        return String(self[theIndex..<endIndex])
+    }
+}

@@ -11,6 +11,7 @@
 		0A023E1D2449979B00885193 /* 008.字符串转换整数(atoi).swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A023E1C2449979B00885193 /* 008.字符串转换整数(atoi).swift */; };
 		0A023E1F2449C56700885193 /* 034.在排序数组中查找元素的第一个和最后一个位置.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A023E1E2449C56700885193 /* 034.在排序数组中查找元素的第一个和最后一个位置.swift */; };
 		0A023E21244AD6F500885193 /* 011.盛最多水的容器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A023E20244AD6F500885193 /* 011.盛最多水的容器.swift */; };
+		0A0923EC24D167CB00DD3FB1 /* 319.灯泡开关.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0923EB24D167CB00DD3FB1 /* 319.灯泡开关.swift */; };
 		0A165B85243DB93900E85723 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A165B84243DB93900E85723 /* main.swift */; };
 		0A165B8C243DB95A00E85723 /* 001.两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A165B8B243DB95A00E85723 /* 001.两数之和.swift */; };
 		0A165B8F243DBA0600E85723 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A165B8D243DBA0500E85723 /* ListNode.swift */; };
@@ -159,6 +160,8 @@
 		0A9DE5A524D01DDF004E1FEB /* 237.删除链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE5A424D01DDF004E1FEB /* 237.删除链表中的节点.swift */; };
 		0A9DE5A724D067B5004E1FEB /* 530.二叉搜索树的最小绝对差.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE5A624D067B5004E1FEB /* 530.二叉搜索树的最小绝对差.swift */; };
 		0A9DE5A924D10C54004E1FEB /* 1143.最长公共子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE5A824D10C54004E1FEB /* 1143.最长公共子序列.swift */; };
+		0A9DE5AB24D11CC6004E1FEB /* 089.格雷编码.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE5AA24D11CC6004E1FEB /* 089.格雷编码.swift */; };
+		0A9DE5AD24D15693004E1FEB /* 1323.6和9组成的最大数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DE5AC24D15693004E1FEB /* 1323.6和9组成的最大数字.swift */; };
 		0A9FB8192444041900359364 /* 062.不同路径.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FB8182444041900359364 /* 062.不同路径.swift */; };
 		0A9FB81B2444143C00359364 /* 064.最小路径和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FB81A2444143C00359364 /* 064.最小路径和.swift */; };
 		0A9FB822244468EA00359364 /* 051.N皇后.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9FB821244468EA00359364 /* 051.N皇后.swift */; };
@@ -241,6 +244,7 @@
 		0A023E1C2449979B00885193 /* 008.字符串转换整数(atoi).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "008.字符串转换整数(atoi).swift"; sourceTree = "<group>"; };
 		0A023E1E2449C56700885193 /* 034.在排序数组中查找元素的第一个和最后一个位置.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "034.在排序数组中查找元素的第一个和最后一个位置.swift"; sourceTree = "<group>"; };
 		0A023E20244AD6F500885193 /* 011.盛最多水的容器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "011.盛最多水的容器.swift"; sourceTree = "<group>"; };
+		0A0923EB24D167CB00DD3FB1 /* 319.灯泡开关.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "319.灯泡开关.swift"; sourceTree = "<group>"; };
 		0A165B81243DB93900E85723 /* leetcode-swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A165B84243DB93900E85723 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0A165B8B243DB95A00E85723 /* 001.两数之和.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "001.两数之和.swift"; sourceTree = "<group>"; };
@@ -390,6 +394,8 @@
 		0A9DE5A424D01DDF004E1FEB /* 237.删除链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "237.删除链表中的节点.swift"; sourceTree = "<group>"; };
 		0A9DE5A624D067B5004E1FEB /* 530.二叉搜索树的最小绝对差.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "530.二叉搜索树的最小绝对差.swift"; sourceTree = "<group>"; };
 		0A9DE5A824D10C54004E1FEB /* 1143.最长公共子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1143.最长公共子序列.swift"; sourceTree = "<group>"; };
+		0A9DE5AA24D11CC6004E1FEB /* 089.格雷编码.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "089.格雷编码.swift"; sourceTree = "<group>"; };
+		0A9DE5AC24D15693004E1FEB /* 1323.6和9组成的最大数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1323.6和9组成的最大数字.swift"; sourceTree = "<group>"; };
 		0A9FB8182444041900359364 /* 062.不同路径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "062.不同路径.swift"; sourceTree = "<group>"; };
 		0A9FB81A2444143C00359364 /* 064.最小路径和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "064.最小路径和.swift"; sourceTree = "<group>"; };
 		0A9FB821244468EA00359364 /* 051.N皇后.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "051.N皇后.swift"; sourceTree = "<group>"; };
@@ -561,6 +567,7 @@
 				0AFCABBD245682F300345F40 /* 084.柱状图中最大的矩形.swift */,
 				0A72523C24A2020700AC4EA5 /* 086.分隔链表.swift */,
 				0AC470A52442E94B00FBA4D0 /* 088.合并两个有序数组.swift */,
+				0A9DE5AA24D11CC6004E1FEB /* 089.格雷编码.swift */,
 				0A9DE56E24BA0B6C004E1FEB /* 090.子集II.swift */,
 				0A9DE57024BCC8EA004E1FEB /* 091.解码方法.swift */,
 				0A571114245022BD0029BB2C /* 092.反转链表II.swift */,
@@ -656,6 +663,7 @@
 				0A1C6027246E912300D2B8B7 /* 256.粉刷房子.swift */,
 				0A9DE5A024CF24A1004E1FEB /* 283.移动零.swift */,
 				0A6900BF245C6E4A0088C05F /* 290.单词规律.swift */,
+				0A0923EB24D167CB00DD3FB1 /* 319.灯泡开关.swift */,
 				0AC4708F243F02A400FBA4D0 /* 322.零钱兑换.swift */,
 				0A165BC9243DBA2D00E85723 /* 349.两个数组的交集.swift */,
 				0A9FB82F2445F4A900359364 /* 389.找不同.swift */,
@@ -666,6 +674,7 @@
 				0AFCABC32456DD7000345F40 /* 1004.最大连续1的个数III.swift */,
 				0A94C8992452D17900A59E17 /* 1089.复写零.swift */,
 				0A9DE5A824D10C54004E1FEB /* 1143.最长公共子序列.swift */,
+				0A9DE5AC24D15693004E1FEB /* 1323.6和9组成的最大数字.swift */,
 				0A9FB83B2448038200359364 /* 1346.检查整数及其两倍数是否存在.swift */,
 				0AEC1016245860A2006BFBF4 /* 剑指Offer03.数组中重复的数字.swift */,
 				0ABDE622245888D2008BDEE1 /* 剑指Offer04.二维数组中的查找.swift */,
@@ -780,6 +789,7 @@
 			files = (
 				0A29D5D1248651AB0027B5AF /* 剑指Offer49.丑数.swift in Sources */,
 				0A9DE56924B7190D004E1FEB /* 045.跳跃游戏II.swift in Sources */,
+				0A9DE5AB24D11CC6004E1FEB /* 089.格雷编码.swift in Sources */,
 				0A72523D24A2020700AC4EA5 /* 086.分隔链表.swift in Sources */,
 				0A9FB83C2448038200359364 /* 1346.检查整数及其两倍数是否存在.swift in Sources */,
 				0A57110B244EA6EF0029BB2C /* 155.最小栈.swift in Sources */,
@@ -864,11 +874,13 @@
 				0A5710F1244D772A0029BB2C /* 200.岛屿数量.swift in Sources */,
 				0A1C6028246E912300D2B8B7 /* 256.粉刷房子.swift in Sources */,
 				0A571107244DDADD0029BB2C /* quick.swift in Sources */,
+				0A9DE5AD24D15693004E1FEB /* 1323.6和9组成的最大数字.swift in Sources */,
 				0A165BDA243DBA2D00E85723 /* 094.二叉树的中序遍历.swift in Sources */,
 				0A9DE57D24C7E20D004E1FEB /* 116.填充每个节点的下一个右侧节点指针.swift in Sources */,
 				0A9DE55924ADD950004E1FEB /* 162.寻找峰值.swift in Sources */,
 				0AEC10112453DB20006BFBF4 /* 134.加油站.swift in Sources */,
 				0A9FB8362446B9B100359364 /* 217.存在重复元素.swift in Sources */,
+				0A0923EC24D167CB00DD3FB1 /* 319.灯泡开关.swift in Sources */,
 				0AC4709E24418F9400FBA4D0 /* 041.缺失的第一个正数.swift in Sources */,
 				0A57111B24512E890029BB2C /* 189.旋转数组.swift in Sources */,
 				0AED54CF24A49E4300F93136 /* 剑指Offer18.删除链表的节点.swift in Sources */,
