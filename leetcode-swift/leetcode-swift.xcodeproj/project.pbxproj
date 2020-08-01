@@ -12,6 +12,7 @@
 		0A023E1F2449C56700885193 /* 034.在排序数组中查找元素的第一个和最后一个位置.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A023E1E2449C56700885193 /* 034.在排序数组中查找元素的第一个和最后一个位置.swift */; };
 		0A023E21244AD6F500885193 /* 011.盛最多水的容器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A023E20244AD6F500885193 /* 011.盛最多水的容器.swift */; };
 		0A0923EC24D167CB00DD3FB1 /* 319.灯泡开关.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0923EB24D167CB00DD3FB1 /* 319.灯泡开关.swift */; };
+		0A13CE2624D556C2000EC71D /* 209.长度最小的子数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A13CE2524D556C2000EC71D /* 209.长度最小的子数组.swift */; };
 		0A165B85243DB93900E85723 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A165B84243DB93900E85723 /* main.swift */; };
 		0A165B8C243DB95A00E85723 /* 001.两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A165B8B243DB95A00E85723 /* 001.两数之和.swift */; };
 		0A165B8F243DBA0600E85723 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A165B8D243DBA0500E85723 /* ListNode.swift */; };
@@ -245,6 +246,7 @@
 		0A023E1E2449C56700885193 /* 034.在排序数组中查找元素的第一个和最后一个位置.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "034.在排序数组中查找元素的第一个和最后一个位置.swift"; sourceTree = "<group>"; };
 		0A023E20244AD6F500885193 /* 011.盛最多水的容器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "011.盛最多水的容器.swift"; sourceTree = "<group>"; };
 		0A0923EB24D167CB00DD3FB1 /* 319.灯泡开关.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "319.灯泡开关.swift"; sourceTree = "<group>"; };
+		0A13CE2524D556C2000EC71D /* 209.长度最小的子数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "209.长度最小的子数组.swift"; sourceTree = "<group>"; };
 		0A165B81243DB93900E85723 /* leetcode-swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A165B84243DB93900E85723 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0A165B8B243DB95A00E85723 /* 001.两数之和.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "001.两数之和.swift"; sourceTree = "<group>"; };
@@ -648,6 +650,7 @@
 				0A165BCA243DBA2D00E85723 /* 203.移除链表元素.swift */,
 				0A165BAA243DBA2B00E85723 /* 204.计数质数.swift */,
 				0A165BC3243DBA2D00E85723 /* 206.反转链表.swift */,
+				0A13CE2524D556C2000EC71D /* 209.长度最小的子数组.swift */,
 				0A165B93243DBA2900E85723 /* 215.数组中的第K个最大元素.swift */,
 				0A9FB8352446B9B100359364 /* 217.存在重复元素.swift */,
 				0A165BB9243DBA2C00E85723 /* 219.存在重复元素II.swift */,
@@ -932,6 +935,7 @@
 				0AC4708E243EF8C200FBA4D0 /* 121.买卖股票的最佳时机.swift in Sources */,
 				0A9DE55F24B1D1DB004E1FEB /* 152.乘积最大子数组.swift in Sources */,
 				0A9DE55524AA135E004E1FEB /* 剑指Offer60.n个骰子的点数.swift in Sources */,
+				0A13CE2624D556C2000EC71D /* 209.长度最小的子数组.swift in Sources */,
 				0AFCABC82457C89C00345F40 /* 234.回文链表.swift in Sources */,
 				0AFF295A2459662300E0103D /* 剑指Offer10-I.斐波那契数列.swift in Sources */,
 				0A165BD5243DBA2D00E85723 /* 070.爬楼梯.swift in Sources */,

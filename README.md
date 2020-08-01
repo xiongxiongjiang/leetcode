@@ -36,7 +36,7 @@
 | 032. 最长有效括号 | 困难 | [swift](leetcode-swift/leetcode-swift/032.最长有效括号.swift) | **动态规划** |
 | 033. 搜索旋转排序数组 | 中等 | [swift](leetcode-swift/leetcode-swift/033.搜索旋转排序数组.swift) | **二分查找** |
 | 034. 在排序数组中查找元素的第一个和最后一个位置 | 中等 | [swift](leetcode-swift/leetcode-swift/034.在排序数组中查找元素的第一个和最后一个位置.swift) | **二分查找** |
-| 035. 搜索插入位置 | 简单 | [swift](leetcode-swift/leetcode-swift/035.搜索插入位置.swift) |      |
+| 035. 搜索插入位置 | 简单 | [swift](leetcode-swift/leetcode-swift/035.搜索插入位置.swift) | **二分查找** |
 | 036. 有效的数独 | 中等 | [swift](leetcode-swift/leetcode-swift/036.有效的数独.swift) |      |
 | 037. 解数独 | 困难 | [swift](leetcode-swift/leetcode-swift/037.解数独.swift) | **回溯** |
 | 038. 外观数列 | 简单 | [swift](leetcode-swift/leetcode-swift/038.外观数列.swift) |      |
@@ -206,6 +206,7 @@
 | 203. 移除链表元素 | 简单 | [swift](leetcode-swift/leetcode-swift/203.移除链表元素.swift) | **链表** |
 | 204. 计数质数 | | | |
 | 206. 反转链表 | 简单 | [swift](leetcode-swift/leetcode-swift/206.反转链表.swift) | **链表** |
+| 209. 长度最小的子数组 | 中等 | [swift](leetcode-swift/leetcode-swift/209.长度最小的子数组.swift) | **滑动窗口** |
 | 215. 数组中的第K个最大元素 | 中等 | [swift](leetcode-swift/leetcode-swift/215.数组中的第K个最大元素.swift) | |
 | 219. 存在重复元素 II | 简单 | [swift](leetcode-swift/leetcode-swift/219.存在重复元素II.swift) | |
 | 222. 完全二叉树的节点个数 | 中等 | [swift](leetcode-swift/leetcode-swift/222.完全二叉树的节点个数.swift) | **二叉树** |
