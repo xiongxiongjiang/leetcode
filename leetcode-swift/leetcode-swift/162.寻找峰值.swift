@@ -43,6 +43,7 @@ extension Solution {
                 left = mid + 1
             }
         }
+        //返回left和right都是一样的
         return left
     }
 }

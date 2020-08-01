@@ -162,7 +162,7 @@
 | [158. 用 Read4 读取 N 个字符 II](https://leetcode-cn.com/problems/read-n-characters-given-read4-ii-call-multiple-times/) | 困难 | | |
 | 159. 至多包含两个不同字符的最长子串 | 中等 | [swift](leetcode-swift/leetcode-swift/159.至多包含两个不同字符的最长子串.swift) | **双指针** **哈希表** |
 | 160. 相交链表 | 简单 | [swift](leetcode-swift/leetcode-swift/160.相交链表.swift) | **链表** |
-| 161 | | | |
+| 161. 相隔为1的编辑距离 | 中等 | [swift](leetcode-swift/leetcode-swift/161.相隔为1的编辑距离.swift) | **字符串** |
 | 162. 寻找峰值 | 中等 | [swift](leetcode-swift/leetcode-swift/162.寻找峰值.swift) | **二分法** |
 | [163. 缺失的区间](https://leetcode-cn.com/problems/missing-ranges/) | 中等 | | |
 | 164 | | | |
@@ -219,6 +219,7 @@
 | 256. 粉刷房子 | 简单 | [swift](leetcode-swift/leetcode-swift/256.粉刷房子.swift) | **动态规划** |
 | 283. 移动零 | 简单 | [swift](leetcode-swift/leetcode-swift/283.移动零.swift) | **双指针** |
 | 290. 单词规律 | 简单 | [swift](leetcode-swift/leetcode-swift/290.单词规律.swift) | |
+| 319. 灯泡开关 | 中等 | [swift](leetcode-swift/leetcode-swift/319.灯泡开关.swift) | **找规律** |
 | 322. 零钱兑换 | 简单 | [swift](leetcode-swift/leetcode-swift/322.零钱兑换.swift) | **动态规划** |
 | 349. 两个数组的交集 | 简单 | [swift](leetcode-swift/leetcode-swift/349.两个数组的交集.swift) | |
 | 389. 找不同 | 简单 | [swift](leetcode-swift/leetcode-swift/389.找不同.swift) | **位运算** |
@@ -229,6 +230,7 @@
 | 1004. 最大连续1的个数III | 中等 | [swift](leetcode-swift/leetcode-swift/1004.最大连续1的个数III.swift) | **滑动窗口** |
 | 1089. 复写零 | 简单 | [swift](leetcode-swift/leetcode-swift/1089.复写零.swift) |  |
 | 1143. 最长公共子序列 | 中等 | [swift](leetcode-swift/leetcode-swift/1143.最长公共子序列.swift) | **动态规划** |
+| 1323. 6和9组成的最大数字 | 简单 | [swift](leetcode-swift/leetcode-swift/1323.6和9组成的最大数字.swift) |  |
 | 1346. 检查整数及其两倍数是否存在 | 简单 | [swift](leetcode-swift/leetcode-swift/1346.检查整数及其两倍数是否存在.swift) | **哈希表** |
 | 剑指Offer03. 数组中重复的数字 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer03.数组中重复的数字.swift) | **哈希表** |
 | 剑指Offer04. 二维数组中的查找 | 简单 | [swift](leetcode-swift/leetcode-swift/剑指Offer04.二维数组中的查找.swift) |  |
