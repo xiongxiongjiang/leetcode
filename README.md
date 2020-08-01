@@ -81,8 +81,8 @@
 | 077. 组合 | 中等 | [swift](leetcode-swift/leetcode-swift/077.组合.swift) | **回溯** |
 | 078. 子集 | 中等 | [swift](leetcode-swift/leetcode-swift/078.子集.swift) | **回溯** |
 | 079. 单词搜索 | 中等 | [swift](leetcode-swift/leetcode-swift/079.单词搜索.swift) | **回溯** |
-| 080. 删除排序数组中的重复项 II | 中等 | [swift](leetcode-swift/leetcode-swift/080.删除排序数组中的重复项 II.swift) | |
-| 081. 搜索旋转排序数组 II | 中等 | [swift](leetcode-swift/leetcode-swift/081.搜索旋转排序数组 II.swift) | **二分查找** |
+| 080. 删除排序数组中的重复项 II | 中等 | [swift](leetcode-swift/leetcode-swift/080.删除排序数组中的重复项II.swift) | |
+| 081. 搜索旋转排序数组 II | 中等 | [swift](leetcode-swift/leetcode-swift/081.搜索旋转排序数组II.swift) | **二分查找** |
 | 082. 删除排序链表中的重复元素 II | 中等 | [swift](leetcode-swift/leetcode-swift/082.删除排序链表中的重复元素II.swift) | **链表** |
 | 083. 删除排序链表中的重复元素 | 简单 | [swift](leetcode-swift/leetcode-swift/083.删除排序链表中的重复元素.swift) | **链表** |
 | 084. 柱状图中最大的矩形 | 困难 | [swift](leetcode-swift/leetcode-swift/084.柱状图中最大的矩形.swift) | **单调栈** |
