@@ -220,6 +220,7 @@
 | 256. 粉刷房子 | 简单 | [swift](leetcode-swift/leetcode-swift/256.粉刷房子.swift) | **动态规划** |
 | 283. 移动零 | 简单 | [swift](leetcode-swift/leetcode-swift/283.移动零.swift) | **双指针** |
 | 290. 单词规律 | 简单 | [swift](leetcode-swift/leetcode-swift/290.单词规律.swift) | |
+| 300. 最长上升子序列 | 中等 | [swift](leetcode-swift/leetcode-swift/300.最长上升子序列.swift) | **动态规划** **二分查找** |
 | 319. 灯泡开关 | 中等 | [swift](leetcode-swift/leetcode-swift/319.灯泡开关.swift) | **找规律** |
 | 322. 零钱兑换 | 简单 | [swift](leetcode-swift/leetcode-swift/322.零钱兑换.swift) | **动态规划** |
 | 349. 两个数组的交集 | 简单 | [swift](leetcode-swift/leetcode-swift/349.两个数组的交集.swift) | |
@@ -228,6 +229,7 @@
 | 485. 最大连续1的个数 | 简单 | [swift](leetcode-swift/leetcode-swift/485.最大连续1的个数.swift) | |
 | 530. 二叉搜索树的最小绝对差 | 简单 | [swift](leetcode-swift/leetcode-swift/530.二叉搜索树的最小绝对差.swift) | **二叉树** |
 | 543. 二叉树的直径 | 中等 | [swift](leetcode-swift/leetcode-swift/543.二叉树的直径.swift) | **深度优先搜索** **二叉树** |
+| 560. 和为K的子数组 | 中等 | [swift](leetcode-swift/leetcode-swift/560.和为K的子数组.swift) | **哈希表 前缀和** |
 | 1004. 最大连续1的个数III | 中等 | [swift](leetcode-swift/leetcode-swift/1004.最大连续1的个数III.swift) | **滑动窗口** |
 | 1089. 复写零 | 简单 | [swift](leetcode-swift/leetcode-swift/1089.复写零.swift) |  |
 | 1143. 最长公共子序列 | 中等 | [swift](leetcode-swift/leetcode-swift/1143.最长公共子序列.swift) | **动态规划** |

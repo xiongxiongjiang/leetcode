@@ -13,6 +13,8 @@
 		0A023E21244AD6F500885193 /* 011.盛最多水的容器.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A023E20244AD6F500885193 /* 011.盛最多水的容器.swift */; };
 		0A0923EC24D167CB00DD3FB1 /* 319.灯泡开关.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0923EB24D167CB00DD3FB1 /* 319.灯泡开关.swift */; };
 		0A13CE2624D556C2000EC71D /* 209.长度最小的子数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A13CE2524D556C2000EC71D /* 209.长度最小的子数组.swift */; };
+		0A13CE2824D56869000EC71D /* 300.最长上升子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A13CE2724D56869000EC71D /* 300.最长上升子序列.swift */; };
+		0A13CE2A24D6A929000EC71D /* 560.和为K的子数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A13CE2924D6A929000EC71D /* 560.和为K的子数组.swift */; };
 		0A165B85243DB93900E85723 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A165B84243DB93900E85723 /* main.swift */; };
 		0A165B8C243DB95A00E85723 /* 001.两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A165B8B243DB95A00E85723 /* 001.两数之和.swift */; };
 		0A165B8F243DBA0600E85723 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A165B8D243DBA0500E85723 /* ListNode.swift */; };
@@ -247,6 +249,8 @@
 		0A023E20244AD6F500885193 /* 011.盛最多水的容器.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "011.盛最多水的容器.swift"; sourceTree = "<group>"; };
 		0A0923EB24D167CB00DD3FB1 /* 319.灯泡开关.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "319.灯泡开关.swift"; sourceTree = "<group>"; };
 		0A13CE2524D556C2000EC71D /* 209.长度最小的子数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "209.长度最小的子数组.swift"; sourceTree = "<group>"; };
+		0A13CE2724D56869000EC71D /* 300.最长上升子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "300.最长上升子序列.swift"; sourceTree = "<group>"; };
+		0A13CE2924D6A929000EC71D /* 560.和为K的子数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "560.和为K的子数组.swift"; sourceTree = "<group>"; };
 		0A165B81243DB93900E85723 /* leetcode-swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-swift"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A165B84243DB93900E85723 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0A165B8B243DB95A00E85723 /* 001.两数之和.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "001.两数之和.swift"; sourceTree = "<group>"; };
@@ -666,6 +670,7 @@
 				0A1C6027246E912300D2B8B7 /* 256.粉刷房子.swift */,
 				0A9DE5A024CF24A1004E1FEB /* 283.移动零.swift */,
 				0A6900BF245C6E4A0088C05F /* 290.单词规律.swift */,
+				0A13CE2724D56869000EC71D /* 300.最长上升子序列.swift */,
 				0A0923EB24D167CB00DD3FB1 /* 319.灯泡开关.swift */,
 				0AC4708F243F02A400FBA4D0 /* 322.零钱兑换.swift */,
 				0A165BC9243DBA2D00E85723 /* 349.两个数组的交集.swift */,
@@ -674,6 +679,7 @@
 				0AFCABC12456BEB400345F40 /* 485.最大连续1的个数.swift */,
 				0A9DE5A624D067B5004E1FEB /* 530.二叉搜索树的最小绝对差.swift */,
 				0A6FBCC52448B2F500B29C7E /* 543.二叉树的直径.swift */,
+				0A13CE2924D6A929000EC71D /* 560.和为K的子数组.swift */,
 				0AFCABC32456DD7000345F40 /* 1004.最大连续1的个数III.swift */,
 				0A94C8992452D17900A59E17 /* 1089.复写零.swift */,
 				0A9DE5A824D10C54004E1FEB /* 1143.最长公共子序列.swift */,
@@ -854,6 +860,7 @@
 				0A9FB82C2445C93C00359364 /* 118.杨辉三角.swift in Sources */,
 				0AC470982440234E00FBA4D0 /* 122.买卖股票的最佳时机II.swift in Sources */,
 				0A9DE56B24B75CB6004E1FEB /* 080.删除排序数组中的重复项II.swift in Sources */,
+				0A13CE2A24D6A929000EC71D /* 560.和为K的子数组.swift in Sources */,
 				0A571119245038F40029BB2C /* 114.二叉树展开为链表.swift in Sources */,
 				0A023E1F2449C56700885193 /* 034.在排序数组中查找元素的第一个和最后一个位置.swift in Sources */,
 				0A165BE8243DBA2E00E85723 /* 042.接雨水.swift in Sources */,
@@ -893,6 +900,7 @@
 				0A9FB8382446E04100359364 /* 060.第k个排列.swift in Sources */,
 				0A9FB83A2447170E00359364 /* 043.字符串相乘.swift in Sources */,
 				0A9DE56724B5638B004E1FEB /* 187.重复的DNA序列.swift in Sources */,
+				0A13CE2824D56869000EC71D /* 300.最长上升子序列.swift in Sources */,
 				0AED54CD24A486FB00F93136 /* 剑指Offer15.二进制中1的个数.swift in Sources */,
 				0A165BD4243DBA2D00E85723 /* 104.二叉树的最大深度.swift in Sources */,
 				0A165BD0243DBA2D00E85723 /* 225.用队列实现栈.swift in Sources */,

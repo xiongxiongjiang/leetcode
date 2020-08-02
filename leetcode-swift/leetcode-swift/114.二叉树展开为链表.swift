@@ -45,7 +45,6 @@ extension Solution {
             nodes[i].left = nil
             nodes[i].right = nodes[i+1]
         }
-        nodes.last!.left = nil
     }
     
     func flattenDfs(root: TreeNode?, nodes: inout [TreeNode]) {

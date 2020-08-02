@@ -21,6 +21,7 @@ func selectionSort(_ array: [Int]) -> [Int] {
             }
         }
         a.swapAt(i, lowest)
+        print(a)
     }
     return a
 }

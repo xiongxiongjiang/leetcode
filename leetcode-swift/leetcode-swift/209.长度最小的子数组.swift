@@ -41,7 +41,7 @@ extension Solution {
 }
 
 func test209(s: Solution) {
-//    let nums = [2,3,1,2,4,3]
-    let nums = [1, 1]
-    print(s.minSubArrayLen(3, nums))
+    let nums = [2,3,1,2,4,3]
+//    let nums = [1, 1]
+    print(s.minSubArrayLen(7, nums))
 }

@@ -22,10 +22,7 @@ extension Solution {
         if s.count < 4 || s.count > 12 {
             return []
         }
-        var characters = [Character]()
-        for char in s {
-            characters.append(char)
-        }
+        let characters = [Character](s)
         var res = [String]()
         var track = [String]()
         backtrackRestoreIpAddresses(characters, 0, &track, &res)
@@ -45,7 +42,7 @@ extension Solution {
         var minLen = 0, maxLen = 0
         if groupsLeft == 1 {
             minLen = charsLeft
-        } else {
+        } else { 
             minLen = 1
         }
         if characters[start] == "0" {
