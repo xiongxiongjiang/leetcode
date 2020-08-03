@@ -26,7 +26,7 @@
 | 022. 括号生成 | 中等 | [swift](leetcode-swift/leetcode-swift/022.括号生成.swift) |      |
 | 023. 合并K个排序链表 | 中等 | [swift](leetcode-swift/leetcode-swift/023.合并K个排序链表.swift) | **链表** |
 | 024. 两两交换链表中的节点 | 中等 | [swift](leetcode-swift/leetcode-swift/024.两两交换链表中的节点.swift) | **链表** |
-| [025. K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group) | 困难 |                      |      |
+| 025. K 个一组翻转链表 | 困难 | [swift](leetcode-swift/leetcode-swift/025.K个一组翻转链表.swift) | **链表** |
 | 026. 删除排序数组中的重复项 | 简单 | [swift](leetcode-swift/leetcode-swift/026.删除排序数组中的重复项.swift) |      |
 | 027. 移除元素 | 简单 | [swift](leetcode-swift/leetcode-swift/027.移除元素.swift) |      |
 | 028. 实现 strStr() | 简单 | [swift](leetcode-swift/leetcode-swift/028.实现strStr().swift) |      |

@@ -42,22 +42,15 @@ import Foundation
 
 extension Solution {
     func removeDuplicates(_ nums: inout [Int]) -> Int {
-        if nums.count == 0 {
-            return 0
-        }
-        var val: Int?
-        var count = nums.count
         var i = 0
-        while i < count {
-            if val == nums[i] {
-                nums.remove(at: i)
-                count -= 1
-            } else {
-                val = nums[i]
+        for num in nums {
+            if i < 1 || num > nums[i] {
+                nums[i] = num
                 i += 1
             }
         }
-        return nums.count
+        nums[i...] = []
+        return i
     }
 }
 
