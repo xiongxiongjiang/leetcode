@@ -51,6 +51,11 @@ extension Solution {
             }
         }
         var res = head
+        //最终会在环相遇 F为起点到环，a为环到相遇点，b为相遇点到环（环除了a的部分）
+        //左边是慢指针 右边是快指针
+        //2(F + a) = F + N(a + b) + a
+        //2F + 2a = F + 2a + b + (N - 1)(a + b)
+        //F = b + (N - 1)(a + b)
         if meet != nil {
             while (res !== meet) {
                 res = res?.next

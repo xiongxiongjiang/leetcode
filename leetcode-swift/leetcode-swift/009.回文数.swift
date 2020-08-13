@@ -33,28 +33,16 @@ import Foundation
 
 extension Solution {
     func isPalindrome(_ x: Int) -> Bool {
+        var res = 0
         if x < 0 {
             return false
         }
-        if x >= 0 && x <= 9 {
-            return true
+        var x1 = x
+        while x1 != 0 {
+            res = res * 10 + x1 % 10
+            x1 /= 10
         }
-        var nums = [Int]()
-        var num = x
-        while num >= 10 {
-            let y = num % 10
-            num = num / 10
-            nums.append(y)
-        }
-        nums.append(num)
-        if nums.first == 0 {
-            return false
-        }
-        var z = 0
-        for i in 0..<nums.count {
-            z = z * 10 + nums[i]
-        }
-        return z == x
+        return res == x
     }
 }
 

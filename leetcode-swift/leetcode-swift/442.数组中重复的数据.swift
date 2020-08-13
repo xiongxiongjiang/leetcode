@@ -25,11 +25,6 @@ extension Solution {
         if nums.count <= 1 {
             return []
         }
-        for num in nums {
-            if num < 1 || num > nums.count {
-                return []
-            }
-        }
         var nums = nums
         var result = [Int]()
         for num in nums {

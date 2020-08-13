@@ -54,7 +54,7 @@
 | [050.Pow(x, n)](https://leetcode-cn.com/problems/powx-n) | 中等 |                      |      |
 | 051. N皇后 | 困难 | [swift](leetcode-swift/leetcode-swift/051.N皇后.swift) |      |
 | [052. N皇后 II](https://leetcode-cn.com/problems/n-queens-ii) | 困难 |                      |      |
-| 053. 最大子序和 | 简单 | [swift](leetcode-swift/leetcode-swift/053.最大子序和.swift) |      |
+| 053. 最大子序和 | 简单 | [swift](leetcode-swift/leetcode-swift/053.最大子序和.swift) | **动态规划** |
 | 054. 螺旋矩阵 | 中等 | [swift](leetcode-swift/leetcode-swift/054.螺旋矩阵.swift) |      |
 | 055. 跳跃游戏 | 中等 | [swift](leetcode-swift/leetcode-swift/055.跳跃游戏.swift) | **贪心** |
 | 056. 合并区间 | 中等 | [swift](leetcode-swift/leetcode-swift/056.合并区间.swift) |      |
@@ -223,8 +223,10 @@
 | 300. 最长上升子序列 | 中等 | [swift](leetcode-swift/leetcode-swift/300.最长上升子序列.swift) | **动态规划** **二分查找** |
 | 319. 灯泡开关 | 中等 | [swift](leetcode-swift/leetcode-swift/319.灯泡开关.swift) | **找规律** |
 | 322. 零钱兑换 | 简单 | [swift](leetcode-swift/leetcode-swift/322.零钱兑换.swift) | **动态规划** |
+| 328. 奇偶链表 | 中等 | [swift](leetcode-swift/leetcode-swift/328.奇偶链表.swift) | **链表** |
 | 349. 两个数组的交集 | 简单 | [swift](leetcode-swift/leetcode-swift/349.两个数组的交集.swift) | |
 | 389. 找不同 | 简单 | [swift](leetcode-swift/leetcode-swift/389.找不同.swift) | **位运算** |
+| 416. 分割等和子集 |  | [swift](leetcode-swift/leetcode-swift/416.分割等和子集.swift) | **动态规划** |
 | 442. 数组中重复的数据 | 中等 | [swift](leetcode-swift/leetcode-swift/442.数组中重复的数据.swift) | |
 | 485. 最大连续1的个数 | 简单 | [swift](leetcode-swift/leetcode-swift/485.最大连续1的个数.swift) | |
 | 530. 二叉搜索树的最小绝对差 | 简单 | [swift](leetcode-swift/leetcode-swift/530.二叉搜索树的最小绝对差.swift) | **二叉树** |

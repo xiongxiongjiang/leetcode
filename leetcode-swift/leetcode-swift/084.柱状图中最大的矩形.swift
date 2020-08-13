@@ -20,23 +20,29 @@ import Foundation
 
 extension Solution {
     func largestRectangleArea(_ heights: [Int]) -> Int {
-        var stack = [Int]()
+        var count = heights.count
+        if count == 0 {
+            return 0
+        }
+        if count == 1 {
+            return heights.first!
+        }
         var maxArea = 0
-        stack.append(-1)
+        var heights = heights
+        //引入哨兵，这样栈就不需要判空
+        heights = [0] + heights + [0]
+        count += 2
+        var stack = [0]
         //栈存入的是下标
-        for i in 0..<heights.count {
+        for i in 1..<count {
             //如果当前高度比栈顶元素矮（也就是数组的最后一个）
-            while stack.last != -1 && heights[i] < heights[stack.last!] {
+            while heights[i] < heights[stack.last!] {
                 //因为栈是从前往后递增的
                 let length = heights[stack.removeLast()]
                 let width = i - stack.last! - 1
-                print(length, width)
                 maxArea = max(length * width, maxArea)
             }
             stack.append(i)
-        }
-        while stack.last != -1 {
-            maxArea = max(heights[stack.removeLast()] * (heights.count - stack.last! - 1), maxArea)
         }
         return maxArea
     }
