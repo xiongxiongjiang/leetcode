@@ -27,59 +27,61 @@ import Foundation
 
 extension Solution {
     func searchRange(_ nums: [Int], _ target: Int) -> [Int] {
-        let left = searchLeft(nums, target)
-        let right = searchRight(nums, target)
-        if left < 0 || right > nums.count - 1 || left > right {
+        let left = searchRange(nums, target, true)
+        if left == nums.count || nums[left] != target {
             return [-1, -1]
         }
+        //因为最左边的一个存在，所以一定会有一个最右边的
+        let right = searchRange(nums, target, false) - 1
         return [left, right]
     }
     
-    func searchLeft(_ nums: [Int], _ target: Int) -> Int {
+    func searchRange(_ nums: [Int], _ target: Int, _ isLeft: Bool) -> Int {
         guard nums.count > 0 else {
             return 0
         }
-        var left = 0
-        var right = nums.count - 1
-        while left <= right {
-            let mid = left + (right - left) / 2
-            if nums[mid] == target {
-                right = mid - 1
-            } else if nums[mid] > target {
-                //在左边
-                right = mid - 1
-            } else if nums[mid] < target {
-                //在右边
-                left = mid + 1
+        var start = 0
+        var end = nums.count
+        //isLeft用于除了nums[mid] == target 时该做什么
+
+        /*
+        if isLeft == true {
+            while start < end {
+                let mid = start + (end - start) / 2
+                if target > nums[mid] {
+                    start = mid + 1
+                } else {
+                    end = mid
+                }
+            }
+        } else {
+            while start < end {
+                let mid = start + (end - start) / 2
+                if target < nums[mid] {
+                    end = mid
+                } else {
+                    start = mid + 1
+                }
             }
         }
-        return left
-    }
-    
-    
-    func searchRight(_ nums: [Int], _ target: Int) -> Int {
-        guard nums.count > 0 else {
-            return 0
-        }
-        var left = 0
-        var right = nums.count - 1
-        while left <= right {
-            let mid = left + (right - left) / 2
-            if nums[mid] == target {
-                left = mid + 1
-            } else if nums[mid] > target {
-                //在左边
-                right = mid - 1
-            } else if nums[mid] < target {
-                //在右边
-                left = mid + 1
+        */
+        
+        //以上的代码合并后，转换成下面的
+        while start < end {
+            let mid = start + (end - start) / 2
+            if target < nums[mid] || (isLeft && target == nums[mid]) {
+                end = mid
+            } else {
+                start = mid + 1
             }
         }
-        return right
+        return start
     }
+    
 }
 
 func test034(s: Solution) {
-    let nums = [5,7,7,8,8,10], target = 6
+    let nums = [5,7,7,8,8,10], target = 10
+//    let nums = [1], target = 1
     print(s.searchRange(nums, target))
 }

@@ -28,30 +28,27 @@ import Foundation
 
 extension Solution {
     func strStr(_ haystack: String, _ needle: String) -> Int {
-        let hCount = haystack.count
-        let nCount = needle.count
-        if nCount == 0 {
+        let hc = haystack.count
+        let nc = needle.count
+        if nc == 0 {
             return 0
         }
-        if nCount > hCount {
+        if nc > hc {
             return -1
-        }
-        if haystack == needle {
-            return 0
         }
         let hArr = Array(haystack)
         let nArr = Array(needle)
-        l1: for i in 0..<hCount - nCount + 1 {
-            for j in 0..<nCount {
-                if hArr[i+j] != nArr[j] {
-                    continue l1
-                }
-                if hArr[i+j] == nArr[j] && j == nCount - 1 {
-                    return i
-                }
+        var i = 0, j = 0
+        while i < hc && j < nc {
+            if hArr[i] == nArr[j] {
+                i += 1
+                j += 1
+            } else {
+                i = i - j + 1
+                j = 0
             }
         }
-        return -1
+        return j == nc ? i - j : -1
     }
     
 }
@@ -66,8 +63,8 @@ func test028(s: Solution) {
 //    let haystack = "a"
 //    let needle = "a"
     
-    let haystack = "mississippi"
-    let needle = "pi"
+    let haystack = "ppmippssissippi"
+    let needle = "ppi"
     print(s.strStr(haystack, needle))
 }
 

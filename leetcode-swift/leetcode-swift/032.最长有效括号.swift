@@ -25,13 +25,13 @@ import Foundation
 extension Solution {
     func longestValidParentheses(_ s: String) -> Int {
         let count = s.count
-        if count < 0 {
+        if count < 2 {
             return 0
         }
         var res = 0
-        let arrS = Array(s)
         //dp[i]指以i下标为结尾的合法序列的最长长度
         var dp = [Int](repeating: 0, count: count)
+        let arrS = Array(s)
         for i in 1..<count {
             //只有以")"结尾的才是合法序列，所以不考虑"("结尾的情况
             if arrS[i] == Character(")") {
@@ -39,7 +39,7 @@ extension Solution {
                 if arrS[i-1] == Character("(") {
                     //3目判断保证数组不越界
                     dp[i] = (i >= 2 ? dp[i - 2] : 0) + 2
-                } else if i - dp[i - 1] > 0 && arrS[i - dp[i - 1] - 1] == Character("(") {
+                } else if i - dp[i - 1] - 1 >= 0 && arrS[i - dp[i - 1] - 1] == Character("(") {
                     //右括号前边是 )，类似于 ……））, 除去前边的合法序列的前边是左括号
                     //当前位置的前一个合法序列的长度 + 匹配的左括号前边的合法序列的长度 + 新增的长度2
                     //tmp:匹配的左括号前边的合法序列的长度

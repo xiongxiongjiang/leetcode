@@ -24,17 +24,18 @@ import Foundation
 
 extension Solution {
     func nextPermutation(_ nums: inout [Int]) {
-        if nums.count < 2 {
+        let count = nums.count
+        if count < 2 {
             return
         }
-        var i = nums.count - 2
+        var i = count - 2
         //从后往前遍历，找到第一个不是降序的下标
         while i >= 0 && nums[i + 1] <= nums[i] {
             i -= 1
         }
         if i >= 0 {
             //再找到刚好比nums[i]大的数字
-            var j = nums.count - 1
+            var j = count - 1
             while j >= 0 && nums[j] <= nums[i] {
                 j -= 1
             }
@@ -54,8 +55,8 @@ extension Solution {
 }
 
 func test031(s: Solution) {
-    var nums = [1, 5, 8, 4, 7, 6, 5, 3, 1]
-//    var nums = [3, 2, 1]
+//    var nums = [1, 5, 8, 4, 7, 6, 5, 3, 1]
+    var nums = [3, 2, 1]
     s.nextPermutation(&nums)
     print(nums)
 }

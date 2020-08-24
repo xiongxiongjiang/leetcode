@@ -52,11 +52,22 @@ extension Solution {
                 i += 1
             }
         }
-        return nums.count
+        return i
+        
+//        var i = 0
+//        let count = nums.count
+//        for j in 0..<count {
+//            if nums[j] != val {
+//                nums[i] = nums[j]
+//                i += 1
+//            }
+//        }
+//        return i
     }
 }
 
 func test027(s: Solution) {
     var nums = [0, 1, 2, 2, 3, 0, 4, 2]
     print(s.removeElement(&nums, 2))
+    print(nums)
 }

@@ -35,12 +35,16 @@ extension Solution {
             res.append(track)
             return
         }
+        //剪枝
+        if open < close {
+            return
+        }
         if open < n {
             track.append("(")
             backTrackGenerateParenthesis(n: n, open: open + 1, close: close, track: &track, res: &res)
             track.removeLast()
         }
-        if open > close {
+        if close < n {
             track.append(")")
             backTrackGenerateParenthesis(n: n, open: open, close: close + 1, track: &track, res: &res)
             track.removeLast()

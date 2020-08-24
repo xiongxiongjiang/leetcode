@@ -29,6 +29,7 @@ import Foundation
 
 extension Solution {
     func firstMissingPositive(_ nums: [Int]) -> Int {
+        //如果题目给定的数组是不可修改的，那么就不存在满足时空复杂度要求的算法；但如果我们可以修改给定的数组，那么是存在满足要求的算法的。
         let count = nums.count
         guard count > 0 else {
             return 1

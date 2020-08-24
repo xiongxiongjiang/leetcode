@@ -9,11 +9,19 @@
 import Foundation
 
 class Solution {
+    func isBalanced111(_ root: TreeNode?) -> Bool {
+        guard let root = root else { return true }
+        return abs(maxDepth111(root.left) - maxDepth111(root.right)) < 1
+    }
     
+    func maxDepth111(_ root: TreeNode?) -> Int {
+        guard let root = root else { return 0 }
+        return max(maxDepth111(root.left), maxDepth111(root.right)) + 1
+    }
 }
 
 let s = Solution()
-test006(s: s)
+test043(s: s)
 
 //let list = [ 10, -1, 3, 9, 2, 27, 8, 5, 1, 3, 0, 26 ]
 //print(insertionSort(list))
