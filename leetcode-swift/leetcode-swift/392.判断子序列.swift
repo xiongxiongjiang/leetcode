@@ -44,4 +44,28 @@ extension Solution {
         }
         return i == n
     }
+    
+    func isSubsequence2(_ s: String, _ t: String) -> Bool {
+        let n = s.count
+        if n == 0 {
+            return true
+        }
+        let m = t.count
+        if m == 0 && n != 0 {
+            return false
+        }
+        var dp = [[Int]](repeating: [Int](repeating: 0, count: m + 1), count: n + 1)
+        let arr1 = Array(s)
+        let arr2 = Array(t)
+        for i in 1...n {
+            for j in 1...m {
+                if arr2[j-1] == arr1[i-1] {
+                    dp[i][j] = dp[i-1][j-1] + 1
+                } else {
+                    dp[i][j] = max(dp[i-1][j], dp[i][j-1])
+                }
+            }
+        }
+        return dp[n][m] == n
+    }
 }

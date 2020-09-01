@@ -226,12 +226,14 @@
 | 328. 奇偶链表 | 中等 | [swift](leetcode-swift/leetcode-swift/328.奇偶链表.swift) | **链表** |
 | 349. 两个数组的交集 | 简单 | [swift](leetcode-swift/leetcode-swift/349.两个数组的交集.swift) | |
 | 389. 找不同 | 简单 | [swift](leetcode-swift/leetcode-swift/389.找不同.swift) | **位运算** |
+| 392. 判断子序列 | 简单 | [swift](leetcode-swift/leetcode-swift/392.判断子序列.swift) | **双指针** |
 | 416. 分割等和子集 |  | [swift](leetcode-swift/leetcode-swift/416.分割等和子集.swift) | **动态规划** |
 | 442. 数组中重复的数据 | 中等 | [swift](leetcode-swift/leetcode-swift/442.数组中重复的数据.swift) | |
 | 485. 最大连续1的个数 | 简单 | [swift](leetcode-swift/leetcode-swift/485.最大连续1的个数.swift) | |
 | 530. 二叉搜索树的最小绝对差 | 简单 | [swift](leetcode-swift/leetcode-swift/530.二叉搜索树的最小绝对差.swift) | **二叉树** |
 | 543. 二叉树的直径 | 中等 | [swift](leetcode-swift/leetcode-swift/543.二叉树的直径.swift) | **深度优先搜索** **二叉树** |
 | 560. 和为K的子数组 | 中等 | [swift](leetcode-swift/leetcode-swift/560.和为K的子数组.swift) | **哈希表 前缀和** |
+| 701. 二叉搜索树中的插入操作 | 简单 | [swift](leetcode-swift/leetcode-swift/701.二叉搜索树中的插入操作.swift) | **二叉树** |
 | 1004. 最大连续1的个数III | 中等 | [swift](leetcode-swift/leetcode-swift/1004.最大连续1的个数III.swift) | **滑动窗口** |
 | 1089. 复写零 | 简单 | [swift](leetcode-swift/leetcode-swift/1089.复写零.swift) |  |
 | 1143. 最长公共子序列 | 中等 | [swift](leetcode-swift/leetcode-swift/1143.最长公共子序列.swift) | **动态规划** |
