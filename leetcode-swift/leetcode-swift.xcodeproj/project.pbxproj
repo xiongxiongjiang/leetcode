@@ -218,6 +218,8 @@
 		0AED54CB24A3AA1C00F93136 /* 剑指Offer14-I.剪绳子.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AED54CA24A3AA1C00F93136 /* 剑指Offer14-I.剪绳子.swift */; };
 		0AED54CD24A486FB00F93136 /* 剑指Offer15.二进制中1的个数.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AED54CC24A486FB00F93136 /* 剑指Offer15.二进制中1的个数.swift */; };
 		0AED54CF24A49E4300F93136 /* 剑指Offer18.删除链表的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AED54CE24A49E4300F93136 /* 剑指Offer18.删除链表的节点.swift */; };
+		0AF3087724FDE73300729176 /* 701.二叉搜索树中的插入操作.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF3087624FDE73300729176 /* 701.二叉搜索树中的插入操作.swift */; };
+		0AF3087924FE5EF000729176 /* 392.判断子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF3087824FE5EF000729176 /* 392.判断子序列.swift */; };
 		0AFCABB824551B1D00345F40 /* 079.单词搜索.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABB724551B1D00345F40 /* 079.单词搜索.swift */; };
 		0AFCABBA24555FBD00345F40 /* 012.整数转罗马数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABB924555FBD00345F40 /* 012.整数转罗马数字.swift */; };
 		0AFCABBC245576BB00345F40 /* 038.外观数列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABBB245576BB00345F40 /* 038.外观数列.swift */; };
@@ -463,6 +465,8 @@
 		0AED54CA24A3AA1C00F93136 /* 剑指Offer14-I.剪绳子.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指Offer14-I.剪绳子.swift"; sourceTree = "<group>"; };
 		0AED54CC24A486FB00F93136 /* 剑指Offer15.二进制中1的个数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指Offer15.二进制中1的个数.swift"; sourceTree = "<group>"; };
 		0AED54CE24A49E4300F93136 /* 剑指Offer18.删除链表的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指Offer18.删除链表的节点.swift"; sourceTree = "<group>"; };
+		0AF3087624FDE73300729176 /* 701.二叉搜索树中的插入操作.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "701.二叉搜索树中的插入操作.swift"; sourceTree = "<group>"; };
+		0AF3087824FE5EF000729176 /* 392.判断子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "392.判断子序列.swift"; sourceTree = "<group>"; };
 		0AFCABB724551B1D00345F40 /* 079.单词搜索.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "079.单词搜索.swift"; sourceTree = "<group>"; };
 		0AFCABB924555FBD00345F40 /* 012.整数转罗马数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "012.整数转罗马数字.swift"; sourceTree = "<group>"; };
 		0AFCABBB245576BB00345F40 /* 038.外观数列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "038.外观数列.swift"; sourceTree = "<group>"; };
@@ -698,12 +702,14 @@
 				0A13CE2F24D84A4B000EC71D /* 328.奇偶链表.swift */,
 				0A165BC9243DBA2D00E85723 /* 349.两个数组的交集.swift */,
 				0A9FB82F2445F4A900359364 /* 389.找不同.swift */,
+				0AF3087824FE5EF000729176 /* 392.判断子序列.swift */,
 				0A13CE2D24D7EEA8000EC71D /* 416.分割等和子集.swift */,
 				0A9FB82D2445E11C00359364 /* 442.数组中重复的数据.swift */,
 				0AFCABC12456BEB400345F40 /* 485.最大连续1的个数.swift */,
 				0A9DE5A624D067B5004E1FEB /* 530.二叉搜索树的最小绝对差.swift */,
 				0A6FBCC52448B2F500B29C7E /* 543.二叉树的直径.swift */,
 				0A13CE2924D6A929000EC71D /* 560.和为K的子数组.swift */,
+				0AF3087624FDE73300729176 /* 701.二叉搜索树中的插入操作.swift */,
 				0AFCABC32456DD7000345F40 /* 1004.最大连续1的个数III.swift */,
 				0A94C8992452D17900A59E17 /* 1089.复写零.swift */,
 				0A9DE5A824D10C54004E1FEB /* 1143.最长公共子序列.swift */,
@@ -825,6 +831,7 @@
 				0A9DE5AB24D11CC6004E1FEB /* 089.格雷编码.swift in Sources */,
 				0A72523D24A2020700AC4EA5 /* 086.分隔链表.swift in Sources */,
 				0A9FB83C2448038200359364 /* 1346.检查整数及其两倍数是否存在.swift in Sources */,
+				0AF3087724FDE73300729176 /* 701.二叉搜索树中的插入操作.swift in Sources */,
 				0A57110B244EA6EF0029BB2C /* 155.最小栈.swift in Sources */,
 				0A571109244E91AA0029BB2C /* 073.矩阵置零.swift in Sources */,
 				0A165BFE243DBA2E00E85723 /* 014.最长公共前缀.swift in Sources */,
@@ -1018,6 +1025,7 @@
 				0A9FB81B2444143C00359364 /* 064.最小路径和.swift in Sources */,
 				0AC4709424400E2400FBA4D0 /* 023.合并K个排序链表.swift in Sources */,
 				0A165BFC243DBA2E00E85723 /* 142.环形链表II.swift in Sources */,
+				0AF3087924FE5EF000729176 /* 392.判断子序列.swift in Sources */,
 				0A165BE4243DBA2E00E85723 /* 204.计数质数.swift in Sources */,
 				0A13CE3424D95C1A000EC71D /* 297.二叉树的序列化与反序列化.swift in Sources */,
 				0A9DE56524B4F7C9004E1FEB /* 055.跳跃游戏.swift in Sources */,
