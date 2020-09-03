@@ -220,6 +220,8 @@
 		0AED54CF24A49E4300F93136 /* 剑指Offer18.删除链表的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AED54CE24A49E4300F93136 /* 剑指Offer18.删除链表的节点.swift */; };
 		0AF3087724FDE73300729176 /* 701.二叉搜索树中的插入操作.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF3087624FDE73300729176 /* 701.二叉搜索树中的插入操作.swift */; };
 		0AF3087924FE5EF000729176 /* 392.判断子序列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF3087824FE5EF000729176 /* 392.判断子序列.swift */; };
+		0AF3087B24FF939500729176 /* merge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF3087A24FF939500729176 /* merge.swift */; };
+		0AF3087D24FF94CD00729176 /* 050.Pow(x,n).swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF3087C24FF94CD00729176 /* 050.Pow(x,n).swift */; };
 		0AFCABB824551B1D00345F40 /* 079.单词搜索.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABB724551B1D00345F40 /* 079.单词搜索.swift */; };
 		0AFCABBA24555FBD00345F40 /* 012.整数转罗马数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABB924555FBD00345F40 /* 012.整数转罗马数字.swift */; };
 		0AFCABBC245576BB00345F40 /* 038.外观数列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCABBB245576BB00345F40 /* 038.外观数列.swift */; };
@@ -467,6 +469,8 @@
 		0AED54CE24A49E4300F93136 /* 剑指Offer18.删除链表的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指Offer18.删除链表的节点.swift"; sourceTree = "<group>"; };
 		0AF3087624FDE73300729176 /* 701.二叉搜索树中的插入操作.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "701.二叉搜索树中的插入操作.swift"; sourceTree = "<group>"; };
 		0AF3087824FE5EF000729176 /* 392.判断子序列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "392.判断子序列.swift"; sourceTree = "<group>"; };
+		0AF3087A24FF939500729176 /* merge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = merge.swift; sourceTree = "<group>"; };
+		0AF3087C24FF94CD00729176 /* 050.Pow(x,n).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "050.Pow(x,n).swift"; sourceTree = "<group>"; };
 		0AFCABB724551B1D00345F40 /* 079.单词搜索.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "079.单词搜索.swift"; sourceTree = "<group>"; };
 		0AFCABB924555FBD00345F40 /* 012.整数转罗马数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "012.整数转罗马数字.swift"; sourceTree = "<group>"; };
 		0AFCABBB245576BB00345F40 /* 038.外观数列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "038.外观数列.swift"; sourceTree = "<group>"; };
@@ -562,6 +566,7 @@
 				0A9DE56824B7190D004E1FEB /* 045.跳跃游戏II.swift */,
 				0A165B91243DBA2900E85723 /* 046.全排列.swift */,
 				0AC470AB2443072100FBA4D0 /* 048.旋转图像.swift */,
+				0AF3087C24FF94CD00729176 /* 050.Pow(x,n).swift */,
 				0A9FB821244468EA00359364 /* 051.N皇后.swift */,
 				0A165B9D243DBA2A00E85723 /* 053.最大子序和.swift */,
 				0A5710F4244D87530029BB2C /* 054.螺旋矩阵.swift */,
@@ -764,6 +769,7 @@
 				0A5710FE244DD2490029BB2C /* bubble.swift */,
 				0A571106244DDADD0029BB2C /* quick.swift */,
 				0A84142C247F932500ABBE45 /* bucket.swift */,
+				0AF3087A24FF939500729176 /* merge.swift */,
 			);
 			path = sort;
 			sourceTree = "<group>";
@@ -880,6 +886,7 @@
 				0AC4709C24417F4600FBA4D0 /* 002.两数相加.swift in Sources */,
 				0A6900C0245C6E4A0088C05F /* 290.单词规律.swift in Sources */,
 				0A9FB8402448541400359364 /* 071.简化路径.swift in Sources */,
+				0AF3087B24FF939500729176 /* merge.swift in Sources */,
 				0A165BD3243DBA2D00E85723 /* 177.第N高的薪水.swift in Sources */,
 				0A13CE2E24D7EEA8000EC71D /* 416.分割等和子集.swift in Sources */,
 				0A165BEF243DBA2E00E85723 /* 003.无重复字符的最长子串.swift in Sources */,
@@ -944,6 +951,7 @@
 				0AC5A93D2463AE2700DA6D5E /* 013.罗马数字转整数.swift in Sources */,
 				0A9DE56124B45CB9004E1FEB /* 剑指Offer38.字符串的排列.swift in Sources */,
 				0A165BFD243DBA2E00E85723 /* 206.反转链表.swift in Sources */,
+				0AF3087D24FF94CD00729176 /* 050.Pow(x,n).swift in Sources */,
 				0AFF295824592DB900E0103D /* 105.从前序与中序遍历序列构造二叉树.swift in Sources */,
 				0AC470A82442FFF200FBA4D0 /* 232.用栈实现队列.swift in Sources */,
 				0A9FB8422448688600359364 /* 072.编辑距离.swift in Sources */,

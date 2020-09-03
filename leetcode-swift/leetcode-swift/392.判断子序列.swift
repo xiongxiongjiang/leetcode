@@ -37,10 +37,8 @@ extension Solution {
         while i < n && j < m {
             if sArr[i] == tArr[j] {
                 i += 1
-                j += 1
-            } else {
-                j += 1
             }
+            j += 1
         }
         return i == n
     }

@@ -49,15 +49,7 @@ extension Solution {
 
 
 func test002(s: Solution) {
-    let node1 = ListNode(8)
-    let node2 = ListNode(4)
-    let node3 = ListNode(3)
-    let node4 = ListNode(5)
-    let node5 = ListNode(6)
-    let node6 = ListNode(4)
-    node1.next = node2
-    node2.next = node3
-    node4.next = node5
-    node5.next = node6
-    ListNode.printNode(node: s.addTwoNumbers(node1, node4))
+    let node1 = ListNode.buildNode(arr: [9, 8])
+    let node2 = ListNode.buildNode(arr: [1])
+    ListNode.printNode(node: s.addTwoNumbers(node1, node2))
 }
