@@ -111,6 +111,8 @@
 		0A571115245022BD0029BB2C /* 092.反转链表II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A571114245022BD0029BB2C /* 092.反转链表II.swift */; };
 		0A571119245038F40029BB2C /* 114.二叉树展开为链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A571118245038F40029BB2C /* 114.二叉树展开为链表.swift */; };
 		0A57111B24512E890029BB2C /* 189.旋转数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A57111A24512E890029BB2C /* 189.旋转数组.swift */; };
+		0A5C6801250230890044D68D /* 010.正则表达式匹配.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C6800250230890044D68D /* 010.正则表达式匹配.swift */; };
+		0A5C68032508B5AD0044D68D /* 剑指Offer68-II.二叉树的最近公共祖先.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C68022508B5AD0044D68D /* 剑指Offer68-II.二叉树的最近公共祖先.swift */; };
 		0A6900C0245C6E4A0088C05F /* 290.单词规律.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6900BF245C6E4A0088C05F /* 290.单词规律.swift */; };
 		0A6900C2245DCCA00088C05F /* 151.翻转字符串里的单词.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6900C1245DCCA00088C05F /* 151.翻转字符串里的单词.swift */; };
 		0A6FBCC62448B2F500B29C7E /* 543.二叉树的直径.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6FBCC52448B2F500B29C7E /* 543.二叉树的直径.swift */; };
@@ -360,6 +362,8 @@
 		0A571114245022BD0029BB2C /* 092.反转链表II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "092.反转链表II.swift"; sourceTree = "<group>"; };
 		0A571118245038F40029BB2C /* 114.二叉树展开为链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "114.二叉树展开为链表.swift"; sourceTree = "<group>"; };
 		0A57111A24512E890029BB2C /* 189.旋转数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "189.旋转数组.swift"; sourceTree = "<group>"; };
+		0A5C6800250230890044D68D /* 010.正则表达式匹配.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "010.正则表达式匹配.swift"; sourceTree = "<group>"; };
+		0A5C68022508B5AD0044D68D /* 剑指Offer68-II.二叉树的最近公共祖先.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指Offer68-II.二叉树的最近公共祖先.swift"; sourceTree = "<group>"; };
 		0A6900BF245C6E4A0088C05F /* 290.单词规律.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "290.单词规律.swift"; sourceTree = "<group>"; };
 		0A6900C1245DCCA00088C05F /* 151.翻转字符串里的单词.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "151.翻转字符串里的单词.swift"; sourceTree = "<group>"; };
 		0A6FBCC52448B2F500B29C7E /* 543.二叉树的直径.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "543.二叉树的直径.swift"; sourceTree = "<group>"; };
@@ -533,6 +537,7 @@
 				0A165BBF243DBA2D00E85723 /* 007.整数反转.swift */,
 				0A023E1C2449979B00885193 /* 008.字符串转换整数(atoi).swift */,
 				0A165BAB243DBA2B00E85723 /* 009.回文数.swift */,
+				0A5C6800250230890044D68D /* 010.正则表达式匹配.swift */,
 				0A023E20244AD6F500885193 /* 011.盛最多水的容器.swift */,
 				0AFCABB924555FBD00345F40 /* 012.整数转罗马数字.swift */,
 				0AC5A93C2463AE2700DA6D5E /* 013.罗马数字转整数.swift */,
@@ -749,6 +754,7 @@
 				0A9DE55024A9CC31004E1FEB /* 剑指Offer63.股票的最大利润.swift */,
 				0A29D5CC2485F5390027B5AF /* 剑指Offer64.求1+2+…+n.swift */,
 				0A72522E249DAE4800AC4EA5 /* 剑指Offer66.构建乘积数组.swift */,
+				0A5C68022508B5AD0044D68D /* 剑指Offer68-II.二叉树的最近公共祖先.swift */,
 			);
 			path = "leetcode-swift";
 			sourceTree = "<group>";
@@ -983,6 +989,7 @@
 				0AC4708C243EB72300FBA4D0 /* 098.验证二叉搜索树.swift in Sources */,
 				0A165BEE243DBA2E00E85723 /* 082.删除排序链表中的重复元素II.swift in Sources */,
 				0A5710F3244D7E300029BB2C /* 063.不同路径II.swift in Sources */,
+				0A5C68032508B5AD0044D68D /* 剑指Offer68-II.二叉树的最近公共祖先.swift in Sources */,
 				0AC4708E243EF8C200FBA4D0 /* 121.买卖股票的最佳时机.swift in Sources */,
 				0A9DE55F24B1D1DB004E1FEB /* 152.乘积最大子数组.swift in Sources */,
 				0A9DE55524AA135E004E1FEB /* 剑指Offer60.n个骰子的点数.swift in Sources */,
@@ -1044,6 +1051,7 @@
 				0ABDE623245888D2008BDEE1 /* 剑指Offer04.二维数组中的查找.swift in Sources */,
 				0A9FB844244950ED00359364 /* 202.快乐数.swift in Sources */,
 				0A165B8F243DBA0600E85723 /* ListNode.swift in Sources */,
+				0A5C6801250230890044D68D /* 010.正则表达式匹配.swift in Sources */,
 				0A9FB8342446B3A000359364 /* 222.完全二叉树的节点个数.swift in Sources */,
 				0A5710F9244DA77D0029BB2C /* 059.螺旋矩阵II.swift in Sources */,
 				0A165BF0243DBA2E00E85723 /* 144.二叉树的前序遍历.swift in Sources */,
