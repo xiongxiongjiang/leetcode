@@ -47,8 +47,24 @@ extension Solution {
         }
         return curr
     }
+    
+    func climbStairs2(_ n: Int) -> Int {
+        //dp 算法分析
+        //第n阶楼梯（f(n)）总是由第n-1阶楼梯（f(n-1)）走一步楼梯，或者由n-2阶楼梯（f(n-2)）走两步楼梯上来的
+        if n <= 2 {
+            return n
+        }
+        var dp = [Int](repeating: 0, count: n + 1)
+        dp[1] = 1
+        dp[2] = 2
+        for i in 3...n {
+            dp[i] = dp[i-1] + dp[i-2]
+        }
+        return dp[n]
+    }
+    
 }
 
 func test070(s: Solution) {
-    print(s.climbStairs(4))
+    print(s.climbStairs2(4))
 }
