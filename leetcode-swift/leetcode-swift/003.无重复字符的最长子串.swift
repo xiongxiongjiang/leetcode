@@ -30,21 +30,34 @@ import Foundation
 
 extension Solution {
     func lengthOfLongestSubstring(_ s: String) -> Int {
-        if s == "" {
-            return 0
-        }
-        var maxStr = ""
-        var curStr = ""
-        for char in s {
-            while curStr.contains(char) {
-                curStr.remove(at: curStr.startIndex)
+        // if s == "" {
+        //     return 0
+        // }
+        // var maxStr = ""
+        // var curStr = ""
+        // for char in s {
+        //     while curStr.contains(char) {
+        //         curStr.remove(at: curStr.startIndex)
+        //     }
+        //     curStr.append(char)
+        //     if curStr.count > maxStr.count {
+        //         maxStr = curStr
+        //     }
+        // }
+        // return maxStr.count
+        var maxCount = 0
+        var left = 0
+        let sArr = Array<Character>(s)
+        var dict = [Character: Int]()
+        for i in 0..<sArr.count {
+            let curr = sArr[i]
+            if let index = dict[curr] {
+                left = max(left, index + 1)
             }
-            curStr.append(char)
-            if curStr.count > maxStr.count {
-                maxStr = curStr
-            }
+            dict[curr] = i
+            maxCount = max(maxCount, i-left+1)
         }
-        return maxStr.count
+        return maxCount
     }
 }
 
