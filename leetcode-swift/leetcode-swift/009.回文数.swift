@@ -44,6 +44,19 @@ extension Solution {
         }
         return res == x
     }
+
+    func isPalindrome2(_ x: Int) -> Bool {
+        if x < 0 || (x % 10 == 0 && x != 0) {
+            return false
+        }
+        var x1 = x
+        var y = 0
+        while x1 > y {
+            y = y * 10 + x1 % 10
+            x1 /= 10
+        }
+        return x1 == y || x1 == y / 10
+    }
 }
 
 func test009(s: Solution) {

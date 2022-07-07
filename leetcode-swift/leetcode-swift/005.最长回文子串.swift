@@ -23,78 +23,35 @@ import Foundation
 
 extension Solution {
     func longestPalindrome(_ s: String) -> String {
-        let count = s.count
-        if count < 2 {
-            return s
-        }
+        let arr = Array<Character>(s)
+        let count = arr.count
+        var maxCount = 1
+        var start = 0
         var dp = [[Bool]](repeating: [Bool](repeating: false, count: count), count: count)
         for i in 0..<count {
             dp[i][i] = true
         }
-        var maxLen = 1
-        var start = 0
-        let strArr = Array(s)
-        for j in 1..<count {
-            for i in 0..<j {
-                if strArr[i] == strArr[j] {
-                    if j - i < 3 {
+        for i in 1..<count {
+            for j in 0..<i {
+                if arr[i] != arr[j] {
+                    dp[i][j] = false
+                } else {
+                    if i-j < 3 {
                         dp[i][j] = true
                     } else {
-                        dp[i][j] = dp[i + 1][j - 1]
+                        dp[i][j] = dp[i-1][j+1]
                     }
-                } else {
-                    dp[i][j] = false
-                }
-                if dp[i][j] == true {
-                    let currLen = j - i + 1
-                    if currLen > maxLen {
-                        maxLen = currLen
-                        start = i
+                    if dp[i][j] == true && i-j+1 > maxCount {
+                        maxCount = i-j+1
+                        start = j
                     }
                 }
             }
         }
-        let range = s.index(s.startIndex, offsetBy: start)..<s.index(s.startIndex, offsetBy: start + maxLen)
-        return String(s[range])
-        
-//        guard s.count > 0 else {
-//            return ""
-//        }
-//        guard s.count > 1 else {
-//            return s
-//        }
-//        var str_arr: [Character] = ["#"]
-//        for ele in Array(s){
-//            str_arr.append(ele)
-//            str_arr.append("#")
-//        }
-//        // Array to record longest palindrome
-//        var result_arr = [Int](repeating: 0, count: str_arr.count)
-//        var center = 0, boundary = 0, maxLen = 0, result_center = 0
-//
-//        //  首位的 "#" 不用管
-//        for i in 1..<str_arr.count-1 {
-//            // calc mirror i = center-(i-center)
-//            let iMirror = 2 * center - i
-//            result_arr[i] = boundary > i ? min(boundary-i, result_arr[iMirror]) : 0
-//            // Attempt to expand palindrome centered at i
-//            while i-1-result_arr[i] >= 0 , i + 1 + result_arr[i] <= str_arr.count - 1, str_arr[i+1+result_arr[i]] == str_arr[i-1-result_arr[i]]{
-//                result_arr[i]+=1
-//            }
-//            // update center and boundary
-//            // 用来记录的
-//            if i + result_arr[i] > boundary {
-//                center = i
-//                boundary = i+result_arr[i]
-//            }
-//            // update result
-//            if result_arr[i] > maxLen{
-//                maxLen = result_arr[i]
-//                result_center = i
-//            }
-//        }
-//        let ans = String(s[s.s_index(offset: (result_center-maxLen)/2)..<s.s_index(offset: (result_center+maxLen)/2)])
-//        return ans
+        let res = arr[start...start+maxCount-1].map { c in
+            return String(c)
+        }.joined()
+        return res
     }
 }
 
