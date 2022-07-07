@@ -29,6 +29,22 @@ import Foundation
 
 extension Solution {
     func longestCommonPrefix(_ strs: [String]) -> String {
+        // 认为很蠢的办法8ms。。。
+        if strs.count == 0 {
+            return ""
+        }
+        var first = strs.first!
+        for i in 0..<strs.count {
+            let str = strs[i]
+            while str.hasPrefix(first) == false {
+                first.removeLast()
+                if first == "" {
+                    return ""
+                }
+            }
+        }
+        return first
+        // 纵向扫描竟然要 152ms
         if strs.count == 0 {
             return ""
         }
