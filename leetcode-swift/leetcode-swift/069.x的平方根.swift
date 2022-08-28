@@ -47,3 +47,22 @@ extension Solution {
 func test069(s: Solution) {
     print(s.mySqrt(99))
 }
+
+class Solution69 {
+    func mySqrt(_ x: Int) -> Int {
+        if x <= 1 {
+            return x
+        }
+        var min = 0
+        var max = x
+        while max - min > 1 {
+            let mid = min + (max - min) / 2
+            if x < mid * mid {
+                max = mid
+            } else {
+                min = mid
+            }
+        }
+        return min
+    }
+}

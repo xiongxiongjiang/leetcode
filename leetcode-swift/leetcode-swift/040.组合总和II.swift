@@ -68,3 +68,32 @@ func test040(s: Solution) {
     let candidates = [10,1,2,7,6,1,5], target = 8
     print(s.combinationSum2(candidates, target))
 }
+
+
+class Solution40 {
+    func combinationSum2(_ candidates: [Int], _ target: Int) -> [[Int]] {
+        var stack = [Int]()
+        var res = [[Int]]()
+        let arr = candidates.sorted()
+        dfs(arr, target, stack: &stack, res: &res, start: 0)
+        return res
+    }
+    
+    func dfs(_ candidates: [Int], _ target: Int, stack: inout [Int], res: inout [[Int]], start: Int) {
+        if target < 0 {
+            return
+        }
+        if target == 0 {
+            res.append(stack)
+            return
+        }
+        for i in start..<candidates.count {
+            if i > start && candidates[i] == candidates[i-1] {
+                continue
+            }
+            stack.append(candidates[i])
+            dfs(candidates, target - candidates[i], stack: &stack, res: &res, start: i + 1)
+            stack.removeLast()
+        }
+    }
+}

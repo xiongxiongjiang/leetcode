@@ -55,3 +55,51 @@ func test088(s: Solution) {
     let nums2 = [4,5,6]
     s.merge(&nums1, 5, nums2, 3)
 }
+
+class Solution88 {
+    func merge(_ nums1: inout [Int], _ m: Int, _ nums2: [Int], _ n: Int) {
+        var p = n + m - 1
+        var m = m - 1
+        var n = n - 1
+        while m >= 0 && n >= 0 {
+            if nums1[m] > nums2[n] {
+                nums1[p] = nums1[m]
+                m -= 1
+            } else {
+                nums1[p] = nums2[n]
+                n -= 1
+            }
+            p -= 1
+        }
+        while n >= 0 {
+            nums1[p] = nums2[n]
+            n -= 1
+            p -= 1
+        }
+        print(nums1)
+    }
+    
+    // 合并上面代码后：
+    func merge1(_ nums1: inout [Int], _ m: Int, _ nums2: [Int], _ n: Int)  {
+        var p = n + m - 1
+        var m = m - 1
+        var n = n - 1
+        while n >= 0 {
+            while m >= 0 && nums1[m] > nums2[n] {
+                nums1[p] = nums1[m]
+                m -= 1
+                p -= 1
+            }
+            nums1[p] = nums2[n]
+            n -= 1
+            p -= 1
+        }
+    }
+}
+
+func test0880(s: Solution88) {
+    var nums1 = [1,5,6,7,8,0,0,0,0,0]
+    let nums2 = [4,5,6]
+    s.merge(&nums1, 5, nums2, 3)
+}
+

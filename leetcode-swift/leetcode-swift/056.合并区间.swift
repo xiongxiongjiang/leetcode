@@ -53,3 +53,28 @@ func test056(s: Solution) {
     let i = [[1,3],[2,6],[8,10],[15,18]]
     print(s.merge(i))
 }
+
+
+
+class Solution56 {
+    func merge(_ intervals: [[Int]]) -> [[Int]] {
+        var res = [[Int]]()
+        let arr = intervals.sorted { nums1, nums2 in
+            return nums1.first! < nums2.first!
+        }
+        var left = arr[0].first!
+        var right = arr[0].last!
+        for i in 1..<arr.count {
+            let nums = arr[i]
+            if nums.first! > right {
+                res.append([left, right])
+                left = nums.first!
+                right = nums.last!
+            } else {
+                right = max(nums.last!, right)
+            }
+        }
+        res.append([left, right])
+        return res
+    }
+}

@@ -12,13 +12,5 @@ class Solution {
 
 }
 
-let s = Solution()
-test021(s: s)
-
-//let list = [ 10, -1, 3, 9, 2, 27, 8, 5, 1, 3, 0, 26 ]
-//print(insertionSort(list))
-//print(selectionSort(list))
-//print(bubbleSort(list))
-
-
-//10, 15, 29, 23, 4, 38, 5, 17, 14, 26
+let s = Solution88()
+test0880(s: s)

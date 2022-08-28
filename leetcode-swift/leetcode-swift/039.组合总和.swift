@@ -64,3 +64,29 @@ func test039(s: Solution) {
     let nums = [2, 3, 5]
     print(s.combinationSum(nums, 8))
 }
+
+
+class Solution39 {
+    func combinationSum(_ candidates: [Int], _ target: Int) -> [[Int]] {
+        var res = [[Int]]()
+        var stack = [Int]()
+        dfs(candidates, target, res: &res, stack: &stack, start: 0)
+        return res
+    }
+    
+    
+    func dfs(_ candidates: [Int], _ target: Int, res: inout [[Int]], stack: inout [Int], start: Int) {
+        if target < 0 {
+            return
+        }
+        if target == 0 {
+            res.append(stack)
+            return
+        }
+        for i in 0..<candidates.count {
+            stack.append(candidates[i])
+            dfs(candidates, target - candidates[i], res: &res, stack: &stack, start: i)
+            stack.removeLast()
+        }
+    }
+}

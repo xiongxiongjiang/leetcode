@@ -50,3 +50,25 @@ func test075(s: Solution) {
     s.sortColors(&nums)
     print(nums)
 }
+
+
+class Solution75 {
+    func sortColors(_ nums: inout [Int]) {
+        var i = 0
+        var left = 0
+        var right = nums.count - 1
+        while i <= right {
+            if nums[i] == 0 {
+                nums.swapAt(i, left)
+                left += 1
+                i += 1
+            } else if nums[i] == 1 {
+                i += 1
+            } else {
+                nums.swapAt(i, right)
+                right -= 1
+            }
+        }
+        
+    }
+}

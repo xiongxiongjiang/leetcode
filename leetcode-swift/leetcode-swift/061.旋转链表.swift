@@ -62,3 +62,27 @@ func test061(s: Solution) {
     node4.next = node5
     ListNode.printNode(node: s.rotateRight(node1, 2))
 }
+
+
+class Solution61 {
+    func rotateRight(_ head: ListNode?, _ k: Int) -> ListNode? {
+        if head == nil {
+            return head
+        }
+        var count = 1
+        var p = head
+        while p?.next != nil {
+            p = p?.next
+            count += 1
+        }
+        let pos = count - (k % count)
+        // 形成环
+        p?.next = head
+        for _ in 0..<pos {
+            p = p?.next
+        }
+        let res = p?.next
+        p?.next = nil
+        return res
+    }
+}

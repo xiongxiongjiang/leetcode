@@ -84,3 +84,27 @@ func test090(s: Solution) {
     let nums = [1, 2, 2]
     print(s.subsetsWithDup(nums))
 }
+
+class Solution90 {
+    func subsetsWithDup(_ nums: [Int]) -> [[Int]] {
+        var res = [[Int]]()
+        var stack = [Int]()
+        // 排序
+        let nums = nums.sorted()
+        dfs(nums: nums, stack: &stack, res: &res, start: 0)
+        return res
+    }
+    
+    func dfs(nums: [Int], stack: inout [Int], res: inout [[Int]], start: Int) {
+        res.append(stack)
+        for i in start..<nums.count {
+            // 配合排序 去重
+            if i > start && nums[i] == nums[i-1] {
+                continue
+            }
+            stack.append(nums[i])
+            dfs(nums: nums, stack: &stack, res: &res, start: i+1)
+            stack.removeLast()
+        }
+    }
+}

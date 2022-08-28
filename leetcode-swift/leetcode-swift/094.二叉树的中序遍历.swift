@@ -83,3 +83,31 @@ func test094(s: Solution) {
 
     print(s.inorderTraversal1(nodeA))
 }
+
+
+class Solution94 {
+    var res: [Int] = []
+    func inorderTraversal(_ root: TreeNode?) -> [Int] {
+        guard let root = root else { return [] }
+        _ = inorderTraversal(root.left)
+        res.append(root.val)
+        _ = inorderTraversal(root.right)
+        return res
+    }
+    
+    func inorderTraversal1(_ root: TreeNode?) -> [Int] {
+        var stack = [root]
+        var res = [Int]()
+        var curr = root
+        while !stack.isEmpty {
+            while curr != nil {
+                stack.append(curr)
+                curr = curr?.left
+            }
+            curr = stack.removeLast()
+            res.append(curr!.val)
+            curr = curr?.right
+        }
+        return res
+    }
+}

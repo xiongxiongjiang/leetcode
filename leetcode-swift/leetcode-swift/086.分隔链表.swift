@@ -46,3 +46,26 @@ func test086(s: Solution) {
     let head = ListNode.buildNode(arr: [1, 4, 3, 2, 5, 2])
     ListNode.printNode(node: s.partition(head, 3))
 }
+
+class Solution86 {
+    func partition(_ head: ListNode?, _ x: Int) -> ListNode? {
+        var small: ListNode? = ListNode(0)
+        let smallHead = small
+        var large: ListNode? = ListNode(0)
+        let largeHead = large
+        var h = head
+        while h != nil {
+            if x > h!.val {
+                small?.next = h
+                small = small?.next
+            } else {
+                large?.next = h
+                large = large?.next
+            }
+            h = h?.next
+        }
+        
+        small?.next = largeHead?.next
+        return smallHead?.next
+    }
+}

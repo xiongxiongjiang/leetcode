@@ -68,3 +68,19 @@ extension Solution {
 func test070(s: Solution) {
     print(s.climbStairs2(4))
 }
+
+class Solution70 {
+    func climbStairs(_ n: Int) -> Int {
+        if n <= 2 {
+            return n
+        }
+        var prev = 1
+        var curr = 2
+        for _ in 3...n {
+            let sum = curr + prev
+            prev = curr
+            curr = sum
+        }
+        return curr
+    }
+}

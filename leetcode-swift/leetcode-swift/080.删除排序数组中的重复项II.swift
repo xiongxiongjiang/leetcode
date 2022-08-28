@@ -60,3 +60,18 @@ func test080(s: Solution) {
     var nums = [Int]()
     print(s.removeDuplicates80(&nums))
 }
+
+
+class Solution80 {
+    func removeDuplicates(_ nums: inout [Int]) -> Int {
+        var i = 0
+        for num in nums {
+            if i < 2 || num > nums[i - 2] {
+                nums[i] = num
+                i += 1
+            }
+        }
+        nums[i...] = []
+        return i
+    }
+}

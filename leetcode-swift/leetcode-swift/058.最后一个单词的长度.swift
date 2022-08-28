@@ -33,3 +33,21 @@ func test058(s: Solution) {
     let str = "b   a    "
     print(s.lengthOfLastWord(str))
 }
+
+class Solution58 {
+    func lengthOfLastWord(_ s: String) -> Int {
+        var res = 0
+        var isStart = true
+        for char in s.reversed() {
+            if char == " " {
+                if !isStart {
+                    return res
+                }
+            } else {
+                isStart = false
+                res += 1
+            }
+        }
+        return res
+    }
+}

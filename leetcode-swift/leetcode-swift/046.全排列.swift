@@ -79,3 +79,25 @@ func test046(s: Solution) {
     let nums = [1, 2, 3]
     print(s.permute(nums))
 }
+
+
+class Solution46 {
+    func permute(_ nums: [Int]) -> [[Int]] {
+        var res = [[Int]]()
+        var stack = nums
+        dfs(nums, &res, &stack, 0)
+        return res
+    }
+    
+    func dfs(_ nums: [Int], _ res: inout [[Int]], _ stack: inout [Int], _ start: Int) {
+        if start == nums.count {
+            res.append(stack)
+            return
+        }
+        for i in start..<nums.count {
+            stack.swapAt(i, start)
+            dfs(nums, &res, &stack, start + 1)
+            stack.swapAt(i, start)
+        }
+    }
+}

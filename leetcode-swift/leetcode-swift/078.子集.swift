@@ -49,3 +49,21 @@ func test078(s: Solution) {
     let nums = [1,2,3]
     print(s.subsets(nums))
 }
+
+class Solution78 {
+    func subsets(_ nums: [Int]) -> [[Int]] {
+        var stack = [Int]()
+        var res = [[Int]]()
+        dfs(nums: nums, stack: &stack, res: &res, start: 0)
+        return res
+    }
+    
+    func dfs(nums: [Int], stack: inout [Int], res: inout [[Int]], start: Int) {
+        res.append(stack)
+        for i in start..<nums.count {
+            stack.append(nums[i])
+            dfs(nums: nums, stack: &stack, res: &res, start: i + 1)
+            stack.removeLast()
+        }
+    }
+}

@@ -44,7 +44,7 @@ extension Solution {
     func removeDuplicates(_ nums: inout [Int]) -> Int {
         var i = 0
         for num in nums {
-            if i < 1 || num > nums[i] {
+            if i < 1 || num > nums[i-1] {
                 nums[i] = num
                 i += 1
             }

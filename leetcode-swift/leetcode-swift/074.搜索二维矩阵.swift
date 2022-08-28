@@ -48,7 +48,7 @@ extension Solution {
             return false
         }
         var start = 0, end = m * n - 1
-        while start < end {
+        while start <= end {
             let mid = start + (end - start) / 2
             //一维转二维下标
             let x = mid % m
@@ -75,4 +75,37 @@ func test074(s: Solution) {
     let matrix = [[1, 3]]
     let target = 2
     print(s.searchMatrix1(matrix, target))
+}
+
+
+class Solution74 {
+    func searchMatrix(_ matrix: [[Int]], _ target: Int) -> Bool {
+        let n = matrix.count
+        if n == 0 {
+            return false
+        }
+        let m = matrix[0].count
+        if m == 0 {
+            return false
+        }
+        if target > matrix[n-1][m-1] {
+            return false
+        }
+        var start = 0
+        var end = m*n-1
+        while start < end {
+            let mid = start+(end-start)/2
+            let x = mid%m
+            let y = mid/m
+            let midNum = matrix[y][x]
+            if midNum == target {
+                return true
+            } else if midNum > target {
+                end = mid - 1
+            } else {
+                start = mid + 1
+            }
+        }
+        return false
+    }
 }

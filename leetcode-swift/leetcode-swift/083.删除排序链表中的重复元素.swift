@@ -44,3 +44,18 @@ func test083(s: Solution) {
     nodeC.next = nodeD
     ListNode.printNode(node: s.deleteDuplicates(nodeA))
 }
+
+
+class Solution83 {
+    func deleteDuplicates(_ head: ListNode?) -> ListNode? {
+        var p = head
+        while p != nil {
+            if p?.val == p?.next?.val {
+                p?.next = p?.next?.next
+            } else {
+                p = p?.next
+            }
+        }
+        return head
+    }
+}

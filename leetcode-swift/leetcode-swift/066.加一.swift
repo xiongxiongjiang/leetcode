@@ -65,3 +65,23 @@ extension Solution {
 func test066(s: Solution) {
     print(s.plusOne([4, 9, 9]))
 }
+
+
+class Solution66 {
+    func plusOne(_ digits: [Int]) -> [Int] {
+        var digits = digits
+        for i in (0..<digits.count).reversed() {
+            let res = digits[i] + 1
+            if res < 10 {
+                digits[i] = res
+                break
+            } else {
+                digits[i] = 0
+                if i == 0 {
+                    digits.insert(0, at: 0)
+                }
+            }
+        }
+        return digits
+    }
+}
